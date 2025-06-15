@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Céleste KOLOUSSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Céleste</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link active">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="outils.html" class="nav-link">Outils</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Mes Projets</h1>
+            <p>Découvrez mes réalisations en robotique, systèmes embarqués et développement logiciel</p>
+        </div>
+    </section>
+
+    <!-- Projets Overview -->
+    <section class="projects-overview">
+        <div class="container">
+            <!-- Introduction -->
+            <div class="projects-intro">
+                <div class="intro-card">
+                    <div class="intro-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Mes Réalisations</h3>
+                    <p>Une collection de projets innovants en robotique, systèmes embarqués et développement logiciel,
+                        réalisés durant ma formation et mes projets personnels.</p>
+                    <div class="intro-stats">
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Projets Majeurs</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Domaines d'Expertise</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Années de Développement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Projets -->
+            <div class="projects-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="category-info">
+                        <h2>Portfolio de Projets</h2>
+                        <p>Projets académiques, collaboratifs et personnels en robotique et systèmes embarqués</p>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Page Projets SAE -->
+                    <div class="project-card featured-card" onclick="window.location.href='projets-sae.html'">
+                        <div class="project-card-header">
+                            <div class="project-icon academic">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="project-badge">Formation</div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Projets SAE - Formation GEII</h4>
+                            <p>Collection complète des Situations d'Apprentissage et d'Évaluation réalisées durant la
+                                formation BUT GEII : robotique, systèmes embarqués, analyse de performance.</p>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2022-2025</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-university"></i>
+                                    <span>IUT Nantes</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>6 SAE</span>
+                                </div>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">SAE5-6</span>
+                                <span class="tag">Robotique</span>
+                                <span class="tag">RTOS</span>
+                                <span class="tag">Performance</span>
+                                <span class="tag">IoT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet F1Tenth -->
+                    <div class="project-card" onclick="window.location.href='projet-f1tenth.html'">
+                        <div class="project-card-header">
+                            <div class="project-icon featured">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <div class="project-badge">SAE5-6</div>
+                        </div>
+                        <div class="project-content">
+                            <h4>F1Tenth - Voiture Autonome</h4>
+                            <p>Développement d'une voiture autonome pour la compétition F1Tenth avec navigation SLAM,
+                                contrôle de trajectoire et intégration LIDAR.</p>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2024-2025</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Projet d'équipe</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Projet phare</span>
+                                </div>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">ROS</span>
+                                <span class="tag">RPLIDAR</span>
+                                <span class="tag">C++</span>
+                                <span class="tag">Jetson Nano</span>
+                                <span class="tag">SLAM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet OpenMP -->
+                    <div class="project-card" onclick="window.location.href='projet-openmp.html'">
+                        <div class="project-card-header">
+                            <div class="project-icon academic">
+                                <i class="fas fa-microprocessor"></i>
+                            </div>
+                            <div class="project-badge">Analyse</div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Parallélisation OpenMP</h4>
+                            <p>Étude comparative des performances de calculs matriciels parallélisés avec OpenMP sur
+                                architectures multi-cœurs.</p>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2024</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user-friends"></i>
+                                    <span>Collaboration</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Benchmarking</span>
+                                </div>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">C</span>
+                                <span class="tag">OpenMP</span>
+                                <span class="tag">Multi-threading</span>
+                                <span class="tag">Performance</span>
+                                <span class="tag">Analyse</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet Lidar ROS -->
+                    <div class="project-card" onclick="window.location.href='projet-lidar-ros.html'">
+                        <div class="project-card-header">
+                            <div class="project-icon robotics">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="project-badge">TP ROS</div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Intégration Lidar 2D ROS</h4>
+                            <p>Travaux pratiques d'intégration d'un capteur Lidar RPLidar A2M12 dans ROS pour
+                                applications de perception robotique.</p>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2024</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Académique</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-robot"></i>
+                                    <span>Robotique</span>
+                                </div>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">ROS Melodic</span>
+                                <span class="tag">Docker</span>
+                                <span class="tag">Lidar</span>
+                                <span class="tag">RViz</span>
+                                <span class="tag">Perception</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Projet Systèmes Embarqués -->
+                    <div class="project-card" onclick="window.location.href='projet-systemes-embarques.html'">
+                        <div class="project-card-header">
+                            <div class="project-icon embedded">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="project-badge">Personnel</div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Systèmes Embarqués RTOS</h4>
+                            <p>Collection de projets avec microcontrôleurs, FPGA et RTOS Trampoline pour applications
+                                temps réel et IoT.</p>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2023-2025</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user"></i>
+                                    <span>Personnel</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Temps réel</span>
+                                </div>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag">RTOS</span>
+                                <span class="tag">ESP32</span>
+                                <span class="tag">STM32</span>
+                                <span class="tag">FPGA</span>
+                                <span class="tag">IoT</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Céleste KOLOUSSA. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STM32 - Microcontrôleurs ARM - Céleste KOLOUSSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Céleste</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="outils.html" class="nav-link">Outils</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Accueil</a> > <a href="outils.html">Outils</a> > STM32
+            </div>
+            <h1>STM32 - Microcontrôleurs ARM</h1>
+            <p>Famille de microcontrôleurs 32-bits haute performance de STMicroelectronics</p>
+        </div>
+    </section>
+
+    <!-- Tool Detail -->
+    <section class="tool-detail-full">
+        <div class="container">
+            <div class="project-detail-content">
+                <div class="project-detail-text">
+                    <div class="project-badges">
+                        <span class="project-badge">Microcontrôleur</span>
+                        <span class="project-badge secondary">ARM Cortex</span>
+                        <span class="project-badge">32-bit</span>
+                    </div>
+                    <h2>STM32 - Architecture ARM Cortex</h2>
+                    <p class="project-description">
+                        Les microcontrôleurs STM32 de STMicroelectronics offrent une large gamme de solutions
+                        32-bits basées sur l'architecture ARM Cortex. Ils combinent performance élevée,
+                        faible consommation et rich périphériques pour applications embarquées avancées.
+                    </p>
+                </div>
+                <div class="project-detail-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-microchip"></i>
+                        <p>STM32 Discovery</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STM32 Families -->
+    <section class="project-detail alternate">
+        <div class="container">
+            <div class="tool-variants">
+                <h2>Familles STM32 Utilisées</h2>
+
+                <div class="variant-card">
+                    <div class="variant-header">
+                        <div class="variant-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h2>STM32F4 Discovery</h2>
+                        <span class="variant-badge">Performance</span>
+                    </div>
+                    <p>Carte de développement basée sur STM32F407VGT6, idéale pour applications haute performance avec
+                        FPU.</p>
+
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <i class="fas fa-microprocessor"></i>
+                            <div>
+                                <h4>Core</h4>
+                                <p>ARM Cortex-M4F 168MHz</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-memory"></i>
+                            <div>
+                                <h4>Mémoire</h4>
+                                <p>1MB Flash, 192KB RAM</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-calculator"></i>
+                            <div>
+                                <h4>FPU</h4>
+                                <p>Virgule flottante matérielle</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-plug"></i>
+                            <div>
+                                <h4>Périphériques</h4>
+                                <p>USB, Ethernet, CAN, DAC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="variant-card">
+                    <div class="variant-header">
+                        <div class="variant-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h2>STM32L4 Nucleo</h2>
+                        <span class="variant-badge">Ultra Low Power</span>
+                    </div>
+                    <p>Microcontrôleur ultra-basse consommation pour applications IoT et sur batterie, avec DSP intégré.
+                    </p>
+
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <i class="fas fa-battery-three-quarters"></i>
+                            <div>
+                                <h4>Consommation</h4>
+                                <p>100 nA en Standby</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-wifi"></i>
+                            <div>
+                                <h4>Connectivité</h4>
+                                <p>USB, CAN, LPUART</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div>
+                                <h4>DSP</h4>
+                                <p>Instructions DSP intégrées</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-thermometer-half"></i>
+                            <div>
+                                <h4>Capteurs</h4>
+                                <p>Température, RTC, ADC 16-bit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="variant-card">
+                    <div class="variant-header">
+                        <div class="variant-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h2>STM32H7 Nucleo</h2>
+                        <span class="variant-badge">High Performance</span>
+                    </div>
+                    <p>Série haute performance avec double cœur Cortex-M7/M4, pour applications intensives et IA
+                        embarquée.</p>
+
+                    <div class="specs-grid">
+                        <div class="spec-item">
+                            <i class="fas fa-bolt"></i>
+                            <div>
+                                <h4>Performance</h4>
+                                <p>480 MHz Cortex-M7</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-server"></i>
+                            <div>
+                                <h4>Dual Core</h4>
+                                <p>M7 + M4 asymétrique</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-memory"></i>
+                            <div>
+                                <h4>Mémoire</h4>
+                                <p>2MB Flash, 1MB RAM</p>
+                            </div>
+                        </div>
+                        <div class="spec-item">
+                            <i class="fas fa-video"></i>
+                            <div>
+                                <h4>Graphics</h4>
+                                <p>Chroma-ART, JPEG, LTDC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Ecosystem -->
+    <section class="project-detail">
+        <div class="container">
+            <div class="tool-usage-scenarios">
+                <h2>Écosystème de Développement</h2>
+                <div class="scenarios-grid">
+                    <div class="scenario-card">
+                        <i class="fas fa-code"></i>
+                        <h3>STM32CubeIDE</h3>
+                        <p>IDE Eclipse intégré avec configurateur graphique et générateur de code</p>
+                    </div>
+                    <div class="scenario-card">
+                        <i class="fas fa-cogs"></i>
+                        <h3>STM32CubeMX</h3>
+                        <p>Configurateur graphique pour initialisation hardware et middleware</p>
+                    </div>
+                    <div class="scenario-card">
+                        <i class="fas fa-bug"></i>
+                        <h3>ST-Link Debugger</h3>
+                        <p>Debug hardware intégré avec breakpoints et trace temps réel</p>
+                    </div>
+                    <div class="scenario-card">
+                        <i class="fas fa-book"></i>
+                        <h3>HAL Library</h3>
+                        <p>Couche d'abstraction hardware unifiée pour toutes les familles STM32</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Developed -->
+    <section class="project-detail alternate">
+        <div class="container">
+            <div class="ecosystem-tools">
+                <h2>Applications Développées</h2>
+                <div class="tools-ecosystem">
+                    <div class="ecosystem-category">
+                        <h3>Contrôle Temps Réel</h3>
+                        <ul>
+                            <li>Régulation PID de moteurs avec encodeurs</li>
+                            <li>Acquisition multi-capteurs synchronisée</li>
+                            <li>Générateur de signaux PWM précis</li>
+                            <li>Interface CAN pour bus automobile</li>
+                        </ul>
+                    </div>
+                    <div class="ecosystem-category">
+                        <h3>Communication</h3>
+                        <ul>
+                            <li>Serveur HTTP embarqué pour IoT</li>
+                            <li>Interface série haute vitesse (UART/USB)</li>
+                            <li>Communication SPI/I2C multi-périphériques</li>
+                            <li>Protocol stack TCP/IP avec Ethernet</li>
+                        </ul>
+                    </div>
+                    <div class="ecosystem-category">
+                        <h3>Traitement Signal</h3>
+                        <ul>
+                            <li>Filtrage numérique temps réel (FFT)</li>
+                            <li>Compression audio/vidéo embarquée</li>
+                            <li>Analyse spectrale pour capteurs vibratoires</li>
+                            <li>Machine learning inference (TinyML)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hardware Integration -->
+    <section class="project-detail">
+        <div class="container">
+            <h2>Intégration Matérielle</h2>
+            <div class="hardware-grid">
+                <div class="hardware-item">
+                    <i class="fas fa-eye"></i>
+                    <h4>Capteurs Avancés</h4>
+                    <p>IMU 9-axes, capteurs de pression, température haute précision, ADC 16-bit</p>
+                </div>
+                <div class="hardware-item">
+                    <i class="fas fa-display"></i>
+                    <h4>Interfaces Utilisateur</h4>
+                    <p>Écrans TFT/OLED, interfaces tactiles, encodeurs rotatifs, LED RGB</p>
+                </div>
+                <div class="hardware-item">
+                    <i class="fas fa-broadcast-tower"></i>
+                    <h4>Communication Sans Fil</h4>
+                    <p>Modules Wi-Fi, Bluetooth, LoRa, Zigbee via UART/SPI</p>
+                </div>
+                <div class="hardware-item">
+                    <i class="fas fa-database"></i>
+                    <h4>Stockage</h4>
+                    <p>EEPROM externe, cartes SD, mémoire Flash externe via QSPI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Comparison -->
+    <section class="project-detail alternate">
+        <div class="container">
+            <div class="comparison-table">
+                <h2>Comparaison des Familles STM32</h2>
+                <table class="specs-table">
+                    <thead>
+                        <tr>
+                            <th>Famille</th>
+                            <th>STM32F4</th>
+                            <th>STM32L4</th>
+                            <th>STM32H7</th>
+                            <th>Application Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Core</td>
+                            <td>Cortex-M4F</td>
+                            <td>Cortex-M4F</td>
+                            <td>Cortex-M7 + M4</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Fréquence</td>
+                            <td>168 MHz</td>
+                            <td>80 MHz</td>
+                            <td>480 MHz</td>
+                            <td>Performance</td>
+                        </tr>
+                        <tr>
+                            <td>Flash Max</td>
+                            <td>2 MB</td>
+                            <td>1 MB</td>
+                            <td>2 MB</td>
+                            <td>Code complexe</td>
+                        </tr>
+                        <tr>
+                            <td>RAM Max</td>
+                            <td>384 KB</td>
+                            <td>320 KB</td>
+                            <td>1 MB</td>
+                            <td>Buffers, cache</td>
+                        </tr>
+                        <tr>
+                            <td>Consommation</td>
+                            <td>Normale</td>
+                            <td>Ultra-basse</td>
+                            <td>Élevée</td>
+                            <td>Autonomie</td>
+                        </tr>
+                        <tr>
+                            <td>Prix relatif</td>
+                            <td>Moyen</td>
+                            <td>Moyen-élevé</td>
+                            <td>Élevé</td>
+                            <td>Budget</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Projects -->
+    <section class="project-detail">
+        <div class="container">
+            <h2>Projets Personnels STM32</h2>
+            <div class="project-results">
+                <h3>Réalisations Techniques</h3>
+                <ul>
+                    <li>Station météo autonome avec transmission LoRa longue portée</li>
+                    <li>Contrôleur de drone avec stabilisation gyroscopique temps réel</li>
+                    <li>Interface CAN pour diagnostic automobile et ECU communication</li>
+                    <li>Oscilloscope numérique 2 voies avec interface tactile et stockage</li>
+                </ul>
+
+                <h3>Compétences Développées</h3>
+                <ul>
+                    <li>Programmation bare-metal et optimisation assembleur inline</li>
+                    <li>Configuration avancée des périphériques via registres directs</li>
+                    <li>Debugging hardware avec analyseurs logiques et oscilloscopes</li>
+                    <li>Intégration RTOS (FreeRTOS) et gestion des tâches prioritaires</li>
+                </ul>
+
+                <h3>Avantages Identifiés</h3>
+                <ul>
+                    <li>Écosystème de développement mature et bien documenté</li>
+                    <li>Large gamme de périphériques intégrés réduisant le BOM</li>
+                    <li>Compatibilité pin-to-pin entre familles facilitant les migrations</li>
+                    <li>Support ST excellent avec outils de debug professionnels</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advanced Features -->
+    <section class="project-detail alternate">
+        <div class="container">
+            <h2>Fonctionnalités Avancées Exploitées</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-microchip"></i>
+                    <h4>DMA Avancé</h4>
+                    <p>Transferts de données sans intervention CPU, multi-stream, triggers hardware</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Timer Complexes</h4>
+                    <p>PWM complémentaires, capture/compare, dead-time, synchronisation multi-timer</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Sécurité</h4>
+                    <p>Watchdog indépendant, MPU, TrustZone (séries récentes), RNG hardware</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-thermometer-half"></i>
+                    <h4>Analog Front-End</h4>
+                    <p>ADC 16-bit différentiels, comparateurs analogiques, DAC précis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Developments -->
+    <section class="project-detail">
+        <div class="container">
+            <h2>Développements Futurs</h2>
+            <div class="project-results">
+                <h3>Projets en Cours</h3>
+                <ul>
+                    <li>Intégration STM32MP1 (Cortex-A7 + M4) pour applications hybrides</li>
+                    <li>Développement avec STM32CubeAI pour inférence machine learning</li>
+                    <li>Exploration des séries STM32WB (Bluetooth 5.0 intégré)</li>
+                    <li>Applications automotive avec STM32F7 et conformité ASIL</li>
+                </ul>
+
+                <h3>Technologies d'Intérêt</h3>
+                <ul>
+                    <li>Edge AI et TinyML pour traitement local intelligent</li>
+                    <li>Connectivité 5G/LTE-M pour IoT industriel haute vitesse</li>
+                    <li>Sécurité renforcée avec HSM et certificats numériques</li>
+                    <li>Intégration cloud avec Azure IoT et AWS IoT Core</li>
+                </ul>
+
+                <h3>Objectifs d'Apprentissage</h3>
+                <ul>
+                    <li>Certification STMicroelectronics Expert Developer</li>
+                    <li>Maîtrise des outils de test automatisé et CI/CD embarqué</li>
+                    <li>Développement de drivers Linux pour STM32MP1</li>
+                    <li>Applications safety-critical conformes IEC 61508</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back Link -->
+    <div class="container">
+        <div class="back-link">
+            <a href="outils.html" class="btn btn-primary">
+                <i class="fas fa-arrow-left"></i> Retour aux outils
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Céleste KOLOUSSA. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/céleste-koloussa-40b543177" class="social-link" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

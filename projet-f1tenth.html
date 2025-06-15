@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet F1Tenth - Céleste KOLOUSSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Céleste</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="outils.html" class="nav-link">Outils</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="projets.html">Projets</a> / F1Tenth
+            </div>
+            <h1>F1Tenth - Voiture Autonome</h1>
+            <p>Développement complet d'une voiture autonome pour la compétition F1Tenth</p>
+        </div>
+    </section>
+
+    <!-- Projet Detail -->
+    <section class="project-detail-full">
+        <div class="container">
+            <div class="project-detail-content">
+                <div class="project-detail-info">
+                    <div class="project-badges">
+                        <span class="project-badge">SAE5-6</span>
+                        <span class="project-badge secondary">2024-2025</span>
+                    </div>
+
+                    <div class="project-description-section">
+                        <h2>Description du projet</h2>
+                        <p>
+                            Développement complet d'une voiture autonome pour la compétition F1Tenth dans le cadre des
+                            projets SAE5 et SAE6. Ce projet ambitieux combine navigation autonome, perception par LIDAR
+                            et algorithmes de contrôle avancés pour créer un véhicule capable de naviguer de manière
+                            autonome sur un circuit.
+                        </p>
+                        <p>
+                            Le projet a nécessité l'intégration de multiples systèmes : perception environnementale via
+                            LIDAR, traitement temps réel des données, algorithmes de navigation et contrôle moteur.
+                            L'objectif était de créer un système robuste capable de s'adapter à différents
+                            environnements
+                            et situations de conduite.
+                        </p>
+                    </div>
+
+                    <div class="project-features">
+                        <h3>Fonctionnalités développées</h3>
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <i class="fas fa-eye"></i>
+                                <h4>Nœud RPLIDAR</h4>
+                                <p>Intégration du capteur LIDAR RPLidar A2M12 pour la perception environnementale en
+                                    temps réel</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-route"></i>
+                                <h4>Conduite autonome</h4>
+                                <p>Algorithmes de navigation et d'évitement d'obstacles utilisant les données LIDAR</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-gamepad"></i>
+                                <h4>Contrôle manuel</h4>
+                                <p>Interface joystick et clavier pour le pilotage à distance et les tests</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-exchange-alt"></i>
+                                <h4>Multiplexage</h4>
+                                <p>Système de basculement seamless entre modes automatique et manuel</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-shield-alt"></i>
+                                <h4>Capteurs ultrasoniques</h4>
+                                <p>Intégration de capteurs supplémentaires pour la sécurité et la redondance</p>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-sync-alt"></i>
+                                <h4>Transition ROS2</h4>
+                                <p>Migration du système vers ROS2 pour de meilleures performances et compatibilité</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hardware-used">
+                        <h3>Matériel utilisé</h3>
+                        <div class="hardware-grid">
+                            <div class="hardware-item">
+                                <i class="fas fa-memory"></i>
+                                <h4>Jetson Nano</h4>
+                                <p>Ordinateur embarqué principal pour le traitement IA et ROS</p>
+                                <div class="specs">Quad-core ARM • 4GB RAM • GPU CUDA</div>
+                            </div>
+                            <div class="hardware-item">
+                                <i class="fas fa-eye"></i>
+                                <h4>RPLidar A2M12</h4>
+                                <p>Capteur LIDAR 2D 360° pour la perception environnementale</p>
+                                <div class="specs">12m portée • 4000 pts/sec • ROS compatible</div>
+                            </div>
+                            <div class="hardware-item">
+                                <i class="fas fa-sound"></i>
+                                <h4>Capteurs Ultrasoniques</h4>
+                                <p>HC-SR04 et JSN-SR04T pour détection de proximité</p>
+                                <div class="specs">Détection 2cm-400cm • Backup sécurité</div>
+                            </div>
+                            <div class="hardware-item">
+                                <i class="fas fa-car"></i>
+                                <h4>Châssis F1Tenth</h4>
+                                <p>Plateforme robotique standardisée pour la compétition</p>
+                                <div class="specs">Échelle 1/10 • Servo direction • ESC moteur</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="software-used">
+                        <h3>Outils logiciels utilisés</h3>
+                        <div class="software-grid">
+                            <div class="software-item">
+                                <i class="fas fa-robot"></i>
+                                <div>
+                                    <h4>ROS Melodic/Noetic</h4>
+                                    <p>Framework robotique principal pour la gestion des nœuds</p>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <i class="fas fa-cogs"></i>
+                                <div>
+                                    <h4>ROS2 Humble</h4>
+                                    <p>Migration vers ROS2 pour améliorer les performances</p>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <i class="fas fa-code"></i>
+                                <div>
+                                    <h4>C++ & Python</h4>
+                                    <p>Développement des nœuds ROS et algorithmes de contrôle</p>
+                                </div>
+                            </div>
+                            <div class="software-item">
+                                <i class="fas fa-eye"></i>
+                                <div>
+                                    <h4>RViz</h4>
+                                    <p>Visualisation 3D des données LIDAR et navigation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-results">
+                        <h3>Résultats et accomplissements</h3>
+                        <ul>
+                            <li>Intégration réussie du capteur LIDAR avec ROS pour perception 360°</li>
+                            <li>Développement d'algorithmes de navigation autonome fonctionnels</li>
+                            <li>Système de contrôle hybride manuel/automatique opérationnel</li>
+                            <li>Migration complète vers ROS2 avec amélioration des performances</li>
+                            <li>Documentation technique complète et présentation en anglais</li>
+                            <li>Code source bien structuré et commenté pour maintenance future</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="info/ros6_diapo_anglais.pdf" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-presentation"></i>
+                            Présentation anglaise
+                        </a>
+                        <a href="info/RAPPORT_SAE5_KOLOUSSA_ARIMON.pdf" class="btn btn-secondary" target="_blank">
+                            <i class="fas fa-file-pdf"></i>
+                            Rapport SAE5-6
+                        </a>
+                        <a href="projets.html" class="btn btn-outline">
+                            <i class="fas fa-arrow-left"></i>
+                            Retour aux projets
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Céleste KOLOUSSA. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

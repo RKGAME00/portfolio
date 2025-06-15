@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outils - Céleste KOLOUSSA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Céleste</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="outils.html" class="nav-link active">Outils</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Mes Outils & Technologies</h1>
+            <p>Découvrez les outils logiciels et matériels que j'utilise dans mes projets</p>
+        </div>
+    </section>
+
+    <!-- Outils Overview -->
+    <section class="tools-overview">
+        <div class="container">
+            <!-- Introduction -->
+            <div class="tools-intro">
+                <div class="intro-card">
+                    <div class="intro-icon">
+                        <i class="fas fa-toolbox"></i>
+                    </div>
+                    <h3>Mes Outils de Travail</h3>
+                    <p>Une collection d'outils logiciels et matériels que j'utilise quotidiennement dans mes projets
+                        d'électronique, de robotique et de développement.</p>
+                    <div class="intro-stats">
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Outils Logiciels</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Composants Matériels</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Années d'Expérience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Logiciels -->
+            <div class="tools-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="category-info">
+                        <h2>Outils Logiciels</h2>
+                        <p>Environnements de développement, frameworks et outils de conception</p>
+                    </div>
+                </div>
+
+                <div class="tools-grid">
+                    <div class="tool-card" onclick="window.location.href='outil-vscode.html'">
+                        <div class="tool-card-header">
+                            <div class="tool-icon software">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="tool-badge">IDE</div>
+                        </div>
+                        <div class="tool-content">
+                            <h4>Visual Studio Code</h4>
+                            <p>Environnement de développement principal avec extensions pour C/C++, Python, et embedded
+                            </p>
+                            <div class="tool-tags">
+                                <span class="tag">C/C++</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Extensions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card" onclick="window.location.href='outil-ros.html'">
+                        <div class="tool-card-header">
+                            <div class="tool-icon software">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="tool-badge">Framework</div>
+                        </div>
+                        <div class="tool-content">
+                            <h4>ROS/ROS2</h4>
+                            <p>Framework robotique pour systèmes distribués, navigation autonome et intégration capteurs
+                            </p>
+                            <div class="tool-tags">
+                                <span class="tag">Robotique</span>
+                                <span class="tag">Nodes</span>
+                                <span class="tag">SLAM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card" onclick="window.location.href='outil-kicad.html'">
+                        <div class="tool-card-header">
+                            <div class="tool-icon software">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <div class="tool-badge">CAO</div>
+                        </div>
+                        <div class="tool-content">
+                            <h4>KiCad</h4>
+                            <p>Suite de conception de circuits électroniques, schématiques et PCB professionnels</p>
+                            <div class="tool-tags">
+                                <span class="tag">PCB</span>
+                                <span class="tag">Schématique</span>
+                                <span class="tag">3D</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card" onclick="window.location.href='outil-docker.html'">
+                        <div class="tool-card-header">
+                            <div class="tool-icon software">
+                                <i class="fab fa-docker"></i>
+                            </div>
+                            <div class="tool-badge">DevOps</div>
+                        </div>
+                        <div class="tool-content">
+                            <h4>Docker</h4>
+                            <p>Conteneurisation d'applications pour des environnements de développement reproductibles
+                            </p>
+                            <div class="tool-tags">
+                                <span class="tag">Containers</span>
+                                <span class="tag">ROS</span>
+                                <span class="tag">Isolation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card" onclick="window.location.href='outil-git.html'">
+                        <div class="tool-card-header">
+                            <div class="tool-icon software">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="tool-badge">VCS</div>
+                        </div>
+                        <div class="tool-content">
+                            <h4>Git & GitHub</h4>
+                            <p>Système de contrôle de version distribué pour la gestion collaborative de projets</p>
+                            <div class="tool-tags">
+                                <span class="tag">Versioning</span>
+                                <span class="tag">Collaboration</span>
+                                <span class="tag">CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-card" onclick="window.location.href='outil-python.html'">
+                        <div class="tool-card-header">
+                            <div class="tool-icon software">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="tool-badge">Langage</div>
+                        </div>
+                        <div class="tool-content">
+                            <h4>Python/Django</h4>
+                            <p>Développement web, automatisation, traitement de données et intelligence artificielle</p>
+                            <div class="tool-tags">
+                                <span class="tag">Web</span>
+                                <span class="tag">AI/ML</span>
+                                <span class="tag">Automation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Matériel -->
+            <div class="tools-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="category-info">
+                        <h2>Matériel & Composants</h2>
+                        <p>Cartes de développement, microcontrôleurs, capteurs et composants électroniques</p>
+                    </div>
+                </div>
+
+                <!-- Sous-catégorie: Cartes de développement -->
+                <div class="subcategory">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-memory"></i>
+                        Cartes de Développement
+                    </h3>
+                    <div class="tools-grid">
+                        <div class="tool-card" onclick="window.location.href='materiel-jetson-nano.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-memory"></i>
+                                </div>
+                                <div class="tool-badge">IA</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>Jetson Nano/Orin</h4>
+                                <p>Plateformes NVIDIA pour IA embarquée, vision par ordinateur et accélération GPU</p>
+                                <div class="tool-tags">
+                                    <span class="tag">CUDA</span>
+                                    <span class="tag">OpenCV</span>
+                                    <span class="tag">TensorRT</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card" onclick="window.location.href='materiel-raspberry-pi.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fab fa-raspberry-pi"></i>
+                                </div>
+                                <div class="tool-badge">SBC</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>Raspberry Pi 4/5</h4>
+                                <p>Mini-ordinateurs Linux pour prototypage rapide et projets IoT avancés</p>
+                                <div class="tool-tags">
+                                    <span class="tag">Linux</span>
+                                    <span class="tag">GPIO</span>
+                                    <span class="tag">IoT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sous-catégorie: Microcontrôleurs -->
+                <div class="subcategory">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-microchip"></i>
+                        Microcontrôleurs
+                    </h3>
+                    <div class="tools-grid">
+                        <div class="tool-card" onclick="window.location.href='outil-esp32.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-wifi"></i>
+                                </div>
+                                <div class="tool-badge">WiFi</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>ESP32/ESP32-S3</h4>
+                                <p>Microcontrôleurs avec WiFi/Bluetooth intégré pour projets IoT et domotique</p>
+                                <div class="tool-tags">
+                                    <span class="tag">WiFi</span>
+                                    <span class="tag">Bluetooth</span>
+                                    <span class="tag">Low Power</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card" onclick="window.location.href='outil-stm32.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-microchip"></i>
+                                </div>
+                                <div class="tool-badge">ARM</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>STM32F407ZGT6</h4>
+                                <p>Microcontrôleur ARM Cortex-M4 haute performance pour applications temps réel</p>
+                                <div class="tool-tags">
+                                    <span class="tag">RTOS</span>
+                                    <span class="tag">DSP</span>
+                                    <span class="tag">High Speed</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card" onclick="window.location.href='materiel-rp2040.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-raspberry-pi"></i>
+                                </div>
+                                <div class="tool-badge">Dual Core</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>RP2040/RP2040W</h4>
+                                <p>Microcontrôleur dual-core ARM Cortex-M0+ de Raspberry Pi Foundation</p>
+                                <div class="tool-tags">
+                                    <span class="tag">Dual Core</span>
+                                    <span class="tag">PIO</span>
+                                    <span class="tag">Low Cost</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card" onclick="window.location.href='materiel-samd21.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-microchip"></i>
+                                </div>
+                                <div class="tool-badge">IoT</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>SAMD21</h4>
+                                <p>ARM Cortex-M0+ optimisé pour applications IoT et faible consommation</p>
+                                <div class="tool-tags">
+                                    <span class="tag">Low Power</span>
+                                    <span class="tag">Arduino</span>
+                                    <span class="tag">Compact</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sous-catégorie: FPGA et Capteurs -->
+                <div class="subcategory">
+                    <h3 class="subcategory-title">
+                        <i class="fas fa-bolt"></i>
+                        FPGA & Capteurs
+                    </h3>
+                    <div class="tools-grid">
+                        <div class="tool-card" onclick="window.location.href='materiel-zybo-z7.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="tool-badge">FPGA</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>Zybo Z7 FPGA</h4>
+                                <p>Carte de développement Xilinx Zynq-7000 combinant ARM et logique reconfigurable</p>
+                                <div class="tool-tags">
+                                    <span class="tag">VHDL</span>
+                                    <span class="tag">SoC</span>
+                                    <span class="tag">Vivado</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card" onclick="window.location.href='materiel-rplidar.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="tool-badge">Lidar</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>RPLidar A2M12</h4>
+                                <p>Capteur Lidar 2D 360° pour cartographie et navigation robotique autonome</p>
+                                <div class="tool-tags">
+                                    <span class="tag">SLAM</span>
+                                    <span class="tag">360°</span>
+                                    <span class="tag">ROS</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tool-card" onclick="window.location.href='materiel-capteurs.html'">
+                            <div class="tool-card-header">
+                                <div class="tool-icon hardware">
+                                    <i class="fas fa-thermometer-half"></i>
+                                </div>
+                                <div class="tool-badge">Sensors</div>
+                            </div>
+                            <div class="tool-content">
+                                <h4>Capteurs Divers</h4>
+                                <p>Collection de capteurs: ultrasoniques, environnementaux, accéléromètres, gyroscopes
+                                </p>
+                                <div class="tool-tags">
+                                    <span class="tag">Ultrasonique</span>
+                                    <span class="tag">IMU</span>
+                                    <span class="tag">Environnement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Céleste KOLOUSSA. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/céleste-koloussa-40b543177" class="social-link" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

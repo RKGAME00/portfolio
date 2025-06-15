@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Céleste - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Céleste</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link">Expériences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="outils.html" class="nav-link">Outils</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Bonjour, je suis <span class="highlight">Céleste</span>
+            </h1>
+            <h2 class="hero-subtitle">Étudiant en fin d'étude en GEII(Génie Électrique et Informatique Industrielle) -
+                Spécialité ESE (Électronique et Systèmes Embarqués)</h2>
+            <div class="hero-buttons">
+                <a href="projets.html" class="btn btn-primary">Voir mes projets</a>
+                <a href="contact.php" class="btn btn-secondary">Me contacter</a>
+            </div>
+            <div class="social-links">
+                <!-- <a href="#" class="social-link"><i class="fab fa-github"></i></a> -->
+                <a href="https://www.linkedin.com/in/céleste-koloussa-40b543177" class="social-link" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <!-- <a href="#" class="social-link"><i class="fas fa-envelope"></i></a> -->
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Étudiant en fin d'études de licence GEII à l'IUT de Nantes, je me spécialise en
+                        Électronique et Systèmes Embarqués (ESE). Actuellement à la recherche d'une entreprise
+                        pour m'accompagner dans mon admission en école d'ingénieur SIEA (Systèmes d'Information,
+                        option Électronique Avancée) proposée par l'EPF.
+                    </p>
+                    <p>
+                        Mon expertise couvre la conception électronique avec KiCad, la programmation de
+                        microcontrôleurs,
+                        les systèmes temps réel (RTOS Trampoline), la robotique (ROS1 sur Jetson Nano) et le
+                        développement web.
+                        Passionné par la musique (piano, composition assistée par ordinateur) et les projets personnels
+                        en robotique, maintenance et domotique.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-profile-photo">
+                        <img src="src/photo_moi.png" alt="Photo de Céleste" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formation & Centres d'Intérêt -->
+    <section id="formation" class="formation">
+        <div class="container">
+            <h2 class="section-title">Formation & Centres d'Intérêt</h2>
+            <div class="formation-content">
+                <div class="formation-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Formation</h3>
+                    <div class="formation-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Formation d'Ingénieur SIEA (En cours de recherche)</h4>
+                                <span class="timeline-date">2025-2028</span>
+                                <p><strong>EPF / ESTI Redon</strong></p>
+                                <p>Diplôme d'Ingénieur en apprentissage - Systèmes d'Information, option Électronique
+                                    Avancée (SIEA)</p>
+                                <p>Formation en 3 ans en alternance, habilitée par la Commission des Titres d'Ingénieurs
+                                    (CTI)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker active"></div>
+                            <div class="timeline-content">
+                                <h4>BUT GEII - Spécialité ESE</h4>
+                                <span class="timeline-date">2022-2025</span>
+                                <p><strong>IUT de Nantes</strong></p>
+                                <p>Bachelor Universitaire de Technologie en Génie Électrique et Informatique
+                                    Industrielle</p>
+                                <p>Option : Électronique et Systèmes Embarqués (ESE)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker completed"></div>
+                            <div class="timeline-content">
+                                <h4>Baccalauréat STI2D</h4>
+                                <span class="timeline-date">2019-2022</span>
+                                <p><strong>Lycée</strong></p>
+                                <p>Baccalauréat Sciences et Technologies de l'Industrie et du Développement Durable</p>
+                                <p>Spécialité : Systèmes d'Information et Numérique (SIN)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="interests-section">
+                    <h3><i class="fas fa-heart"></i> Centres d'Intérêt</h3>
+                    <div class="interests-grid">
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <h4>Musique</h4>
+                            <p>Piano et composition de musique assistée par ordinateur</p>
+                        </div>
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4>Projets Robotique</h4>
+                            <p>Développement de projets personnels en robotique et systèmes autonomes</p>
+                        </div>
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h4>Maintenance & Domotique</h4>
+                            <p>Projets personnels de maintenance et systèmes domotiques intelligents</p>
+                        </div>
+                        <div class="interest-card">
+                            <div class="interest-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h4>Électronique</h4>
+                            <p>Conception et programmation de microcontrôleurs (SAMD21, ESP32)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Électronique & KiCad</h3>
+                    <p>Conception de circuits, PCB, composants électroniques</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>C/C++ & Python</h3>
+                    <p>Programmation systèmes, applications embarquées</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>ROS (Robot Operating System)</h3>
+                    <p>ROS1/ROS2, navigation autonome, RPLIDAR</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>RTOS & Systèmes Embarqués</h3>
+                    <p>Trampoline, ESP32, SAMD21, STM32</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>VHDL & FPGA</h3>
+                    <p>Programmation matérielle, logique numérique</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web (HTML/CSS/PHP/Django)</h3>
+                    <p>Développement web, bases de données</p>
+                </div>
+            </div>
+            <div class="skills-cta">
+                <a href="outils.html" class="btn btn-primary">Voir tous mes outils</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <!-- Section Projets Aperçu -->
+            <section id="projets" class="projects">
+                <div class="container">
+                    <h2 class="section-title">Aperçu de Mes Projets</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-car"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>F1Tenth - Voiture Autonome</h3>
+                                <p>Projet SAE5-6 : Développement d'une voiture autonome pour la compétition F1Tenth avec
+                                    ROS, RPLIDAR et navigation autonome.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">ROS</span>
+                                    <span class="tech-tag">ROS2</span>
+                                    <span class="tech-tag">RPLIDAR</span>
+                                    <span class="tech-tag">C++</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-microprocessor"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Parallélisation OpenMP</h3>
+                                <p>Analyse de performances de calculs matriciels parallélisés avec OpenMP sur
+                                    architectures multi-cœurs.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">C</span>
+                                    <span class="tech-tag">OpenMP</span>
+                                    <span class="tech-tag">Multi-threading</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card">
+                            <div class="project-image">
+                                <div class="image-placeholder">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3>Intégration Lidar ROS</h3>
+                                <p>TP ROS d'intégration d'un Lidar RPLidar A2M12 pour la perception robotique et
+                                    navigation autonome.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">ROS Melodic</span>
+                                    <span class="tech-tag">Docker</span>
+                                    <span class="tech-tag">Lidar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-cta">
+                        <a href="projets.html" class="btn btn-primary">Voir tous mes projets</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Contact Résumé -->
+            <section id="contact" class="contact-summary">
+                <div class="container">
+                    <h2 class="section-title">Me Contacter</h2>
+                    <div class="contact-summary-content">
+                        <div class="contact-info">
+                            <h3>Discutons de votre projet</h3>
+                            <p>À la recherche d'une entreprise pour mon alternance en école d'ingénieur SIEA. N'hésitez
+                                pas à me contacter !</p>
+                            <div class="contact-items">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>celeste.koloussa@etu.univ-nantes.fr</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-phone"></i>
+                                    <span>07 83 60 11 87</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Thouaré sur Loire (44)</span>
+                                </div>
+                            </div>
+                            <div class="contact-cta">
+                                <a href="contact.php" class="btn btn-primary">Formulaire de contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container">
+                    <p>&copy; 2025 Céleste. Tous droits réservés.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/céleste-koloussa-40b543177" class="social-link"
+                            target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="script.js"></script>
+</body>
+
+</html>
