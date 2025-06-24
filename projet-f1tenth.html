@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet F1Tenth - Céleste KOLOUSSA</title>
+    <title>F1Tenth - Voiture Autonome | Céleste Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
@@ -42,171 +43,419 @@
         </div>
     </nav>
 
-    <!-- Header Section -->
-    <section class="page-header">
+    <!-- Hero Section -->
+    <section class="f1tenth-hero">
         <div class="container">
-            <div class="breadcrumb">
-                <a href="projets.html">Projets</a> / F1Tenth
+            <div class="hero-content">
+                <div class="breadcrumb-modern">
+                    <a href="projets.html" class="breadcrumb-link">
+                        <i class="fas fa-chevron-left"></i>
+                        <span>Projets</span>
+                    </a>
+                    <div class="breadcrumb-separator">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <span class="breadcrumb-current">F1Tenth</span>
+                </div>
+
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Projet Phare</span>
+                </div>
+
+                <h1 class="hero-title-main">F1Tenth</h1>
+                <h2 class="hero-subtitle-main">Voiture Autonome</h2>
+
+                <p class="hero-description-main">
+                    Développement d'un système de navigation autonome avec perception LIDAR 360° et
+                    algorithmes avancés de traitement des données pour la compétition F1Tenth.
+                </p>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4000</div>
+                        <div class="stat-label">Points/sec</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">360°</div>
+                        <div class="stat-label">Vision</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">ROS1/ROS2</div>
+                        <div class="stat-label">Framework</div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#overview" class="btn btn-secondary">
+                        <i class="fas fa-eye"></i> Découvrir le projet
+                    </a>
+                </div>
             </div>
-            <h1>F1Tenth - Voiture Autonome</h1>
-            <p>Développement complet d'une voiture autonome pour la compétition F1Tenth</p>
         </div>
     </section>
 
-    <!-- Projet Detail -->
-    <section class="project-detail-full">
+    <!-- Overview Section -->
+    <section class="overview-section" id="overview">
         <div class="container">
-            <div class="project-detail-content">
-                <div class="project-detail-info">
-                    <div class="project-badges">
-                        <span class="project-badge">SAE5-6</span>
-                        <span class="project-badge secondary">2024-2025</span>
+            <h2 class="section-title">Vision du Projet</h2>
+            <div class="overview-grid">
+                <div class="glass-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div>
+                            <h3>Navigation Autonome</h3>
+                            <p>Algorithmes de navigation avancés</p>
+                        </div>
                     </div>
-
-                    <div class="project-description-section">
-                        <h2>Description du projet</h2>
-                        <p>
-                            Développement complet d'une voiture autonome pour la compétition F1Tenth dans le cadre des
-                            projets SAE5 et SAE6. Ce projet ambitieux combine navigation autonome, perception par LIDAR
-                            et algorithmes de contrôle avancés pour créer un véhicule capable de naviguer de manière
-                            autonome sur un circuit.
-                        </p>
-                        <p>
-                            Le projet a nécessité l'intégration de multiples systèmes : perception environnementale via
-                            LIDAR, traitement temps réel des données, algorithmes de navigation et contrôle moteur.
-                            L'objectif était de créer un système robuste capable de s'adapter à différents
-                            environnements
-                            et situations de conduite.
-                        </p>
-                    </div>
-
-                    <div class="project-features">
-                        <h3>Fonctionnalités développées</h3>
-                        <div class="features-grid">
-                            <div class="feature-item">
+                    <p>
+                        Ce projet représente l'aboutissement de mes compétences en robotique autonome.
+                        Une voiture intelligente capable de naviguer en parfaite autonomie grâce à une
+                        perception LIDAR avancée et des algorithmes de traitement des données en temps réel.
+                    </p>
+                    <div class="highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div>
+                                <strong>Algorithmes Avancés</strong><br>
+                                <span style="color: #64748b;">Calcul du point le plus éloigné et navigation
+                                    intelligente</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
                                 <i class="fas fa-eye"></i>
-                                <h4>Nœud RPLIDAR</h4>
-                                <p>Intégration du capteur LIDAR RPLidar A2M12 pour la perception environnementale en
-                                    temps réel</p>
                             </div>
-                            <div class="feature-item">
-                                <i class="fas fa-route"></i>
-                                <h4>Conduite autonome</h4>
-                                <p>Algorithmes de navigation et d'évitement d'obstacles utilisant les données LIDAR</p>
+                            <div>
+                                <strong>Vision 360°</strong><br>
+                                <span style="color: #64748b;">Perception environnementale complète</span>
                             </div>
-                            <div class="feature-item">
-                                <i class="fas fa-gamepad"></i>
-                                <h4>Contrôle manuel</h4>
-                                <p>Interface joystick et clavier pour le pilotage à distance et les tests</p>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-tachometer-alt"></i>
                             </div>
-                            <div class="feature-item">
-                                <i class="fas fa-exchange-alt"></i>
-                                <h4>Multiplexage</h4>
-                                <p>Système de basculement seamless entre modes automatique et manuel</p>
+                            <div>
+                                <strong>Contrôle Adaptatif</strong><br>
+                                <span style="color: #64748b;">Gestion vitesse selon l'angle de direction</span>
                             </div>
-                            <div class="feature-item">
-                                <i class="fas fa-shield-alt"></i>
-                                <h4>Capteurs ultrasoniques</h4>
-                                <p>Intégration de capteurs supplémentaires pour la sécurité et la redondance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="info-panel">
+                        <h3 style="margin-bottom: 1.5rem; color: #1e293b;">Informations Techniques</h3>
+                        <div class="info-grid">
+                            <div class="info-row">
+                                <div class="info-label">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Durée</span>
+                                </div>
+                                <div class="info-value">6 mois</div>
                             </div>
-                            <div class="feature-item">
-                                <i class="fas fa-sync-alt"></i>
-                                <h4>Transition ROS2</h4>
-                                <p>Migration du système vers ROS2 pour de meilleures performances et compatibilité</p>
+                            <div class="info-row">
+                                <div class="info-label">
+                                    <i class="fas fa-users"></i>
+                                    <span>Équipe</span>
+                                </div>
+                                <div class="info-value">2 développeurs</div>
+                            </div>
+                            <div class="info-row">
+                                <div class="info-label">
+                                    <i class="fas fa-microchip"></i>
+                                    <span>Hardware</span>
+                                </div>
+                                <div class="info-value">Jetson Nano</div>
+                            </div>
+                            <div class="info-row">
+                                <div class="info-label">
+                                    <i class="fas fa-code"></i>
+                                    <span>Langages</span>
+                                </div>
+                                <div class="info-value">C++, Python</div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="hardware-used">
-                        <h3>Matériel utilisé</h3>
-                        <div class="hardware-grid">
-                            <div class="hardware-item">
+                    <div class="badges-collection">
+                        <div class="badge-item sae">SAE5-6</div>
+                        <div class="badge-item year">2024-2025</div>
+                        <div class="badge-item tech">Robotique</div>
+                        <div class="badge-item framework">ROS/ROS2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section class="competences-section">
+        <div class="container">
+            <h2 class="section-title">Compétences Maîtrisées</h2>
+            <p
+                style="text-align: center; color: #64748b; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Quatre piliers techniques développés tout au long de ce projet ambitieux
+            </p>
+
+            <div class="competences-grid">
+                <div class="competence-card concevoir">
+                    <div class="competence-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3>Concevoir</h3>
+                    <p>Architecture système et algorithmes de navigation pour la conduite autonome</p>
+                </div>
+
+                <div class="competence-card verifier">
+                    <div class="competence-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Vérifier</h3>
+                    <p>Tests rigoureux et validation système en environnement simulé et réel</p>
+                </div>
+
+                <div class="competence-card integrer">
+                    <div class="competence-icon">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <h3>Intégrer</h3>
+                    <p>Fusion entre composants hardware et software</p>
+                </div>
+
+                <div class="competence-card maintenir">
+                    <div class="competence-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Maintenir</h3>
+                    <p>Documentation complète et architecture évolutive</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section class="architecture-section">
+        <div class="container">
+            <h2 class="section-title">Architecture Technique</h2>
+            <p
+                style="text-align: center; color: #64748b; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Système multicouche avec algorithmes de traitement LIDAR en temps réel
+            </p>
+
+            <div class="flow-grid">
+                <div class="flow-card">
+                    <div class="flow-number">01</div>
+                    <div class="flow-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h4>Perception</h4>
+                    <p>Acquisition données LIDAR 360°</p>
+                    <div class="flow-metrics">
+                        <span class="metric">4000 pts/sec</span>
+                        <span class="metric">12m portée</span>
+                    </div>
+                </div>
+
+                <div class="flow-card">
+                    <div class="flow-number">02</div>
+                    <div class="flow-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h4>Traitement</h4>
+                    <p>Calcul point le plus éloigné et angles</p>
+                    <div class="flow-metrics">
+                        <span class="metric">Temps réel</span>
+                        <span class="metric">Algorithmes C++</span>
+                    </div>
+                </div>
+
+                <div class="flow-card">
+                    <div class="flow-number">03</div>
+                    <div class="flow-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h4>Contrôle</h4>
+                    <p>Gestion vitesse selon angle</p>
+                    <div class="flow-metrics">
+                        <span class="metric">Servo</span>
+                        <span class="metric">ESC</span>
+                    </div>
+                </div>
+
+                <div class="flow-card">
+                    <div class="flow-number">04</div>
+                    <div class="flow-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Sécurité</h4>
+                    <p>Protection & monitoring</p>
+                    <div class="flow-metrics">
+                        <span class="metric">&lt; 100ms</span>
+                        <span class="metric">Backup</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Technologies de Pointe</h2>
+            <p
+                style="text-align: center; color: #64748b; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Stack technique pour navigation autonome embarquée
+            </p>
+
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <div class="tech-header">
+                        <div class="tech-header-content">
+                            <div class="tech-category-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h3>Hardware</h3>
+                        </div>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <div class="tech-item-icon">
                                 <i class="fas fa-memory"></i>
+                            </div>
+                            <div>
                                 <h4>Jetson Nano</h4>
-                                <p>Ordinateur embarqué principal pour le traitement IA et ROS</p>
-                                <div class="specs">Quad-core ARM • 4GB RAM • GPU CUDA</div>
+                                <p style="color: #64748b; margin: 0;">Calcul embarqué haute performance</p>
                             </div>
-                            <div class="hardware-item">
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-item-icon">
                                 <i class="fas fa-eye"></i>
+                            </div>
+                            <div>
                                 <h4>RPLidar A2M12</h4>
-                                <p>Capteur LIDAR 2D 360° pour la perception environnementale</p>
-                                <div class="specs">12m portée • 4000 pts/sec • ROS compatible</div>
+                                <p style="color: #64748b; margin: 0;">Capteur laser 360° haute précision</p>
                             </div>
-                            <div class="hardware-item">
-                                <i class="fas fa-sound"></i>
-                                <h4>Capteurs Ultrasoniques</h4>
-                                <p>HC-SR04 et JSN-SR04T pour détection de proximité</p>
-                                <div class="specs">Détection 2cm-400cm • Backup sécurité</div>
-                            </div>
-                            <div class="hardware-item">
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-item-icon">
                                 <i class="fas fa-car"></i>
-                                <h4>Châssis F1Tenth</h4>
-                                <p>Plateforme robotique standardisée pour la compétition</p>
-                                <div class="specs">Échelle 1/10 • Servo direction • ESC moteur</div>
+                            </div>
+                            <div>
+                                <h4>F1Tenth Chassis</h4>
+                                <p style="color: #64748b; margin: 0;">Plateforme compétition échelle 1/10</p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="software-used">
-                        <h3>Outils logiciels utilisés</h3>
-                        <div class="software-grid">
-                            <div class="software-item">
-                                <i class="fas fa-robot"></i>
-                                <div>
-                                    <h4>ROS Melodic/Noetic</h4>
-                                    <p>Framework robotique principal pour la gestion des nœuds</p>
-                                </div>
-                            </div>
-                            <div class="software-item">
-                                <i class="fas fa-cogs"></i>
-                                <div>
-                                    <h4>ROS2 Humble</h4>
-                                    <p>Migration vers ROS2 pour améliorer les performances</p>
-                                </div>
-                            </div>
-                            <div class="software-item">
+                <div class="tech-category">
+                    <div class="tech-header software">
+                        <div class="tech-header-content">
+                            <div class="tech-category-icon">
                                 <i class="fas fa-code"></i>
-                                <div>
-                                    <h4>C++ & Python</h4>
-                                    <p>Développement des nœuds ROS et algorithmes de contrôle</p>
-                                </div>
                             </div>
-                            <div class="software-item">
-                                <i class="fas fa-eye"></i>
-                                <div>
-                                    <h4>RViz</h4>
-                                    <p>Visualisation 3D des données LIDAR et navigation</p>
-                                </div>
+                            <h3>Software</h3>
+                        </div>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <div class="tech-item-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div>
+                                <h4>ROS → ROS2</h4>
+                                <p style="color: #64748b; margin: 0;">Framework robotique et communication</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-item-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div>
+                                <h4>C++ & Python</h4>
+                                <p style="color: #64748b; margin: 0;">Algorithmes temps réel et contrôle</p>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-item-icon">
+                                <i class="fas fa-cube"></i>
+                            </div>
+                            <div>
+                                <h4>RViz</h4>
+                                <p style="color: #64748b; margin: 0;">Visualisation et debug 3D</p>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <div class="project-results">
-                        <h3>Résultats et accomplissements</h3>
-                        <ul>
-                            <li>Intégration réussie du capteur LIDAR avec ROS pour perception 360°</li>
-                            <li>Développement d'algorithmes de navigation autonome fonctionnels</li>
-                            <li>Système de contrôle hybride manuel/automatique opérationnel</li>
-                            <li>Migration complète vers ROS2 avec amélioration des performances</li>
-                            <li>Documentation technique complète et présentation en anglais</li>
-                            <li>Code source bien structuré et commenté pour maintenance future</li>
-                        </ul>
-                    </div>
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <h2 class="section-title">Résultats Exceptionnels</h2>
+            <p
+                style="text-align: center; color: #64748b; margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Performances et accomplissements mesurables du projet
+            </p>
 
-                    <div class="project-links">
-                        <a href="info/ros6_diapo_anglais.pdf" class="btn btn-primary" target="_blank">
-                            <i class="fas fa-presentation"></i>
-                            Présentation anglaise
-                        </a>
-                        <a href="info/RAPPORT_SAE5_KOLOUSSA_ARIMON.pdf" class="btn btn-secondary" target="_blank">
-                            <i class="fas fa-file-pdf"></i>
-                            Rapport SAE5-6
-                        </a>
-                        <a href="projets.html" class="btn btn-outline">
-                            <i class="fas fa-arrow-left"></i>
-                            Retour aux projets
-                        </a>
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-trophy"></i>
                     </div>
+                    <div class="result-value">95%</div>
+                    <div class="result-label">Navigation Autonome</div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="result-value">100%</div>
+                    <div class="result-label">Perception LIDAR</div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="result-value">+30%</div>
+                    <div class="result-label">Performance ROS2</div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="result-value">&lt; 100ms</div>
+                    <div class="result-label">Temps de Réaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 style="margin-bottom: 1rem;">Intéressé par ce projet ?</h2>
+                <p style="color: #64748b; margin-bottom: 2rem;">
+                    Découvrez mes autres réalisations ou contactez-moi pour en discuter
+                </p>
+                <div class="cta-buttons">
+                    <a href="projets.html" class="btn btn-primary">
+                        <i class="fas fa-arrow-left"></i> Tous les projets
+                    </a>
+                    <a href="contact.php" class="btn btn-secondary">
+                        <i class="fas fa-comments"></i> Me contacter
+                    </a>
                 </div>
             </div>
         </div>
@@ -217,14 +466,38 @@
         <div class="container">
             <p>&copy; 2025 Céleste KOLOUSSA. Tous droits réservés.</p>
             <div class="footer-social">
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/céleste-koloussa-40b543177" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Animation au scroll pour les cartes
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observer les cartes pour l'animation
+        document.querySelectorAll('.competence-card, .flow-card, .result-card, .tech-category').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
 </body>
 
 </html>
