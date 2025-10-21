@@ -8,112 +8,39 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .error-page {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: var(--dark-bg);
-            padding: 2rem;
-        }
-
-        .error-content {
-            max-width: 600px;
-        }
-
-        .error-code {
-            font-size: 8rem;
-            font-weight: 700;
-            background: var(--gradient);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1;
-            margin-bottom: 1rem;
-        }
-
-        .error-title {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            color: var(--text-light);
-        }
-
-        .error-description {
-            font-size: 1.1rem;
-            color: var(--text-gray);
-            margin-bottom: 2rem;
-            line-height: 1.6;
-        }
-
-        .error-links {
-            display: flex;
-            gap: 1rem;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .robot-icon {
-            font-size: 4rem;
-            color: var(--primary-color);
-            margin-bottom: 2rem;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
-
-            0%,
-            100% {
-                transform: translateY(0px);
-            }
-
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-    <div class="error-page">
-        <div class="error-content">
-            <div class="robot-icon">
+    <main class="error-page">
+        <div class="error-content container">
+            <div class="robot-icon" aria-hidden="true">
                 <i class="fas fa-robot"></i>
             </div>
-            <div class="error-code">404</div>
+            <div class="error-code" role="status">404</div>
             <h1 class="error-title">Page non trouvée</h1>
             <p class="error-description">
                 Oops ! Il semble que cette page n'existe pas ou ait été déplacée.
                 Comme un robot qui a perdu ses capteurs, nous ne trouvons pas ce que vous cherchez !
             </p>
-            <div class="error-links">
+            <nav class="error-links" aria-label="Liens utiles">
                 <a href="index.html" class="btn btn-primary">
-                    <i class="fas fa-home"></i> Retour à l'accueil
+                    <i class="fas fa-home" aria-hidden="true"></i>
+                    <span>Retour à l'accueil</span>
                 </a>
                 <a href="index.html#projets" class="btn btn-secondary">
-                    <i class="fas fa-project-diagram"></i> Voir mes projets
+                    <i class="fas fa-project-diagram" aria-hidden="true"></i>
+                    <span>Voir mes projets</span>
                 </a>
                 <a href="index.html#contact" class="btn btn-secondary">
-                    <i class="fas fa-envelope"></i> Me contacter
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                    <span>Me contacter</span>
                 </a>
-            </div>
+            </nav>
         </div>
-    </div>
+    </main>
 
-    <script>
-        // Animation de l'icône robot
-        document.addEventListener('DOMContentLoaded', function () {
-            const robotIcon = document.querySelector('.robot-icon');
-
-            robotIcon.addEventListener('click', function () {
-                this.style.animation = 'none';
-                setTimeout(() => {
-                    this.style.animation = 'float 3s ease-in-out infinite';
-                }, 10);
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
