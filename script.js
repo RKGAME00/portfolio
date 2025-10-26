@@ -1,6 +1,6 @@
 // Centralized, defensive initialization
 document.addEventListener('DOMContentLoaded', () => {
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const oprefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
     // Robot icon click animation (if present)
     const robotIcon = document.querySelector('.robot-icon');
