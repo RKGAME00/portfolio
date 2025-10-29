@@ -1,3 +1,75 @@
+// Try to load Vercel Speed Insights on server (Next.js) and provide a safe browser fallback.
+// Usage: await runSpeedInsights('https://example.com', { strategy: 'mobile' })
+let SpeedInsights;
+if (typeof require === 'function' && typeof module !== 'undefined' && typeof window === 'undefined') {
+    try {
+        // Attempt CommonJS require for server environments (Next.js)
+        // If using ESM on the server, adapt accordingly in your Next.js code (this file is a browser script).
+        const mod = require('@vercel/speed-insights/next');
+        SpeedInsights = mod && (mod.SpeedInsights || mod.default || mod);
+    } catch (e) {
+        // Not available on server or not installed — will fall back
+        console.warn('SpeedInsights module not available:', e && e.message);
+    }
+}
+
+/**
+ * Run Vercel Speed Insights if available, otherwise return a best-effort client-side metrics object.
+ * Defensively handles browser vs server environments.
+ * @param {string} url - Page URL to analyze
+ * @param {object} [options={}] - Options passed to SpeedInsights when available
+ * @returns {Promise<object>} result (lighthouse payload or fallback metrics)
+ */
+async function runSpeedInsights(url, options = {}) {
+    // Server-side: use the installed SpeedInsights integration when possible
+    if (typeof SpeedInsights === 'function') {
+        try {
+            return await SpeedInsights({ url, ...options });
+        } catch (err) {
+            console.warn('SpeedInsights invocation failed:', err);
+            // Fall through to browser fallback where possible
+        }
+    }
+
+    // Browser fallback: provide lightweight timing metrics using Performance APIs
+    if (typeof window !== 'undefined' && typeof performance !== 'undefined') {
+        // Wait a tick so navigation timings are populated if called right after load
+        await new Promise(resolve => setTimeout(resolve, 0));
+
+        const navigation = (performance.getEntriesByType && performance.getEntriesByType('navigation')[0]) || {};
+        const paints = (performance.getEntriesByType && performance.getEntriesByType('paint')) || [];
+        const fcp = paints.find(p => p.name === 'first-contentful-paint')?.startTime ?? null;
+
+        // Best-effort LCP if the page collected it into window.__LCP (not guaranteed)
+        const lcp = (window.__LCP && window.__LCP.value) || null;
+
+        return {
+            source: 'fallback-client',
+            url: url || (typeof location !== 'undefined' ? location.href : null),
+            metrics: {
+                domContentLoaded: navigation.domContentLoadedEventEnd ?? null,
+                loadEvent: navigation.loadEventEnd ?? null,
+                firstContentfulPaint: fcp,
+                largestContentfulPaint: lcp
+            }
+        };
+    }
+
+    // Neither server nor useful browser APIs available
+    return {
+        error: 'SpeedInsights unavailable in this environment'
+    };
+}
+
+// Expose function globally for use in the rest of the script
+if (typeof window !== 'undefined') {
+    window.runSpeedInsights = runSpeedInsights;
+}
+
+// Also export for module environments (if this file is imported as a module)
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports.runSpeedInsights = runSpeedInsights;
+}
 // Centralized, defensive initialization
 document.addEventListener('DOMContentLoaded', () => {
     const oprefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
