@@ -1,0 +1,30 @@
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.navbar {
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 0.5cm;
+}
+
+.navbar-nav-a {
+    text-decoration: none;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+
+    color: white;
+}

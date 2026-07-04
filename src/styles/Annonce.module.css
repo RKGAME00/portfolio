@@ -1,0 +1,42 @@
+.annonce {
+    margin: 1.5rem 1rem;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(234, 1, 1, 0.728);
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: rgb(0, 255, 42);
+    border: 5px solid rgb(0, 136, 23);
+    color: #bffaf0;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-top: 0.8rem;
+    margin-bottom: 0.7rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.text {
+    margin: 0 0 1rem 0;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.button {
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    border-radius: 0.9rem;
+    background: #ecfeff;
+    color: #0f1720;
+    text-decoration: none;
+    font-weight: 600;
+}

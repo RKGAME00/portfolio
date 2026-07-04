@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -12,6 +12,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.0.5"
+    "astro": "^7.0.6"
   }
 }
