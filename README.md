@@ -21,6 +21,13 @@ npm run build
 npm run start
 ```
 
+## Déploiement Vercel
+
+- Framework : **Next.js** (détection automatique Vercel).
+- Build : `npm run build`.
+- Version Node attendue : `>=20.9.0` (déclarée dans `package.json`).
+- Sortie de production : `.next/` (générée par Next.js).
+
 ## Se repérer
 
 - `src/app/` : routes et composition des pages.
