@@ -1,0 +1,391 @@
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Encodage et langue ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern,microtype}
+
+% ---------- Mise en page ----------
+\usepackage[
+    margin=1.5cm,
+    top=1.25cm,
+    bottom=1.4cm
+]{geometry}
+
+\usepackage{xcolor,enumitem,titlesec,fancyhdr}
+\usepackage[hidelinks]{hyperref}
+
+% Faciliter l'extraction du texte du PDF
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{accent}{HTML}{244B62}
+\renewcommand{\familydefault}{\sfdefault}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+
+\setlist[itemize]{
+    leftmargin=1.3em,
+    itemsep=2pt,
+    topsep=3pt,
+    parsep=0pt
+}
+
+\titleformat{\section}
+    {\large\bfseries\color{accent}}
+    {}{0pt}{}
+    [\titlerule]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+\fancyfoot[R]{
+    \scriptsize Céleste Koloussa
+    \enspace|\enspace
+    \thepage
+}
+
+\setlength{\footskip}{17pt}
+
+\newcommand{\poste}[3]{%
+    \textbf{#1}\hfill #2\\
+    \textit{#3}\par
+}
+
+\begin{document}
+
+% ============================================================
+% IDENTITÉ
+% ============================================================
+
+{\fontsize{25}{28}\selectfont
+\bfseries\color{accent} M. CÉLESTE KOLOUSSA}\par
+{\large\bfseries Électronique \& systèmes embarqués | C/C++ • Microcontrôleurs • Validation HW/FW }\par
+\vspace{0.2cm}
+\enspace
+07 83 60 11 87
+\enspace|\enspace
+\href{mailto:ckoloussa@gmail.com}{ckoloussa@gmail.com}\\
+
+\href{https://www.linkedin.com/in/c%C3%A9leste-koloussa-40b543177/}
+{linkedin céleste koloussa}
+\enspace|\enspace
+\href{https://celestekoloussa.fr}{celestekoloussa.fr}
+\enspace|\enspace
+Permis B, véhiculé
+
+% ============================================================
+% PROFIL
+% ============================================================
+
+\section{Profil}
+\vspace{0.2cm}
+Titulaire d'un BUT GEII, parcours Électronique et systèmes
+embarqués, je recherche un \textbf{emploi de technicien en
+électronique ou systèmes embarqués}. Mes stages m'ont amené
+à diagnostiquer des cartes, développer un outil de programmation
+et réaliser une interface d'acquisition C++/Qt sous Linux.
+Je souhaite contribuer au développement et à la validation
+hardware/firmware, en bureau d'études, essais ou production.
+
+% ============================================================
+% EXPÉRIENCES
+% ============================================================
+
+\section{Expériences}
+\vspace{0.2cm}
+\poste
+{Technicien supérieur en bureau d'études --- stage}
+{03/2025 -- 07/2025}
+{LABAA --- fauteuils thérapeutiques OTO}
+
+\begin{itemize}
+
+    \item \textbf{Diagnostic et validation :}
+    analyser un défaut de régulation, mesurer le comportement
+    de la carte en conditions d'utilisation et proposer un
+    redimensionnement des composants ; rechercher et tester
+    des références de remplacement, avec un objectif de
+    fiabilité et de maîtrise des coûts.
+
+    \vspace{0.2cm}
+
+    \item \textbf{SAV :}
+    examiner les cartes retournées, établir les rapports de
+    panne et remplacer les composants défectueux ou la carte
+    selon le diagnostic.
+
+    \vspace{0.2cm}
+
+    \item \textbf{Programmation :}
+    développer un outil sur Raspberry Pi, en Python avec
+    PlatformIO, pour détecter une carte et téléverser son
+    firmware. Réaliser une commande par bouton, un retour
+    d'état par LED et la documentation des codes couleur.
+
+    \vspace{0.2cm}
+
+    \item \textbf{Firmware :}
+    travailler à la réorganisation du programme embarqué C/C++
+    pour isoler les fonctions et permettre leur validation
+    par des tests unitaires.
+
+    \vspace{0.2cm}
+
+    \item \textbf{Automatisation :}
+    travailler à l'intégration d'une carte de commande sur
+    une machine de découpe de tubes pour simplifier le cycle
+    manuel de mesure et de coupe.
+
+\end{itemize}
+
+\textbf{Réalisation :}
+un outil de programmation à commande simple, conçu pour limiter
+les manipulations sur ordinateur.\\
+
+\textbf{Distinction collective :}
+participation à l'équipe LABAA récompensée par
+Innovation Team Best Practices 2025.
+
+\vspace{0.5cm}
+\poste
+{Développement d'une IHM --- stage, projet XEMIS2}
+{01/2024 -- 03/2024}
+{Laboratoire SUBATECH --- caméra médicale}
+
+\begin{itemize}
+
+    \item Poser les premières bases d'un logiciel
+    \textbf{C++/Qt sous Linux} : structure du code et interface
+    de visualisation des données expérimentales.
+
+    \item Récupérer depuis un serveur des données de capteurs,
+    notamment des tensions, et tracer leur évolution en
+    temps réel.
+
+    \item Définir un format binaire, sérialiser et enregistrer
+    les données horodatées ; développer leur désérialisation
+    pour la relecture avec marqueurs et repères temporels.
+
+\end{itemize}
+
+\textbf{Livrable :}
+une première base logicielle d'acquisition, d'affichage,
+d'enregistrement et de réouverture des données.
+
+\textbf{Technologies :}
+C++, Qt, Linux, sérialisation binaire.
+
+\vspace{0.5cm}
+\poste
+{Vice-président --- engagement associatif}
+{2023 -- 2025}
+{Association Robotique de l'Université de Nantes}
+
+\begin{itemize}
+
+    \item Participer à la relance de l'association et
+    coordonner les travaux : choix des composants,
+    répartition des fonctions et échanges avec les
+    interlocuteurs universitaires pour préparer les
+    compétitions GEII à Cachan.
+
+    \item Concevoir et maintenir les cartes avec l'équipe ;
+    développer du firmware bas niveau, des modules
+    communicants et des bibliothèques C++ pour des robots
+    suiveurs de ligne, à balises infrarouges et autonomes.
+
+    \item Réaliser des modélisations 3D ; travailler au FabLab
+    avec des étudiants d'autres formations, en apportant une
+    aide en électronique et en sollicitant leurs compétences
+    en mécanique.
+
+\end{itemize}
+
+\textbf{Méthode de travail :}
+diagnostic documenté, essais, répartition des tâches et échanges
+techniques ; autonomie, rigueur et travail en équipe mis en
+pratique au fil des projets.
+
+\vspace{0.6cm}
+
+% ============================================================
+% COMPÉTENCES TECHNIQUES
+% ============================================================
+
+\section{Compétences techniques}
+\vspace{0.2cm}
+
+\textbf{Électronique :}
+schémas, routage, sourcing, diagnostic, essais et validation
+de cartes, mise en service ; KiCad, LTspice, brasage CMS
+et traversants.\par
+
+\vspace{0.2cm}
+
+\textbf{Embarqué :}
+C, C++, Python, microcontrôleurs, RTOS, UART,
+I\textsuperscript{2}C, USB, Wi-Fi, BLE, DMA ;
+VHDL, AMD Vivado.\par
+
+\vspace{0.2cm}
+
+\textbf{Supervision et robotique :}
+Qt, IHM, contrôle-commande, ROS1, ROS2, RViz, Raspberry Pi,
+Jetson Nano, ESP32, LiDAR et capteurs ultrasonores.\par
+
+\vspace{0.2cm}
+
+\textbf{Outils :}
+Linux (système principal), Git, Make, CMake, PlatformIO ;
+rapports techniques en LaTeX / Overleaf.\par
+
+\vspace{0.2cm}
+
+\textbf{Informatique industrielle et automatismes :}
+automates programmables (API), réseaux industriels,
+Cisco Packet Tracer, LabVIEW, MATLAB.\par
+
+\vspace{0.2cm}
+
+\textbf{Autres langages et outils :}
+Java, JavaScript, PHP, HTML, CSS, SQL, Django, Astro,
+PyTorch, CUDA.\par
+
+\vspace{0.2cm}
+
+\textbf{Conception et fabrication :}
+Autodesk Inventor, SolidWorks, modélisation et impression 3D,
+découpe et gravure laser.
+
+\vspace{0.6cm}
+
+% ============================================================
+% FORMATION
+% ============================================================
+
+\section{Formation}
+\vspace{0.2cm}
+
+% À actualiser si la situation administrative à l'EPF diffère.
+\textbf{Projet de poursuite d'études ---
+ESTI / EPF Saint-Nazaire}\\
+
+Cursus ingénieur en systèmes d'information,
+option Électronique avancée, initialement prévu pour
+2026--2029 ; poursuite non engagée faute d'alternance.\par
+
+\vspace{0.5cm}
+
+\textbf{BUT Génie électrique et informatique industrielle}
+\hfill 2022--2025\\
+
+IUT de Nantes --- parcours Électronique et systèmes embarqués.
+Électronique, informatique industrielle, automatismes et
+systèmes embarqués.\par
+
+\vspace{0.5cm}
+
+\textbf{Baccalauréat STI2D}
+\hfill 2020--2022\\
+
+Lycée La Colinière, Nantes --- Sciences et technologies
+de l'industrie et du développement durable.
+
+\vspace{0.6cm}
+% ============================================================
+% PROJETS TECHNIQUES
+% ============================================================
+
+\section{Projets techniques}
+
+\vspace{0.2cm}
+
+\textbf{Robot autonome --- projet universitaire F1Tenth.}
+Développement C++ sous ROS1 sur Jetson Nano, avec RPLIDAR A2
+et VESC. Réalisation d'une carte d'interfaçage de capteurs
+ultrasonores avec ESP32 et liaison UART/USB pour compléter
+le LiDAR face à des obstacles mal détectés. Ajout d'une
+fonction d'arrêt sur obstacle active en conduite manuelle
+comme autonome ; utilisation de RViz.\par
+
+\vspace{0.2cm}
+
+\textbf{Robot à balises infrarouges --- équipe de trois.}
+Responsable de l'algorithme principal de pilotage :
+exploiter les informations de détection pour diriger le robot
+vers la balise et gérer son déplacement, en coordination
+avec les responsables de l'énergie et de la détection.\par
+
+\vspace{0.2cm}
+
+\textbf{Charge et décharge de supercondensateurs.}
+Projet universitaire de conversion et de régulation :
+étude de solutions abaisseuses, élévatrices et combinées
+pour adapter la tension et réguler la charge.\par
+
+\vspace{0.2cm}
+
+\textbf{Détection de passage d'un train.}
+Projet universitaire de capteur infrarouge : schéma,
+routage, choix des composants et interface homme-machine
+de détection.\par
+
+\vspace{0.2cm}
+
+\textbf{Fabrication des cartes en BUT :}
+schémas et routage, commande des circuits imprimés,
+assemblage par brasage et phases de test.\par
+
+\vspace{0.2cm}
+
+\textbf{Coupe de France de robotique Junior --- lycée.}
+Participation avec l'équipe du lycée à la réalisation
+d'un robot destiné à identifier des palettes de couleur
+et à les déplacer.
+
+\newpage
+
+% ============================================================
+% LANGUES
+% ============================================================
+
+\section{Langues}
+
+\vspace{0.2cm}
+
+\textbf{Français :} langue maternelle.
+
+\vspace{0.2cm}
+
+\textbf{Anglais :} B1 ; lecture et rédaction de documentation
+technique, présentation préparée d'un travail et réponses
+à des questions simples.
+
+\vspace{0.6cm}
+% ============================================================
+% PROJETS PERSONNELS ET CENTRES D'INTÉRÊT
+% ============================================================
+
+\section{Projets personnels et centres d'intérêt}
+\vspace{0.2cm}
+
+\textbf{Robotique, électronique et domotique :}
+robot autonome de cartographie en cours ; modules Tuya,
+Bluetooth et LoRa, éclairage avec assistant vocal ;
+diagnostic et maintenance d'appareils électroniques.\par
+
+\textbf{Audio :}
+installation et sonorisation d'événements, diffusion live,
+table de mixage, composition sur ordinateur ;
+piano au sein d'un groupe musical religieux.\par
+
+\textbf{Sport automobile :}
+Formule 1 et simulation automobile.
+
+\end{document}

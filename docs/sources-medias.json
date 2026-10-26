@@ -1,0 +1,58 @@
+[
+  {
+    "source": "ressources-locales/but geii/images/imges_stage_laboratoire_subatech/IMG_20240304_163259.jpg",
+    "copy": "public/images/hero.webp",
+    "width": 1600,
+    "height": 1200,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/stage labaa/images/20250619_141621.jpg",
+    "copy": "public/images/labaa.webp",
+    "width": 1600,
+    "height": 1200,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/but geii/images/imges_stage_laboratoire_subatech/IMG_20240304_153321.jpg",
+    "copy": "public/images/subatech.webp",
+    "width": 1600,
+    "height": 1200,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/but geii/images/projet voiture autonome BUT/IMG_20241217_203117.jpg",
+    "copy": "public/images/robot.webp",
+    "width": 1600,
+    "height": 1200,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/but geii/images/projet passage a niveau/IMG_20230112_160819.jpg",
+    "copy": "public/images/passage-niveau.webp",
+    "width": 901,
+    "height": 1600,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/projet perso/20251111_165035.jpg",
+    "copy": "public/images/personnel.webp",
+    "width": 1200,
+    "height": 1600,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/projet perso/20260503_001803.jpg",
+    "copy": "public/images/musique.webp",
+    "width": 1600,
+    "height": 1200,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  },
+  {
+    "source": "ressources-locales/but geii/images/projet voiture autonome BUT/Capture d’écran du 2024-12-17 20-34-28.png",
+    "copy": "public/images/carte-cao.webp",
+    "width": 476,
+    "height": 461,
+    "note": "Copie redimensionnée, orientation corrigée, métadonnées non conservées. Original intact."
+  }
+]

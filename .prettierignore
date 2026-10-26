@@ -1,0 +1,6 @@
+archives/
+ressources-locales/
+node_modules/
+.next/
+public/
+docs/

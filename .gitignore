@@ -22,3 +22,20 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Ressources originales volumineuses, conservées uniquement en local
+/ressources-locales/
+/port folio/
+
+# Inventaire local détaillé des déplacements (noms des fichiers personnels)
+/archives/inventaire-local-*.json
+
+# Téléchargements incomplets : conserver sur disque, exclure de Git
+*.crdownload
+*.part
+
+# Nouveau site Next.js : sorties, configuration locale et caches
+.next/
+out/
+*.tsbuildinfo
+.env*.local

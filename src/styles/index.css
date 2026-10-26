@@ -1,0 +1,18 @@
+/* Point d'entrée unique ; les règles restent classées par responsabilité.
+ * Modifier la palette dans tokens.css, un bouton dans buttons.css, etc. */
+@import './base/tokens.css';
+@import './base/reset.css';
+@import './base/typography.css';
+@import './base/layout.css';
+@import './components/buttons.css';
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/projects.css';
+@import './components/forms.css';
+@import './sections/hero.css';
+@import './sections/skills.css';
+@import './sections/journey.css';
+@import './sections/passions.css';
+@import './sections/contact.css';
+@import './sections/editorial.css';
+@import './sections/design-system.css';

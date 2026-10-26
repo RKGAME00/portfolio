@@ -1,0 +1,67 @@
+.contact-section {
+  background: var(--sage);
+  border-block: 1px solid var(--line);
+}
+.contact-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-block: 60px;
+}
+.contact-inner h2 {
+  font-size: 36px;
+  margin-bottom: 14px;
+}
+.contact-inner p:last-child {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.contact-inner > .button {
+  flex-shrink: 0;
+}
+.contact-options {
+  max-width: 760px;
+}
+.contact-options > a,
+.contact-options > div {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.contact-options > a > svg:last-child {
+  margin-left: auto;
+}
+.contact-options strong {
+  display: block;
+  font-size: clamp(17px, 3vw, 24px);
+  font-weight: 550;
+  overflow-wrap: anywhere;
+}
+.contact-options span,
+.contact-options p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.contact-options p {
+  margin: 0;
+}
+.contact-options a:hover strong {
+  color: var(--accent);
+}
+.linkedin-mark {
+  font-size: 22px !important;
+  font-weight: 800;
+  width: 24px;
+}
+@media (max-width: 650px) {
+  .contact-inner {
+    flex-direction: column;
+    align-items: start;
+  }
+  .contact-inner h2 {
+    font-size: 30px;
+  }
+}

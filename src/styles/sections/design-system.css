@@ -1,0 +1,93 @@
+.design-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 30px;
+  border-block: 1px solid var(--line);
+  padding-block: 18px;
+  font-size: 13px;
+}
+.design-nav a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.design-section {
+  padding-block: 55px;
+  border-bottom: 1px solid var(--line);
+}
+.design-section > h2 {
+  margin-bottom: 30px;
+}
+.swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+}
+.swatch {
+  height: 125px;
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  border: 1px solid var(--line);
+}
+.swatch--ink {
+  background: var(--ink);
+}
+.swatch--accent {
+  background: var(--accent);
+}
+.swatch--paper {
+  background: var(--paper);
+}
+.swatch--sage {
+  background: var(--sage);
+}
+.swatch--clay {
+  background: var(--clay);
+}
+.swatch-grid strong {
+  font-size: 13px;
+}
+.swatch-grid code {
+  display: block;
+  margin-top: 5px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.type-sample {
+  padding-block: 22px;
+  border-top: 1px solid var(--line);
+}
+.type-sample > .eyebrow {
+  display: block;
+}
+.sample-display {
+  font-size: clamp(32px, 5vw, 60px);
+  line-height: 1.2;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+}
+.design-section > .button-group {
+  margin-block: 25px;
+}
+.design-section > .availability {
+  margin-top: 25px;
+}
+.design-components {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 60px;
+}
+.icon-samples {
+  display: flex;
+  gap: 23px;
+  padding-block: 15px 30px;
+  color: var(--accent);
+}
+@media (max-width: 650px) {
+  .swatch-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .design-components {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+}

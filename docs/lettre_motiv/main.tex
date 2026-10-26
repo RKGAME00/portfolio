@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Encodage et langue ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{lmodern,microtype}
+
+% ---------- Mise en page ----------
+\usepackage[
+    left=2.2cm,
+    right=2.2cm,
+    top=1.7cm,
+    bottom=1.7cm
+]{geometry}
+
+\usepackage[hidelinks]{hyperref}
+
+% Faciliter l'extraction du texte du PDF
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% ---------- Champs à compléter ----------
+\newcommand{\Entreprise}{[Nom de l'entreprise]}
+\newcommand{\AdresseEntreprise}{[Adresse de l'entreprise]}
+\newcommand{\DateEnvoi}{[Date d'envoi]}
+
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.65em}
+
+\begin{document}
+
+% ============================================================
+% EXPÉDITEUR
+% ============================================================
+
+\textbf{Céleste KOLOUSSA}\\
+Nantes / Saint-Nazaire\\
+07 83 60 11 87\\
+\href{mailto:ckoloussa@gmail.com}{ckoloussa@gmail.com}\\
+\href{https://celestekoloussa.fr}{celestekoloussa.fr}
+
+% ============================================================
+% DESTINATAIRE ET DATE
+% ============================================================
+
+%\begin{flushright}
+%    \Entreprise\\
+%    À l'attention du service recrutement\\
+%    \AdresseEntreprise
+
+%    Nantes, le \DateEnvoi
+%\end{flushright}
+
+\vspace{1cm}
+% ============================================================
+% OBJET
+% ============================================================
+
+\textbf{Objet : Candidature spontanée ---
+technicien en électronique et systèmes embarqués}
+
+\vspace{0.5cm}
+% ============================================================
+% LETTRE
+% ============================================================
+
+Madame, Monsieur,
+
+Titulaire d'un BUT Génie électrique et informatique
+industrielle, parcours Électronique et systèmes embarqués,
+je vous propose ma candidature pour un poste de technicien.
+Je souhaite travailler sur la conception, les essais ou
+le diagnostic de systèmes électroniques, en associant
+les mesures sur le matériel au développement logiciel.
+Mon projet de poursuite d'études n'ayant pas pu se concrétiser
+faute d'alternance, je souhaite aujourd'hui m'engager dans
+un emploi technique et progresser au contact d'une équipe.
+
+Chez LABAA, qui développe des fauteuils thérapeutiques,
+j'ai travaillé sur des problèmes de régulation de cartes
+électroniques. J'ai effectué des mesures en conditions
+d'utilisation, recherché des composants de remplacement
+et participé à leur validation. J'ai aussi pris en charge
+des cartes retournées au SAV, du diagnostic au rapport
+de panne et au remplacement des composants. Pour faciliter
+leur programmation, j'ai développé un outil sur Raspberry Pi,
+en Python avec PlatformIO, commandé par un bouton et muni
+d'une LED indiquant son état.
+
+Au laboratoire SUBATECH, dans le cadre du projet de caméra
+médicale XEMIS2, j'ai posé les premières bases d'un logiciel
+d'acquisition en C++ et Qt sous Linux. Il permettait
+de récupérer des données depuis un serveur, de les afficher
+en temps réel, puis de les enregistrer dans un format binaire
+pour les relire avec leurs repères temporels. Ce travail
+m'a amené à relier les besoins de visualisation des scientifiques
+aux choix de structure du logiciel et de stockage des données.
+
+Mon engagement comme vice-président de l'association
+robotique de l'Université de Nantes m'a appris à construire
+un projet avec une équipe : répartir les fonctions, choisir
+les composants et faire avancer ensemble l'électronique,
+le firmware et la mécanique. Dans un projet universitaire
+sous ROS1, j'ai notamment ajouté une carte d'interfaçage ESP32
+et des capteurs ultrasonores pour compléter la détection
+du LiDAR et arrêter le robot à l'approche d'un obstacle,
+en conduite manuelle comme autonome.
+
+Je pourrais ainsi contribuer à vos activités de bureau
+d'études, d'essais, de maintenance ou de production
+électronique. J'aime comprendre l'origine d'un défaut,
+tester une solution et expliquer ce qui a été réalisé.
+Titulaire du permis B et véhiculé, je suis disponible
+pour échanger sur vos besoins et les missions que
+vous pourriez me confier.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression
+de mes salutations distinguées.
+
+\hfill\textbf{Céleste KOLOUSSA}
+
+\end{document}

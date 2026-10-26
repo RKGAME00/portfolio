@@ -1,0 +1,133 @@
+.detail-image,
+.editorial-image {
+  position: relative;
+  height: 480px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--sage);
+}
+.detail-image img,
+.editorial-image img {
+  object-fit: cover;
+}
+.article-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 75px;
+  margin-top: 55px;
+}
+.article-aside {
+  font-size: 13px;
+}
+.article-aside dt {
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 18px;
+}
+.article-aside dd {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+.article-aside > a {
+  display: block;
+  color: var(--accent);
+  border-top: 1px solid var(--line);
+  padding-top: 20px;
+  margin-top: 25px;
+}
+.article-body {
+  max-width: 720px;
+}
+.article-body section {
+  margin-bottom: 40px;
+}
+.article-body h2,
+.prose h2 {
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+.article-body p,
+.prose p {
+  line-height: 1.95;
+}
+.prose {
+  max-width: 760px;
+}
+.prose section {
+  margin-bottom: 36px;
+}
+.editorial-image + .prose {
+  margin-top: 50px;
+}
+.link-panels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 40px;
+}
+.link-panels > a,
+.link-panels > div {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.link-panels h2 {
+  font-size: 23px;
+}
+.link-panels p {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.link-panels > a:hover {
+  background: var(--sage);
+  border-color: #bccabc;
+}
+.document-note {
+  padding: 22px 26px;
+  background: var(--sage);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 4px 4px 0;
+  margin-block: 25px;
+}
+.document-note p {
+  font-size: 13px;
+  margin: 6px 0 0;
+}
+.document-note strong {
+  font-size: 14px;
+}
+.cv-preview {
+  width: 100%;
+  height: 820px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  margin-top: 20px;
+}
+.document-fallback {
+  font-size: 12px;
+}
+.document-fallback a {
+  text-decoration: underline;
+}
+@media (max-width: 800px) {
+  .article-layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .article-aside {
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 25px;
+  }
+  .detail-image,
+  .editorial-image {
+    height: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .link-panels {
+    grid-template-columns: 1fr;
+  }
+  .cv-preview {
+    height: 600px;
+  }
+}

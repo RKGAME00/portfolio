@@ -1,0 +1,18 @@
+/* Valeurs partagées : la charte peut évoluer sans parcourir chaque composant. */
+:root {
+  --ink: #172e2b;
+  --accent: #245b50;
+  --accent-hover: #18473d;
+  --paper: #f7f8f4;
+  --surface: #fff;
+  --sage: #e8eee8;
+  --muted: #626d66;
+  --line: #dce2da;
+  --clay: #b45937;
+  --font-body: 'Manrope Variable', 'Segoe UI', sans-serif;
+  --font-label: 'SFMono-Regular', Consolas, monospace;
+  --content-width: 1200px;
+  --gutter: clamp(22px, 4.5vw, 64px);
+  --radius: 5px;
+  --transition: 180ms ease;
+}
