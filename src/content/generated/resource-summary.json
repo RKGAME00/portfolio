@@ -1,0 +1,24 @@
+{
+  "filesScanned": 39655,
+  "archiveMembers": 15895,
+  "uniqueResources": 3443,
+  "duplicatesCollapsed": 5800,
+  "types": {
+    "document": 241,
+    "archive": 141,
+    "source": 2655,
+    "image": 361,
+    "video": 45
+  },
+  "classifications": {
+    "document": 78,
+    "archive": 188,
+    "dependance-ou-generation": 37324,
+    "source": 1566,
+    "document-personnel-ou-administratif": 16,
+    "image": 286,
+    "video": 45,
+    "generation-ou-configuration": 152
+  },
+  "errors": 0
+}

@@ -1,0 +1,21 @@
+{
+  "path": "mentions-legales",
+  "eyebrow": "Informations sur le site",
+  "title": "Mentions légales.",
+  "intro": "Portfolio personnel de Céleste Koloussa.",
+  "sections": [
+    {
+      "title": "Contact",
+      "text": "Pour toute question concernant le site : ckoloussa@gmail.com."
+    },
+    {
+      "title": "Version de travail locale",
+      "text": "Ce site est actuellement présenté en aperçu local. Les informations relatives à l’hébergeur et les mentions applicables seront complétées avant sa mise en ligne."
+    },
+    {
+      "title": "Travaux et illustrations",
+      "text": "Les photographies sont issues des ressources personnelles du portfolio. Les projets collectifs sont présentés en distinguant ma contribution du travail de l’équipe."
+    }
+  ],
+  "projectSlugs": []
+}

@@ -76,7 +76,7 @@ Les commentaires expliquent les responsabilités et les choix non évidents. Le 
 
 ## Fonctionnement actuel
 
-Les pages sont pré-rendues à partir de données TypeScript locales. La recherche et les filtres fonctionnent dans le navigateur. L'en-tête mobile et les animations sont les autres composants interactifs. Aucun appel à une base de données n'est nécessaire pour consulter ce premier jet.
+Les pages éditoriales sont pré-rendues à partir de données TypeScript locales ; la bibliothèque et les fichiers sont servis à la demande. La recherche et les filtres fonctionnent dans le navigateur. L'en-tête mobile et les animations sont les autres composants interactifs. Aucun appel à une base de données n'est nécessaire pour consulter ce premier jet.
 
 Le composant `ProjectCard` est partagé par l'accueil, le catalogue, les pages de parcours et la charte graphique. Les pages éditoriales utilisent un même modèle, pour conserver la même hiérarchie visuelle. La route `[...slug]` ne rend que les pages présentes dans `pages.ts` ; une adresse inconnue retourne une page 404.
 
@@ -84,9 +84,9 @@ Les animations ne masquent aucun texte en l'absence de JavaScript et respectent 
 
 ## État et limites du premier jet
 
-- Accueil, parcours, stages, association, compétences, passions, cinq fiches de réalisation, CV, contact et charte graphique réalisés.
+- Accueil, parcours, stages, association, compétences, passions, vingt fiches de réalisation, CV, contact et charte graphique réalisés.
 - Recherche par texte et filtrage par contexte utilisables.
-- Originaux inchangés ; huit copies d'images WebP et une copie du CV dans `public/`.
+- Originaux inchangés ; copies WebP, aperçus de ressources et copie du CV dans `public/`.
 - Payload, PostgreSQL, comptes privés, brouillons et édition sans code ne sont pas encore intégrés. Les fichiers `content/` préparent cette séparation, sans constituer déjà un CMS.
 - L'espace musique est éditorial pour le moment : pas de morceau fourni/sélectionné, donc pas de faux lecteur ni de piste de démonstration.
 - Le CV original reste inchangé, avec une note visible sur sa formulation concernant l'école d'ingénieurs.
@@ -104,3 +104,45 @@ Les styles incluent des adaptations pour petits écrans. Une inspection visuelle
 Recueillir le retour sur le premier jet, puis raccorder les collections et blocs à Payload/PostgreSQL. Conserver les mêmes composants publics et remplacer les accès aux données locales par une couche de lecture du CMS. Mettre en place ensuite la prévisualisation, les règles de publication, le stockage persistant des médias et les sauvegardes.
 
 La pédagogie détaillée reste prévue après la validation de la version complète.
+
+
+## Bibliothèque complète et version du 27 octobre 2026
+
+L’accueil met la recherche d’un emploi de technicien au premier plan, avec une
+photographie locale de carte électronique en fond. Les pages de parcours et de
+réalisation offrent maintenant tout leur ensemble de ressources, filtrable et
+chargé par lots de 24. Les originaux ne sont ni déplacés ni supprimés.
+
+Le catalogue contient 3 443 ressources uniques : 361 images, 45 vidéos,
+241 documents, 2 655 fichiers de travail et 141 archives. 5 800 occurrences
+identiques sont réunies par empreinte SHA-256. Les ressources partagées gardent
+plusieurs thèmes. Il ne s’agit pas d’un dédoublonnage visuel de photos similaires.
+
+L’inventaire couvre 39 655 fichiers locaux et 15 895 entrées d’archives ZIP.
+Les dépendances, sorties de compilation et certains documents administratifs
+ne sont pas des cartes individuelles de la bibliothèque. Les archives originales
+restent disponibles localement ; leur contenu devra être revu avant publication.
+
+Pour actualiser l’index après l’ajout de ressources :
+
+```sh
+python3 scripts/index-resources.py
+node scripts/check-resources.mjs
+```
+
+Le script utilise Python/Pillow, ffmpeg et pdftotext. Il écrit le catalogue dans
+`src/content/generated`, les aperçus dans `public/ressources-apercus` et un registre
+privé dans `.cache/ressources`. Ce registre et les originaux doivent rester
+accessibles au serveur ; un déploiement distant nécessitera un stockage persistant.
+
+Le détail des contenus intégrés depuis Portfolio.md figure dans
+`docs/couverture-portfolio.md`. Le contenu reste modifiable dans les fichiers de
+`src/content/` ; le CMS n’est pas encore intégré.
+
+## Compilation et mémoire
+
+`npm run build` utilise un groupe systemd isolé, plafonné à 4 Gio, avec Webpack et
+deux workers. La compilation validée après correction le 26 octobre a duré
+22 secondes avec un pic de 850,4 Mio indiqué par systemd, contre plus de 7 Gio
+pour les processus interrompus. Ne pas lancer `next build` directement ni cumuler
+serveur de développement et compilation. Le lanceur requiert Linux/systemd.

@@ -1,0 +1,28 @@
+{
+  "slug": "conversion-solaire",
+  "title": "Explorer la conversion d’énergie.",
+  "category": "Formation",
+  "context": "BUT GEII · Électronique de puissance",
+  "period": "Projet universitaire",
+  "image": "/images/solaire.webp",
+  "alt": "Carte électronique photographiée dans le projet de conversion solaire",
+  "summary": "Les cartes et composants d’un projet autour du solaire, des conversions buck/boost et du MPPT.",
+  "tags": [
+    "Électronique",
+    "Conversion",
+    "Solaire"
+  ],
+  "sections": [
+    {
+      "title": "Une trace du travail sur les cartes",
+      "text": "Les photographies de ce projet documentent les circuits imprimés et les composants utilisés. Le dossier de travail rassemble ces éléments autour de la conversion d’énergie solaire, du buck/boost et du MPPT."
+    },
+    {
+      "title": "Regarder le matériel en détail",
+      "text": "La galerie permet de consulter les vues de la carte et les gros plans sur les composants. Elle complète les autres projets universitaires d’électronique et de régulation."
+    }
+  ],
+  "relatedPath": "/parcours/but-geii",
+  "relatedLabel": "Les projets du BUT",
+  "resourceBlock": "conversion-solaire"
+}

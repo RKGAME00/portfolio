@@ -4,6 +4,9 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import { projects } from '@/content/projects';
 import { Button } from '@/components/ui/Button';
+import { ResourceSection } from '@/components/resources/ResourceSection';
+import { projectResourceThemes } from '@/content/resource-links';
+import { blockResources } from '../../../../contenus';
 export function generateStaticParams() {
   return projects.map(({ slug }) => ({ slug }));
 }
@@ -36,6 +39,7 @@ export default async function ProjectPage({
         <p className="eyebrow">{project.context}</p>
         <h1>{project.title}</h1>
         <p>{project.summary}</p>
+        {project.report && <p><a className="button button--secondary" href={`/api/ressources/${project.report.id}`}>{project.report.label} ↗</a></p>}
         <div className="tags">
           {project.tags.map((tag) => (
             <span key={tag}>{tag}</span>
@@ -61,10 +65,12 @@ export default async function ProjectPage({
             <dd>{project.period}</dd>
           </dl>
           <Link href={project.relatedPath}>{project.relatedLabel} ↗</Link>
+          <nav aria-label="Sommaire de la réalisation" className="project-toc">
+            {project.sections.map((section, index) => <a key={section.title} href={`#section-${index + 1}`}>{section.title}</a>)}
         </aside>
         <div className="article-body">
-          {project.sections.map((section) => (
-            <section key={section.title}>
+          {project.sections.map((section, index) => (
+            <section key={section.title} id={`section-${index + 1}`}>
               <h2>{section.title}</h2>
               <p>{section.text}</p>
             </section>
@@ -74,6 +80,7 @@ export default async function ProjectPage({
           </Button>
         </div>
       </div>
+      <ResourceSection themes={projectResourceThemes[project.slug] ?? []} ids={blockResources[project.resourceBlock ?? project.slug]} />
     </article>
   );
 }

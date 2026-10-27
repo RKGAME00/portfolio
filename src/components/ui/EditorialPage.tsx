@@ -3,6 +3,8 @@ import Link from 'next/link';
 import type { EditorialPage as PageContent } from '@/content/pages';
 import { projects } from '@/content/projects';
 import { ProjectCard } from '@/components/projects/ProjectCard';
+import { ResourceSection } from '@/components/resources/ResourceSection';
+import { pageResourceThemes } from '@/content/resource-links';
 /** Présentation partagée des pages de parcours : mêmes repères, mêmes espacements. */
 export function EditorialPage({ page }: { page: PageContent }) {
   const related = projects.filter((project) => page.projectSlugs?.includes(project.slug));
@@ -56,6 +58,7 @@ export function EditorialPage({ page }: { page: PageContent }) {
           </div>
         </section>
       )}
+      <ResourceSection themes={pageResourceThemes[page.path] ?? []} />
     </article>
   );
 }

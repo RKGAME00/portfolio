@@ -11,6 +11,7 @@ export const profile = {
 };
 export const navigation = [
   { label: 'Réalisations', href: '/realisations' },
+  { label: 'Ressources', href: '/ressources' },
   { label: 'Parcours', href: '/parcours' },
   { label: 'Compétences', href: '/competences' },
   { label: 'Passions', href: '/passions' },

@@ -1,0 +1,23 @@
+{
+  "slug": "tour-hanoi",
+  "title": "Une démonstration autour de la tour de Hanoï.",
+  "category": "Formation",
+  "context": "BUT GEII · Projet universitaire",
+  "period": "Projet universitaire",
+  "image": "/ressources-apercus/12d0e2360ea58f4471a78078.webp",
+  "alt": "Image extraite de la vidéo du projet de tour de Hanoï",
+  "summary": "Une vidéo de démonstration conservée parmi mes projets universitaires.",
+  "tags": [
+    "Démonstration",
+    "Projet universitaire"
+  ],
+  "sections": [
+    {
+      "title": "Voir la réalisation",
+      "text": "Cette vidéo documente le projet de tour de Hanoï. Elle est présentée avec les autres travaux du BUT et peut être consultée dans son intégralité ci-dessous."
+    }
+  ],
+  "relatedPath": "/parcours/but-geii",
+  "relatedLabel": "Le BUT GEII",
+  "resourceBlock": "tour-hanoi"
+}

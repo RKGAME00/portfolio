@@ -1,0 +1,28 @@
+{
+  "slug": "uart-dma",
+  "title": "Recevoir les données sans bloquer le microcontrôleur.",
+  "category": "Formation",
+  "context": "École d’ingénieurs · TP en binôme",
+  "period": "Début de formation",
+  "image": "/images/uart-rapport.webp",
+  "alt": "Aperçu du compte rendu de TP UART DMA",
+  "summary": "Un compte rendu et des sources autour de l’UART, du DMA circulaire et de la détection IDLE sur STM32.",
+  "tags": [
+    "STM32",
+    "UART",
+    "DMA"
+  ],
+  "sections": [
+    {
+      "title": "Le travail pratique",
+      "text": "Le compte rendu réalisé avec Xavier Da Rocha présente l’UART en mode DMA, puis le DMA circulaire associé à la détection IDLE. Il décrit la configuration des périphériques et l’organisation des fichiers."
+    },
+    {
+      "title": "Une organisation matérielle et logicielle",
+      "text": "Les fichiers de travail comprennent les programmes et configurations STM32, ainsi que des exercices sur les interruptions, les temporisateurs, le PWM et l’I²C. Le rapport documente l’implémentation et les tests du TP."
+    }
+  ],
+  "relatedPath": "/parcours/ecole-ingenieurs",
+  "relatedLabel": "Le début de formation en école",
+  "resourceBlock": "ecole-ingenieurs"
+}

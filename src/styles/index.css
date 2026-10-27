@@ -16,3 +16,6 @@
 @import './sections/contact.css';
 @import './sections/editorial.css';
 @import './sections/design-system.css';
+@import './components/resources.css';
+
+@import './sections/electronics.css';

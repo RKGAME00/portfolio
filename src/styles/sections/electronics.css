@@ -1,0 +1,44 @@
+/* Cartes mises en avant sans rogner les composants dans les photographies. */
+.electronics-showcase {
+  padding-top: 65px;
+  padding-bottom: 20px;
+}
+.electronics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+.electronics-card {
+  min-width: 0;
+}
+.electronics-image {
+  position: relative;
+  height: 290px;
+  background: #e9ede6;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.electronics-image img {
+  object-fit: contain;
+}
+.electronics-card h3 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.electronics-card p {
+  font-size: 13px;
+}
+.skill-inventory {
+  margin-block: 60px;
+}
+.skill-inventory > h2 {
+  margin-bottom: 30px;
+}
+@media (max-width: 700px) {
+  .electronics-grid {
+    grid-template-columns: 1fr;
+  }
+  .electronics-image {
+    height: 330px;
+  }
+}

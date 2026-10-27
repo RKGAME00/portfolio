@@ -1,0 +1,74 @@
+{
+  "slug": "labaa-electronique",
+  "title": "LABAA · Fiabiliser l’électronique et préparer la production.",
+  "category": "Stage",
+  "context": "LABAA · Fauteuils thérapeutiques OTO",
+  "period": "18 mars — 16 juillet 2025",
+  "image": "/images/ototool.webp",
+  "alt": "Interface de l’outil de programmation et de diagnostic OTO développé pendant le stage",
+  "summary": "Un stage autour des fauteuils OTO : électronique, SAV, carte de télécommande, outils de production et firmware.",
+  "tags": [
+    "Électronique",
+    "C++ / RP2040",
+    "Python",
+    "PlatformIO"
+  ],
+  "featured": true,
+  "sections": [
+    {
+      "title": "1. Introduction · Le contexte de mon stage",
+      "text": "J’ai effectué mon stage de fin de BUT GEII chez LABAA, du 18 mars au 16 juillet 2025. L’entreprise préparait le passage vers une production plus industrielle des fauteuils OTO. Mes missions reliaient la fiabilité de l’électronique, les outils de l’atelier et la maintenance du logiciel embarqué."
+    },
+    {
+      "title": "2. LABAA, le fauteuil OTO et mon environnement",
+      "text": "OTO est un fauteuil thérapeutique développé pour les besoins de personnes présentant des troubles du spectre autistique. Le projet associe design, fabrication et électronique. Dans l’environnement collaboratif d’ICI Nantes, j’ai travaillé avec l’équipe technique sur un produit existant, ses contraintes de terrain et son assemblage."
+    },
+    {
+      "title": "2.1 Comprendre l’architecture électronique",
+      "text": "La carte MAIN gère l’alimentation et les actionneurs ; la carte FRONT porte l’interface et le contrôle autour du RP2040. Avant de modifier le système, j’ai étudié les liens entre alimentations, commande pneumatique, télécommande, capteurs et logiciel. Cette compréhension globale a guidé mes investigations."
+    },
+    {
+      "title": "3.1 Fiabilisation du système électronique",
+      "text": "J’ai repris l’analyse de pannes d’alimentation difficiles à reproduire. J’ai examiné les cartes défectueuses, comparé les comportements et mesuré les contraintes des composants. Le rapport détaille les investigations autour de la diode BAT54 et du régulateur LM3671, le choix d’une diode PMEG2005CT, les protections PTC et le démarrage progressif par circuit RC."
+    },
+    {
+      "title": "3.1 Suite · Essais et limites des améliorations",
+      "text": "J’ai testé les modifications et exploré une alimentation de substitution avec des modules externes. Les protections et le séquencement ont apporté des améliorations, mais le rapport précise que le défaut de fond persistait sur une partie des cartes. Ce travail a donc également préparé les investigations et choix d’architecture suivants."
+    },
+    {
+      "title": "3.2 SAV et remise en état",
+      "text": "En parallèle, j’ai diagnostiqué des retours de cartes, remplacé des composants ou proposé un remplacement complet selon leur état. J’ai documenté les défauts et réutilisé une carte réparée pour réaliser un testeur de télécommande. Les retours de terrain alimentaient les hypothèses de l’investigation électronique."
+    },
+    {
+      "title": "3.3 Améliorer le processus de production",
+      "text": "J’ai développé le PCB arcade_top pour remplacer les connexions câblées et serties des boutons de télécommande par des connexions sur circuit imprimé. Le travail portait sur la fiabilité de l’assemblage, sa répétabilité et les manipulations nécessaires à l’atelier. Le rapport compare les méthodes et indique l’adoption de cette solution ; le coût et le temps de montage restent deux critères distincts."
+    },
+    {
+      "title": "3.4 Développer les outils de programmation et de diagnostic",
+      "text": "J’ai développé un outil sur Raspberry Pi avec Python et PlatformIO : détection de la carte, lancement par bouton et retour d’état par LED multicolore. J’ai documenté les codes couleur. OtoTool propose aussi une interface terminal et une interface Qt pour récupérer les données série, nettoyer les logs en CSV, synchroniser l’heure et suivre les opérations."
+    },
+    {
+      "title": "3.5 Moderniser l’architecture du firmware",
+      "text": "J’ai travaillé à la migration d’Arduino IDE vers PlatformIO et à la séparation du logiciel en modules : application, pneumatique, pression, télécommande, mémoire, affichage, interface tactile et électrovannes. Cette organisation rendait les fonctions plus faciles à comprendre, à maintenir et à valider."
+    },
+    {
+      "title": "3.5 Suite · Logs, tests et débogage",
+      "text": "Le rapport décrit le travail sur les logs horodatés en mémoire flash, les essais fonctionnels sur fauteuil et les corrections itératives. J’ai également développé des outils de diagnostic : un module IDC Bridge pour observer les échanges entre MAIN et FRONT et une Pico Probe utilisant CMSIS-DAP pour déboguer le RP2040. Ces essais fonctionnels ne sont pas assimilés à une couverture exhaustive de tests unitaires."
+    },
+    {
+      "title": "Mission complémentaire · Machine de découpe",
+      "text": "En complément du fil principal du rapport, mon récit dans Portfolio.md décrit une contribution à l’ajout d’une carte de commande sur une machine de mesure et de découpe de tubes. L’objectif était de simplifier un procédé manuel avec des commandes par boutons ; la mise en service finale n’est pas présentée comme acquise."
+    },
+    {
+      "title": "4. Compétences développées",
+      "text": "Ce stage a relié diagnostic matériel, mesures, choix de composants, conception PCB, brasage, C++ embarqué, Python et documentation. Il m’a aussi demandé de présenter mes choix, de travailler avec plusieurs métiers et de transmettre les informations utiles à l’équipe."
+    },
+    {
+      "title": "5. Bilan et apprentissages",
+      "text": "J’ai contribué à la fiabilisation d’un produit existant, à son assemblage et aux outils qui accompagnent sa production et son SAV. Mon bilan souligne l’intérêt de tester les modifications par petites étapes et de documenter les décisions au fil du travail. L’expérience s’inscrit dans une démarche collective, avec la distinction d’équipe présentée dans le rapport."
+    }
+  ],
+  "relatedPath": "/realisations",
+  "relatedLabel": "Toutes les réalisations",
+  "resourceBlock": "labaa"
+}

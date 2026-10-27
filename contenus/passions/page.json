@@ -1,0 +1,29 @@
+{
+  "path": "passions",
+  "eyebrow": "Au-delà du parcours professionnel",
+  "title": "Curieux, même après avoir fermé l’atelier.",
+  "intro": "Musique, électronique personnelle, domotique et simulation automobile : d’autres espaces pour expérimenter et apprendre.",
+  "sections": [
+    {
+      "title": "Le plaisir de chercher",
+      "text": "Comprendre un appareil, tester un montage ou trouver un son : j’aime les activités où l’on peut essayer, observer et affiner."
+    },
+    {
+      "title": "Formule 1 et simulation automobile",
+      "text": "Je m’intéresse également à la Formule 1 et au sim racing, deux passions qui complètent mon quotidien technique et musical."
+    }
+  ],
+  "links": [
+    {
+      "title": "Musique & sonorisation",
+      "text": "Piano, composition sur ordinateur et diffusion live.",
+      "href": "/passions/musique"
+    },
+    {
+      "title": "Projets personnels",
+      "text": "Robotique, domotique et maintenance électronique.",
+      "href": "/passions/projets-personnels"
+    }
+  ],
+  "projectSlugs": []
+}

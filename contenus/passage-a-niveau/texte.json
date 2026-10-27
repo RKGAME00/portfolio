@@ -1,0 +1,28 @@
+{
+  "slug": "passage-a-niveau",
+  "title": "Du capteur à la détection d’un train.",
+  "category": "Formation",
+  "context": "BUT GEII · Premier projet électronique",
+  "period": "Projet universitaire",
+  "image": "/images/passage-niveau.webp",
+  "alt": "Carte électronique du capteur infrarouge de passage à niveau",
+  "summary": "Réaliser une chaîne de détection infrarouge, du schéma électrique à l’interface homme-machine.",
+  "tags": [
+    "Capteurs",
+    "Routage",
+    "IHM"
+  ],
+  "sections": [
+    {
+      "title": "Une première chaîne complète",
+      "text": "Ce projet m’a permis de prendre en main la conception électronique : schéma, routage et choix des composants pour détecter le passage d’un train."
+    },
+    {
+      "title": "Rendre le signal visible",
+      "text": "J’ai réalisé une partie logicielle d’interfaçage et une interface homme-machine indiquant la détection. Un premier lien concret entre la mesure physique et sa présentation à l’utilisateur."
+    }
+  ],
+  "relatedPath": "/parcours/but-geii",
+  "relatedLabel": "Le BUT GEII",
+  "resourceBlock": "passage-a-niveau"
+}

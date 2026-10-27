@@ -1,0 +1,28 @@
+{
+  "path": "parcours/association-robotique",
+  "eyebrow": "Université de Nantes · Engagement associatif",
+  "title": "La robotique se construit ensemble.",
+  "intro": "Engagé dans l’association de 2023 à 2025, notamment comme vice-président, j’ai participé à sa relance et à la coordination des projets avec les autres étudiants.",
+  "sections": [
+    {
+      "title": "Relancer une dynamique collective",
+      "text": "Avec d’autres étudiants, nous avons repris une association devenue inactive. Mon rôle associait choix techniques, répartition des fonctions et échanges avec les interlocuteurs universitaires pour préparer les compétitions GEII à Cachan."
+    },
+    {
+      "title": "Concevoir et faire fonctionner",
+      "text": "Les projets progressaient avec les années de formation : robot suiveur de ligne en première année, navigation entre balises infrarouges avec évitement d’obstacles en deuxième année, puis robot autonome en troisième année. Avec l’équipe, j’ai discuté les besoins des robots, choisi les composants, réparti les fonctions et coordonné les travaux. J’ai participé à la conception et à la maintenance des cartes, au firmware bas niveau, aux modules communicants et aux bibliothèques C++."
+    },
+    {
+      "title": "Le FabLab, un lieu d’échange",
+      "text": "Nous apportions de l’aide en électronique à des étudiants d’autres formations, tout en bénéficiant de leurs compétences, notamment en mécanique. J’ai aussi réalisé des modélisations 3D et participé aux rapports et échanges nécessaires à la préparation des compétitions. Les conceptions étaient collectives : elles ne reposaient pas sur une seule personne."
+    }
+  ],
+  "links": [
+    {
+      "title": "Mon parcours en BUT",
+      "text": "L’engagement associatif aux côtés des projets et des stages.",
+      "href": "/parcours/but-geii"
+    }
+  ],
+  "projectSlugs": []
+}

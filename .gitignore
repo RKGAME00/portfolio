@@ -39,3 +39,11 @@ pnpm-debug.log*
 out/
 *.tsbuildinfo
 .env*.local
+
+# Inventaire privé et extractions locales des archives (originaux conservés)
+/.cache/
+
+# Vue locale par bloc : liens vers les originaux volumineux, jamais dupliqués dans Git.
+/contenus/**/ressources/
+/contenus/**/originaux
+/contenus/**/inventaire-local.json

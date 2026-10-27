@@ -1,0 +1,32 @@
+{
+  "slug": "robot-balises",
+  "title": "Piloter un robot vers sa balise.",
+  "category": "Formation",
+  "context": "BUT GEII · Robotique et énergie",
+  "period": "Projet universitaire",
+  "image": "/images/balises.webp",
+  "alt": "Robot universitaire avec cartes électroniques et supercondensateurs",
+  "summary": "Un robot réalisé à trois : énergie, détection infrarouge et algorithme de pilotage.",
+  "tags": [
+    "Robotique",
+    "Pilotage",
+    "Supercondensateurs"
+  ],
+  "sections": [
+    {
+      "title": "Trois fonctions, une réalisation collective",
+      "text": "Le projet réunissait une alimentation par supercondensateurs, la détection d’une balise infrarouge et le pilotage du robot. Chaque étudiant prenait en charge une fonction."
+    },
+    {
+      "title": "Ma contribution : le pilotage",
+      "text": "J’étais responsable de l’algorithme principal de pilotage. Il exploitait les informations de détection pour orienter le robot vers la balise, en coordination avec les responsables de l’énergie et de la détection."
+    },
+    {
+      "title": "Photos et essais",
+      "text": "Les photographies et les vidéos conservées montrent le montage et les essais. Elles permettent de suivre le travail au-delà du seul résultat final."
+    }
+  ],
+  "relatedPath": "/parcours/but-geii",
+  "relatedLabel": "Le BUT GEII",
+  "resourceBlock": "robot-balises"
+}

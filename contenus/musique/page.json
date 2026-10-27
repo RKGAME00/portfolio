@@ -1,0 +1,23 @@
+{
+  "path": "passions/musique",
+  "eyebrow": "Piano · Composition · Sonorisation",
+  "title": "Créer. Écouter. Faire résonner.",
+  "intro": "La musique est un autre terrain d’expérimentation : jouer du piano, composer sur ordinateur et participer à la sonorisation d’événements.",
+  "image": "/images/musique.webp",
+  "alt": "Clavier et matériel de mixage dans mon espace musical",
+  "sections": [
+    {
+      "title": "Jouer et composer",
+      "text": "Je pratique le piano, notamment au sein d’un groupe musical religieux, et la composition sur ordinateur. Cet espace accueillera une sélection de mes créations."
+    },
+    {
+      "title": "Le son en situation",
+      "text": "Installation de sonorisation, table de mixage et diffusion live : j’aime aussi travailler sur la façon dont la musique est entendue et partagée."
+    },
+    {
+      "title": "Les enregistrements arrivent bientôt",
+      "text": "Aucun morceau n’est encore publié ici. Je prépare une sélection d’enregistrements pour faire découvrir cette partie de mon travail."
+    }
+  ],
+  "projectSlugs": []
+}
