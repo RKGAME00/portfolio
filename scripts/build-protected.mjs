@@ -10,8 +10,12 @@ const probe = `
   const fs = require('node:fs');
   const group = fs.readFileSync('/proc/self/cgroup', 'utf8').trim().split(':').at(-1);
   console.log('Groupe isolé :', group);
+  const directory = fs.existsSync('/sys/fs/cgroup' + group)
+    ? '/sys/fs/cgroup' + group
+    : '/sys/fs/cgroup';
   for (const name of ['memory.high', 'memory.max', 'memory.swap.max']) {
-    console.log(name, fs.readFileSync('/sys/fs/cgroup' + group + '/' + name, 'utf8').trim());
+    const file = directory + '/' + name;
+    console.log(name, fs.existsSync(file) ? fs.readFileSync(file, 'utf8').trim() : 'indisponible');
   }
 `;
 
@@ -27,8 +31,13 @@ const nodeArgs = [
       ]),
 ];
 
-const systemdProbe = spawnSync('systemd-run', ['--version'], { stdio: 'ignore' });
-const hasSystemdRun = !systemdProbe.error && systemdProbe.status === 0;
+const systemdProbe = spawnSync(
+  'systemd-run',
+  ['--user', '--scope', '--wait', '--quiet', '--', 'true'],
+  { stdio: 'ignore' },
+);
+const hasSystemdRun =
+  !systemdProbe.error && systemdProbe.status === 0 && !systemdProbe.signal;
 
 const result = hasSystemdRun
   ? spawnSync(
