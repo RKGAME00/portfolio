@@ -1,0 +1,25 @@
+{
+  "path": "parcours/lycee-sti2d",
+  "projectSlugs": [],
+  "eyebrow": "Lycée La Colinière · Nantes · 2020 — 2022",
+  "title": "Lycée · Baccalauréat STI2D",
+  "intro": "Baccalauréat Sciences et technologies de l’industrie et du développement durable, au lycée La Colinière à Nantes, de 2020 à 2022.",
+  "sections": [
+    {
+      "title": "Les premières bases techniques",
+      "text": "Cette formation a marqué le début de mon intérêt pour l’électronique et les systèmes techniques, avant ma poursuite en BUT GEII."
+    },
+    {
+      "title": "Mes projets de lycée",
+      "text": "Cet espace accueillera les projets, leur contexte et ma contribution. Les fiches seront complétées prochainement."
+    }
+  ],
+  "links": [
+    {
+      "title": "La suite : le BUT GEII",
+      "text": "Approfondir l’électronique et les systèmes embarqués.",
+      "href": "/parcours/but-geii"
+    }
+  ],
+  "resourceThemes": []
+}

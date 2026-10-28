@@ -14,7 +14,9 @@ export function ResourceSection({
   title?: string;
 }) {
   const selectedIds = ids ? new Set(ids) : null;
-  const found = selectedIds ? resources.filter((item) => selectedIds.has(item.id)) : findResources(themes);
+  const found = selectedIds
+    ? resources.filter((item) => selectedIds.has(item.id))
+    : findResources(themes);
   if (!found.length) return null;
   return (
     <section className="resource-section">

@@ -47,3 +47,11 @@ out/
 /contenus/**/ressources/
 /contenus/**/originaux
 /contenus/**/inventaire-local.json
+/contenus/**/inventaire-local-*.json
+
+# Sélection LABAA mise de côté, sans suppression des originaux
+/contenus/**/a-trier/
+# Garder le manifeste de conservation, sans versionner ses médias.
+!/contenus/a-trier/
+!/contenus/a-trier/archives-portfolio/
+!/contenus/a-trier/archives-portfolio/ressources.json

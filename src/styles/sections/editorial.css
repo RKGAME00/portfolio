@@ -131,3 +131,17 @@
     height: 600px;
   }
 }
+
+/* Sommaire local des longues fiches de stage. */
+.project-toc {
+  display: grid;
+  gap: 12px;
+  margin-top: 30px;
+}
+.project-toc a {
+  font-size: 12px;
+  line-height: 1.5;
+}
+.article-body section[id] {
+  scroll-margin-top: 110px;
+}

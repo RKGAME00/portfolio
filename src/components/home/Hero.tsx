@@ -20,7 +20,7 @@ export function Hero() {
       <div className="hero container">
         <div className="hero-copy">
           <p className="availability">
-            <span /> À la recherche d’un emploi · Nantes / Saint-Nazaire
+            <span /> À la recherche d’un emploi · Mobile dans toute la France
           </p>
           <p className="hero-name">Céleste Koloussa · Diplômé du BUT GEII</p>
           <h1 id="hero-title">

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "16f224000037fe1c0d6208ef",
+    "nom": "RAPPORT_SAE5_KOLOUSSA_ARIMON.docx",
+    "type": "document",
+    "lien": "ressources/documents/16f22400--RAPPORT_SAE5_KOLOUSSA_ARIMON.docx",
+    "original": "ressources-locales/but geii/cours td tp projet/SAE/RAPPORT_SAE5_KOLOUSSA_ARIMON.docx"
+  },
+  {
+    "id": "6d73696faa0a934a00e7539b",
+    "nom": "SAE6_RAPPORT.docx",
+    "type": "document",
+    "lien": "ressources/documents/6d73696f--SAE6_RAPPORT.docx",
+    "original": "ressources-locales/but geii/cours td tp projet/SAE/SAE6_RAPPORT.docx"
+  },
+  {
+    "id": "32151b7e5f3d442f2f4e49ee",
+    "nom": "Capture d’écran du 2024-12-17 20-33-54.png",
+    "type": "image",
+    "lien": "ressources/images/32151b7e--Capture d’écran du 2024-12-17 20-33-54.png",
+    "original": "ressources-locales/but geii/images/projet voiture autonome BUT/Capture d’écran du 2024-12-17 20-33-54.png"
+  },
+  {
+    "id": "3ffdba34153384acc742bf67",
+    "nom": "Capture d’écran du 2024-12-17 20-34-28.png",
+    "type": "image",
+    "lien": "ressources/images/3ffdba34--Capture d’écran du 2024-12-17 20-34-28.png",
+    "original": "ressources-locales/but geii/images/projet voiture autonome BUT/Capture d’écran du 2024-12-17 20-34-28.png"
+  },
+  {
+    "id": "5559968adb6cc802f2b1fe18",
+    "nom": "IMG_20241217_203117.jpg",
+    "type": "image",
+    "lien": "ressources/images/5559968a--IMG_20241217_203117.jpg",
+    "original": "ressources-locales/but geii/images/projet voiture autonome BUT/IMG_20241217_203117.jpg"
+  },
+  {
+    "id": "acd9886fad2450db7d84198d",
+    "nom": "VID_20241003_180820.mp4",
+    "type": "video",
+    "lien": "ressources/videos/acd9886f--VID_20241003_180820.mp4",
+    "original": "ressources-locales/but geii/images/projet voiture autonome BUT/VID_20241003_180820.mp4"
+  },
+  {
+    "id": "8c973091635ff02090ae9172",
+    "nom": "VID_20241003_180926.mp4",
+    "type": "video",
+    "lien": "ressources/videos/8c973091--VID_20241003_180926.mp4",
+    "original": "ressources-locales/but geii/images/projet voiture autonome BUT/VID_20241003_180926.mp4"
+  },
+  {
+    "id": "3c6ab7c6fd31d185897490d2",
+    "nom": "VID_20241003_181046.mp4",
+    "type": "video",
+    "lien": "ressources/videos/3c6ab7c6--VID_20241003_181046.mp4",
+    "original": "ressources-locales/but geii/images/projet voiture autonome BUT/VID_20241003_181046.mp4"
+  },
+  {
+    "id": "6acedfb02c1e9c12e7311659",
+    "nom": "RAPPORT_SAE5_KOLOUSSA_ARIMON.pdf",
+    "type": "document",
+    "lien": "ressources/documents/6acedfb0--RAPPORT_SAE5_KOLOUSSA_ARIMON.pdf",
+    "original": "ressources-locales/portfolio_save/info/RAPPORT_SAE5_KOLOUSSA_ARIMON.pdf"
+  },
+  {
+    "id": "4f8ccce555001181bbc6f004",
+    "nom": "SAE6_RAPPORT.pdf",
+    "type": "document",
+    "lien": "ressources/documents/4f8ccce5--SAE6_RAPPORT.pdf",
+    "original": "ressources-locales/portfolio_save/info/SAE6_RAPPORT.pdf"
+  },
+  {
+    "id": "2453e2f9607ee468e73b3a0d",
+    "nom": "projet-f1tenth.html",
+    "type": "source",
+    "lien": "ressources/sources/2453e2f9--projet-f1tenth.html",
+    "original": "ressources-locales/portfolio_save/projet-f1tenth.html"
+  }
+]

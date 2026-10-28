@@ -19,3 +19,7 @@
 @import './components/resources.css';
 
 @import './sections/electronics.css';
+
+@import './components/report.css';
+
+@import './components/lightbox.css';

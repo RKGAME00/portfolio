@@ -1,0 +1,30 @@
+{
+  "slug": "robotique-lycee",
+  "title": "Mes premiers projets de robotique.",
+  "category": "Formation",
+  "context": "Lycée · STI2D",
+  "period": "Pendant le lycée",
+  "image": "/ressources-apercus/e61bc8caff1c0dacc3b0e68d.webp",
+  "alt": "Image issue des ressources de robotique du lycée",
+  "summary": "Les vidéos du robot foot et les images de la compétition Junior, conservées comme traces des premiers projets.",
+  "tags": [
+    "STI2D",
+    "Robotique",
+    "Travail en équipe"
+  ],
+  "sections": [
+    {
+      "title": "Découvrir par la pratique",
+      "text": "Le travail en équipe sur des robots au lycée a contribué à mon envie de poursuivre en électronique. Le portfolio rassemble les vidéos du dossier robot foot et les images de la Coupe de France de robotique Junior."
+    },
+    {
+      "title": "Des projets à distinguer",
+      "text": "Le robot de la compétition Junior devait identifier et déplacer des palettes de couleur. Les vidéos du robot foot constituent un autre ensemble de documents ; les deux projets restent identifiés séparément dans leurs fichiers."
+    }
+  ],
+  "relatedPath": "/parcours/lycee-sti2d",
+  "relatedLabel": "Le lycée et le bac STI2D",
+  "resourceBlock": "robotique-lycee",
+  "draft": true,
+  "featured": false
+}

@@ -1,31 +1,50 @@
-# Les contenus du portfolio, par bloc
+# Les contenus du portfolio — commencer ici
 
-Commencer ici pour relire le site. Chaque dossier rassemble le texte, les médias
-et l’accès aux originaux d’une expérience ou d’un projet.
+Chaque projet dispose d’un seul dossier de travail. L’arborescence suit les rubriques du site.
 
-- **labaa/** : une seule fiche pour le stage complet, structurée suivant le rapport.
-- **subatech/** : une seule fiche pour le stage XEMIS2.
-- **projets-personnels/** : cartographie, domotique et maintenance regroupées ;
-  aucune affectation artificielle de la même photo à trois projets distincts.
-- **but-geii/**, **ecole-ingenieurs/**, **association-robotique/** : parcours et ressources.
-- Les autres dossiers portent le nom du projet ou de la page.
+```text
+contenus/
+├── stages/
+│   ├── labaa/
+│   └── subatech/
+├── formations/
+│   ├── but-geii/
+│   │   ├── page.json              ← présentation de la formation et du parcours ESE
+│   │   └── projets/
+│   │       ├── passage-a-niveau/
+│   │       ├── robot-balises/
+│   │       ├── robot-ultrasons/
+│   │       ├── supercondensateurs/
+│   │       ├── tour-hanoi/
+│   │       └── conversion-solaire/ ← conservé, hors sélection de l’accueil
+│   ├── lycee-sti2d/               ← présentation et espaces à compléter
+│   │   └── projets/
+│   │       ├── robotique-lycee/
+│   │       └── projet-sti2d/
+│   └── ecole-ingenieurs/
+├── engagements/association-robotique/
+├── projets/
+│   ├── modelisation-3d/          ← espace à compléter
+│   └── personnels/
+├── passions/musique/
+├── pages/                       ← expériences, mentions légales et confidentialité
+└── a-trier/archives-portfolio/   ← anciens éléments non retenus
+```
 
-## Modifier un bloc
+## Dans un projet
 
-1. Ouvrir `texte.json` (réalisation) ou `page.json` (page de parcours).
-2. Parcourir `ressources/images`, `videos`, `documents`, `sources` ou `archives`.
-3. Pour masquer un média, retirer son identifiant de `ressources.json` : aucune
-   suppression du fichier original n’est nécessaire. Le catalogue général est
-   limité à l’union de ces listes.
-4. Relancer `npm run build`, puis redémarrer l’aperçu de production.
+| Besoin | Emplacement |
+|---|---|
+| Modifier le récit | `texte.json` |
+| Modifier une présentation de formation | `page.json` |
+| Trier les images de galerie | `ressources/images/` |
+| Trier les vidéos | `ressources/videos/` |
+| Trier les PDF | `ressources/documents/` |
+| Mettre un élément de côté | `a-trier/`, avec les mêmes sous-dossiers |
+| Choisir une illustration du récit | `images-web/` et champs `image` / `figures` du JSON |
 
-`ressources/` contient des **liens symboliques vers les originaux**, pas de nouvelles
-copies. `originaux` ouvre le dossier source entier lorsqu’il existe pour le bloc.
-`images-web/` contient les petites versions réellement utilisées par le site ;
-`public/images/` fournit des liens compatibles avec les anciennes URL.
-Les aperçus de la bibliothèque restent un cache généré partagé : un fichier
-identique n’a qu’un identifiant, même s’il a plusieurs provenances.
+Les galeries de projets et de l’association se mettent à jour à l’actualisation du navigateur. Elles lisent leur dossier, pas un inventaire compilé. Les fichiers techniques et archives sont rangés dans `a-trier/`. Les sources originales restent intactes dans `ressources-locales/`.
 
-`index.ts` relie les blocs au site. Les composants et styles restent dans `src/`.
-Les anciennes fiches sont conservées dans `archives/reorganisation-2026-10-27/`.
-L’image du fond de l’accueil n’a pas été changée pendant cette réorganisation.
+`index.ts` relie les JSON au site. `organisation.json` associe les noms des blocs à leurs dossiers. Ce sont des fichiers techniques : aucune modification nécessaire pour trier les médias.
+
+Le catalogue historique `/ressources` conserve son index de médias ; il ne pilote pas les galeries et n’est plus mis en avant dans la navigation. La présentation de l’accueil est dans `src/components/projects/ProjectSections.tsx`.

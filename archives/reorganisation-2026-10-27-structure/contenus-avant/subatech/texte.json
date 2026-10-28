@@ -1,0 +1,37 @@
+{
+  "slug": "subatech-xemis2",
+  "title": "Donner une interface aux données scientifiques.",
+  "category": "Stage",
+  "context": "SUBATECH · Projet XEMIS2",
+  "period": "Janvier — mars 2024",
+  "image": "/images/subatech.webp",
+  "alt": "Installation expérimentale photographiée au laboratoire SUBATECH",
+  "summary": "Poser les premières bases d’une application d’acquisition, de visualisation et de relecture de données.",
+  "tags": [
+    "C++",
+    "Qt",
+    "Linux"
+  ],
+  "featured": true,
+  "sections": [
+    {
+      "title": "Le besoin",
+      "text": "Dans le cadre du projet de caméra médicale XEMIS2, les scientifiques avaient besoin d’acquérir des données d’expérience, de les visualiser et de les retrouver avec leurs repères temporels."
+    },
+    {
+      "title": "Ma contribution",
+      "text": "Sous Linux, j’ai commencé la structure d’un logiciel C++/Qt et son interface. J’ai récupéré des valeurs de capteurs depuis un serveur pour tracer leur évolution en temps réel."
+    },
+    {
+      "title": "Enregistrer pour pouvoir relire",
+      "text": "J’ai défini un format binaire et développé la sérialisation des données horodatées, puis leur désérialisation pour la relecture avec des marqueurs. Il s’agit de sérialisation, pas d’un algorithme de compression."
+    },
+    {
+      "title": "Le livrable",
+      "text": "Une première base logicielle d’acquisition, d’affichage, d’enregistrement et de réouverture des données. Mon stage a posé les premières briques du projet, sans prétendre constituer un produit final complet."
+    }
+  ],
+  "relatedPath": "/realisations",
+  "relatedLabel": "Toutes les réalisations",
+  "resourceBlock": "subatech"
+}

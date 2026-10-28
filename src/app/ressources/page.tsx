@@ -22,7 +22,7 @@ export default async function ResourcesPage({
           <span>Les réalisations se montrent.</span>
         </h1>
         <p>
-          Photos d’atelier, vidéos d’essais, rapports, schémas et sources. Retrouvez les
+          Photos d’atelier, vidéos d’essais, rapports et schémas. Retrouvez les
           pièces par projet, par formation ou par format.
         </p>
       </header>

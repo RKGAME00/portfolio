@@ -1,58 +1,45 @@
 # Portfolio de Céleste Koloussa
 
-Premier jet local réalisé avec **Next.js, React et TypeScript**. Accueil, réalisations filtrables, parcours, compétences, passions, CV, contact et charte graphique.
+Objectif : présenter une candidature de **technicien en électronique et systèmes embarqués**, puis enrichir le portfolio au fil des expériences.
 
-## Voir le site
+## Où travailler ?
 
-```sh
-npm ci
-npm run dev
-```
+| Dossier | Rôle |
+|---|---|
+| **[contenus/](contenus/README.md)** | Textes et médias organisés par stage, formation et projet. Commencer ici pour trier. |
+| `src/` | Code du site : pages, composants, styles, lecture des médias. |
+| `public/` | Adresses publiques des illustrations sélectionnées et documents. Ne pas y trier les originaux. |
+| `docs/` | Références : Portfolio.md, CV, lettre et documentation du projet. |
+| `ressources-locales/` | Réserve originale intacte, ignorée par Git. |
+| `archives/` | Versions précédentes et sauvegardes, conservées sans suppression. |
+| `scripts/` | Compilation protégée et contrôles du site. |
 
-Ouvrir l'adresse affichée par Next.js, normalement **http://127.0.0.1:3000**.
+`.next/`, `.cache/` et `node_modules/` sont des dossiers techniques. Les fichiers de configuration restent à la racine pour Next.js, TypeScript et npm.
 
-- Accueil : `/`
-- Réalisations : `/realisations`
-- Charte graphique : `/charte-graphique`
+## Accueil et rubriques
 
-```sh
-npm run typecheck
-npm run build
-npm run start
-```
+L’accueil présente la recherche d’emploi, les stages LABAA/SUBATECH, les cinq projets de BUT, l’association robotique, la formation, les espaces lycée et 3D, les compétences et le contact.
 
-## Déploiement Vercel
+- Composer l’accueil : `src/app/page.tsx`.
+- Choisir les projets mis en avant : `src/components/projects/ProjectSections.tsx`.
+- Modifier un projet : son `texte.json` sous `contenus/`.
+- Modifier une formation : son `page.json` sous `contenus/formations/`.
+- Modifier le CSS : `src/styles/`, séparé par composant et section.
 
-- Framework : **Next.js** (détection automatique Vercel).
-- Build : `npm run build`.
-- Version Node attendue : `>=20.9.0` (déclarée dans `package.json`).
-- Sortie de production : `.next/` (générée par Next.js).
+Les galeries lisent les dossiers `ressources/` des projets à chaque actualisation. Les illustrations du récit restent des choix éditoriaux dans le JSON. Les liens symboliques de `public/images/` évitent les copies : ils sont entretenus par le code, pas par le tri quotidien.
 
-## Se repérer
+## Exécuter le site localement
 
-- `src/app/` : routes et composition des pages.
-- `src/components/` : composants partagés, avec un fichier par section de l'accueil.
-- `src/content/` : textes et données, séparés de l'affichage.
-- `src/styles/base/` : palette, typographie et grilles.
-- `src/styles/components/` : boutons, en-tête, cartes, champs et pied de page.
-- `src/styles/sections/` : styles propres à chaque section.
-- `public/` : seules les copies de médias sélectionnées sont exposées.
+Node.js exécute Next.js ; React décrit les interfaces et TypeScript organise le code.
 
-Le guide [docs/developpement.md](docs/developpement.md) détaille les fichiers à modifier, les choix, les vérifications et les limites de cette version.
+- `npm run dev` : développement avec actualisation automatique.
+- `npm run build` : compilation protégée par des limites mémoire sous Linux/systemd.
+- `npm run start` : servir la version compilée sur `http://127.0.0.1:3000`.
+- `npm run typecheck` : contrôle TypeScript.
+- `node scripts/check-blocks.mjs` : cohérence des projets et fichiers.
 
-## Documents et conservation
+Ne pas lancer plusieurs serveurs ou une compilation en parallèle de l’aperçu. Voir `docs/developpement.md` pour les limites mémoire. Le stockage local doit accompagner le serveur : le dépôt seul ne contient pas les ressources lourdes. La mise en ligne nécessite une configuration adaptée ; le script de build actuel utilise systemd.
 
-- [Dossier de référence](docs/Portfolio.md) : parcours et expériences, conservés intégralement.
-- [Feuille de route](docs/feuille-de-route.md) : architecture du contenu et étapes de réalisation.
-- [Cadrage initial](docs/cadrage.md).
-- `docs/CV/` et `docs/lettre_motiv/` : PDF et LaTeX fournis, inchangés.
-- `docs/sources-medias.json` : provenance des copies d'images utilisées.
-- `ressources-locales/` : ressources réorganisées par Céleste (BUT, école, LABAA, projets personnels, lycée…), ignorées par Git.
-- `archives/astro-2026-10-26/` : ancien site Astro, dépendances, cache, configurations et sauvegarde conservés.
-- `archives/inventaire-local-2026-10-26.json` : inventaire historique du rangement initial ; il précède la réorganisation manuelle des ressources.
+## Conservation
 
-Aucun original n'a été supprimé. L'historique Git est conservé. Les sources LaTeX et la lettre ne sont pas copiées dans le dossier public.
-
-## Prochaine étape
-
-Le premier jet public utilise des données locales. **Payload CMS et PostgreSQL ne sont pas encore intégrés** : l'édition sans code, les brouillons et la médiathèque administrable constituent la prochaine tranche. L'espace musique attend la sélection des véritables morceaux. La mise en ligne et la pédagogie viendront ensuite selon la feuille de route.
+Aucun original n’est supprimé. Les sources techniques et paquets sont dans `a-trier/` au sein de chaque bloc. Les états précédents sont conservés dans `archives/reorganisation-2026-10-27-structure/`. Les textes précédents des espaces lycée et 3D y sont sauvegardés ; ces espaces sont volontairement en préparation sur le site.

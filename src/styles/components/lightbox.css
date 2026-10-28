@@ -1,0 +1,58 @@
+.image-lightbox-trigger {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: zoom-in;
+}
+.image-lightbox-trigger:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
+}
+.image-lightbox {
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  width: min(1100px, 94vw);
+  max-height: 94dvh;
+  background: var(--surface, white);
+  color: var(--ink);
+}
+.image-lightbox::backdrop {
+  background: rgb(10 24 22 / 85%);
+}
+.image-lightbox-panel {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.image-lightbox-panel > button {
+  align-self: flex-end;
+}
+.image-lightbox-panel > img {
+  width: 100%;
+  height: auto;
+  max-height: 72dvh;
+  object-fit: contain;
+}
+.image-lightbox-panel > p,
+.gallery-image-title {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  margin: 12px 0 0;
+  font-size: 14px;
+}
+body:has(.image-lightbox[open]) {
+  overflow: hidden;
+}
+.folder-gallery-grid .image-lightbox img {
+  height: auto;
+  max-height: 72dvh;
+}

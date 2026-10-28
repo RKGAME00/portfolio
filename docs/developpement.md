@@ -66,8 +66,8 @@ archives/                    Ancien projet conservé
 | Apparence d'un bouton | `src/styles/components/buttons.css` |
 | Introduction de l'accueil | `src/components/home/Hero.tsx` |
 | Ordre des sections d'accueil | `src/app/page.tsx` |
-| Ajouter ou corriger une réalisation | `src/content/projects.ts` |
-| Modifier une page de formation | `src/content/pages.ts` |
+| Ajouter ou corriger une réalisation | `contenus/<bloc>/texte.json` |
+| Modifier une page de formation | `contenus/<bloc>/page.json` |
 | Menu, email, lien LinkedIn | `src/content/profile.ts` |
 | Styles d'une section | Fichier correspondant dans `src/styles/sections/` |
 | Origine d'une photographie | `docs/sources-medias.json` |
@@ -84,7 +84,7 @@ Les animations ne masquent aucun texte en l'absence de JavaScript et respectent 
 
 ## État et limites du premier jet
 
-- Accueil, parcours, stages, association, compétences, passions, vingt fiches de réalisation, CV, contact et charte graphique réalisés.
+- Accueil, parcours, stages, association, compétences, passions, treize fiches de réalisation regroupées, CV, contact et charte graphique réalisés.
 - Recherche par texte et filtrage par contexte utilisables.
 - Originaux inchangés ; copies WebP, aperçus de ressources et copie du CV dans `public/`.
 - Payload, PostgreSQL, comptes privés, brouillons et édition sans code ne sont pas encore intégrés. Les fichiers `content/` préparent cette séparation, sans constituer déjà un CMS.
@@ -146,3 +146,28 @@ deux workers. La compilation validée après correction le 26 octobre a duré
 22 secondes avec un pic de 850,4 Mio indiqué par systemd, contre plus de 7 Gio
 pour les processus interrompus. Ne pas lancer `next build` directement ni cumuler
 serveur de développement et compilation. Le lanceur requiert Linux/systemd.
+
+
+## Réorganisation par bloc — 27 octobre 2026
+
+Le point d’entrée éditorial est désormais `contenus/README.md`. Les fichiers
+`src/content/projects.ts` et `pages.ts` ne font que relier le rendu aux contenus.
+LABAA et SUBATECH ont chacun une seule page détaillée. Les anciennes URL de
+stage et de missions sont redirigées. Domotique, maintenance personnelle et robot
+de cartographie sont réunis pour éviter l’attribution répétée de photos non identifiées.
+
+Les originaux restent inchangés ; les dossiers de blocs donnent des accès directs
+par liens symboliques. Les images web ont été déplacées dans les blocs, avec des
+liens de compatibilité dans `public/images/`. Les fichiers remplacés sont archivés
+dans `archives/reorganisation-2026-10-27/`. Ne pas nettoyer ces liens comme des doublons.
+
+## Organisation actuelle — 27 octobre 2026
+
+Le guide de référence pour les dossiers est désormais `contenus/README.md`.
+Les blocs sont classés sous `stages/`, `formations/`, `engagements/`, `projets/`, `passions/` et `pages/`. `contenus/organisation.json` est la correspondance unique utilisée par l’API et les contrôles.
+
+`GET /api/galerie?bloc=<identifiant>` lit les médias du dossier concerné à la demande. Les fichiers se téléchargent via le même endpoint avec `file=<sous-dossier/nom>`. Seuls les blocs déclarés et les cibles autorisées sont accessibles. Les vidéos sont diffusées avec Range, les images ont des vignettes optimisées et s’ouvrent dans une fenêtre sur la page.
+
+`a-trier/` conserve les fichiers retirés de la sélection. Les inventaires historiques ne doivent jamais repeupler automatiquement les galeries. `scripts/sync-block-links.py` effectue désormais uniquement un contrôle. Les pages lycée et 3D sont en préparation (`draft: true` pour leurs fiches projets) ; leurs anciens récits restent archivés.
+
+L’ancien catalogue conserve ses URL directes pour compatibilité, mais les sources et archives ne sont plus proposées dans la liste des médias ni dans la navigation principale.

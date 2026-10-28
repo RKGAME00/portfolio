@@ -1,0 +1,147 @@
+{
+  "slug": "subatech-xemis2",
+  "title": "SUBATECH · Développer X2 Monitor pour suivre les mesures de XEMIS2.",
+  "category": "Stage",
+  "context": "SUBATECH · Projet XEMIS2",
+  "period": "8 janvier — 15 mars 2024",
+  "image": "/images/subatech.webp",
+  "alt": "Installation expérimentale photographiée au laboratoire SUBATECH",
+  "summary": "En deuxième année de BUT GEII, j’ai posé les premières bases d’un logiciel de supervision en C++/Qt : acquisition des tensions, enregistrement horodaté et visualisation des courbes.",
+  "tags": [
+    "C++",
+    "Qt",
+    "Linux",
+    "CMake",
+    "Sérialisation"
+  ],
+  "featured": true,
+  "sections": [
+    {
+      "title": "1. Le laboratoire et mon environnement de travail",
+      "text": "J’ai effectué ce stage au laboratoire SUBATECH, avec Olivier Lemaire, ingénieur de recherche en électronique, comme maître de stage. J’ai découvert un environnement associant recherche, électronique, mécanique et développement logiciel. Une partie du travail se déroulait au CIMA, au CHU de Nantes, où était installée l’expérimentation XEMIS2."
+    },
+    {
+      "title": "2. Comprendre l’expérimentation XEMIS2",
+      "text": "XEMIS2 est un projet de recherche en imagerie utilisant un détecteur au xénon liquide. Les schémas du stage présentent le principe de l’imagerie à trois photons et l’organisation du détecteur. Comprendre ce contexte m’a permis de situer les mesures à surveiller. Ma mission concernait la supervision des capteurs, pas la conception du détecteur ni les algorithmes de reconstruction des images.",
+      "figures": [
+        {
+          "src": "/images/subatech-schema-trois-photons.webp",
+          "alt": "Principe de localisation présenté dans les documents XEMIS2 : une ligne de réponse et un cône Compton. Illustration scientifique de contexte, issue des ressources du stage.",
+          "caption": "Principe de localisation présenté dans les documents XEMIS2 : une ligne de réponse et un cône Compton. Illustration scientifique de contexte, issue des ressources du stage.",
+          "width": 883,
+          "height": 440,
+          "source": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_143255.png"
+        },
+        {
+          "src": "/images/subatech-schema-detecteur.webp",
+          "alt": "Vue de principe du détecteur XEMIS2 et de ses capteurs. Illustration de contexte issue des ressources du stage.",
+          "caption": "Vue de principe du détecteur XEMIS2 et de ses capteurs. Illustration de contexte issue des ressources du stage.",
+          "width": 708,
+          "height": 894,
+          "source": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_142859.png"
+        }
+      ]
+    },
+    {
+      "title": "3. Le besoin : suivre les mesures et conserver leur historique",
+      "text": "L’objectif était d’initier X2 Monitor : permettre à l’équipe d’observer l’évolution des valeurs mesurées, d’enregistrer des acquisitions et de retrouver des données pour les examiner ensuite. Le premier périmètre traité concernait les tensions du module haute tension. L’intégration des autres familles de capteurs faisait partie des perspectives du logiciel."
+    },
+    {
+      "title": "4. Prendre en main C++ et Qt",
+      "text": "J’ai commencé par des exercices pour apprendre le C++, les classes et la construction d’interfaces Qt. Un afficheur commandé par des boutons, la manipulation de fichiers et une liaison série m’ont permis d’aborder progressivement les interactions entre composants. Ces essais préparatoires m’ont servi de base pour développer les widgets du logiciel.",
+      "figures": [
+        {
+          "src": "/images/subatech-premier-widget-qt.webp",
+          "alt": "Premier exercice Qt : un afficheur et deux boutons pour apprendre les interactions entre composants.",
+          "caption": "Premier exercice Qt : un afficheur et deux boutons pour apprendre les interactions entre composants.",
+          "width": 716,
+          "height": 365,
+          "source": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/premier-widget-qt.png"
+        }
+      ]
+    },
+    {
+      "title": "5. Concevoir une interface adaptée au travail du laboratoire",
+      "text": "J’ai réalisé une maquette, puis développé les différents éléments de l’interface en Qt, en échangeant avec mon tuteur. Les signaux et les slots relient les actions de l’utilisateur aux fonctions du logiciel. La fenêtre rassemble les commandes, la sélection des fichiers et la zone de courbes ; les boutons disponibles évoluent selon l’état de l’acquisition.",
+      "figures": [
+        {
+          "src": "/images/subatech-maquette-interface.webp",
+          "alt": "Maquette de l’interface X2 Monitor : organiser les commandes et réserver un espace au graphique.",
+          "caption": "Maquette de l’interface X2 Monitor : organiser les commandes et réserver un espace au graphique.",
+          "width": 1600,
+          "height": 900,
+          "source": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/maquette-interface.png"
+        },
+        {
+          "src": "/images/subatech-interface-x2-monitor.webp",
+          "alt": "X2 Monitor : organisation des fichiers et zone de visualisation avant affichage d’une courbe.",
+          "caption": "X2 Monitor : organisation des fichiers et zone de visualisation avant affichage d’une courbe.",
+          "width": 1600,
+          "height": 900,
+          "source": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_141755.png"
+        }
+      ]
+    },
+    {
+      "title": "6. Acquérir et horodater les tensions",
+      "text": "Une acquisition périodique interroge le module et associe les mesures à un repère temporel. La structure de données regroupe un timestamp et 64 valeurs de tension. J’ai développé les éléments qui organisent ces relevés et leur enregistrement, en m’appuyant sur les outils de communication et d’horodatage fournis par mon tuteur.",
+      "figures": [
+        {
+          "src": "/images/subatech-gestion-enregistrement.webp",
+          "alt": "Widget de gestion de l’enregistrement présenté dans le rapport.",
+          "caption": "Widget de gestion de l’enregistrement présenté dans le rapport.",
+          "width": 435,
+          "height": 558,
+          "source": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/gestion-enregistrement.jpg"
+        }
+      ]
+    },
+    {
+      "title": "7. Enregistrer les données et les relire",
+      "text": "Les mesures sont sérialisées avec la bibliothèque Cereal dans un format binaire, puis désérialisées pour être relues. Le timestamp conserve le lien entre chaque série de tensions et son instant d’acquisition. J’ai travaillé sur l’organisation et le nommage des fichiers ainsi que sur les écritures sur disque. Pour leur sélection, j’ai intégré un widget fourni par Olivier Lemaire.",
+      "figures": [
+        {
+          "src": "/images/subatech-selection-fichiers.webp",
+          "alt": "Sélection des fichiers à relire : intégration d’un widget fourni par Olivier Lemaire.",
+          "caption": "Sélection des fichiers à relire : intégration d’un widget fourni par Olivier Lemaire.",
+          "width": 409,
+          "height": 586,
+          "source": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/selection-fichiers.jpg"
+        },
+        {
+          "src": "/images/subatech-liste-fichiers.webp",
+          "alt": "Liste des fichiers sélectionnés pour la visualisation.",
+          "caption": "Liste des fichiers sélectionnés pour la visualisation.",
+          "width": 494,
+          "height": 586,
+          "source": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/liste-fichiers.jpg"
+        }
+      ]
+    },
+    {
+      "title": "8. Tracer les courbes et améliorer la fluidité",
+      "text": "J’ai relié les valeurs acquises à leur affichage sous forme de courbes temporelles et travaillé sur les repères de temps. Une représentation glissante sur une durée fixe permet de suivre les mesures. Les premières versions demandaient trop de ressources : j’ai repris le fonctionnement de l’affichage et des accès aux données pour améliorer la fluidité de l’interface.",
+      "figures": [
+        {
+          "src": "/images/subatech-courbe-x2-monitor.webp",
+          "alt": "X2 Monitor : affichage d’une série de mesures avec ses repères temporels.",
+          "caption": "X2 Monitor : affichage d’une série de mesures avec ses repères temporels.",
+          "width": 1600,
+          "height": 899,
+          "source": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_164717.png"
+        }
+      ]
+    },
+    {
+      "title": "9. Organiser le code pour travailler en équipe",
+      "text": "J’ai suivi l’organisation proposée par mon tuteur : séparation de l’interface graphique, du traitement des hautes tensions et des bibliothèques. CMake servait à construire le logiciel ; Git et GitLab permettaient de partager le code et de suivre les versions. Les conventions de nommage, le formatage et la documentation facilitaient les échanges et la reprise du projet."
+    },
+    {
+      "title": "10. Bilan et suite du développement",
+      "text": "Ce stage m’a permis de relier une demande scientifique à une première base logicielle concrète : interface, acquisition, stockage et relecture. J’ai développé ma pratique du C++/Qt et appris à faire évoluer un programme avec les retours d’un tuteur. Le projet restait à poursuivre : l’affichage simultané de plusieurs courbes n’était pas finalisé et le fonctionnement continu sur de longues durées était un objectif à valider, pas un résultat démontré pendant le stage."
+    }
+  ],
+  "relatedPath": "/realisations",
+  "relatedLabel": "Toutes les réalisations",
+  "resourceBlock": "subatech"
+}

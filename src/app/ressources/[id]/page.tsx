@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { readFile } from 'node:fs/promises';
 import type { Metadata } from 'next';
-import { resources, formatBytes } from '@/lib/resources';
+import { allResources as resources, formatBytes } from '@/lib/resources';
 import { resolveResourceFile } from '@/lib/resource-files';
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';

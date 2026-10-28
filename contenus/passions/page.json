@@ -22,8 +22,9 @@
     {
       "title": "Projets personnels",
       "text": "Robotique, domotique et maintenance électronique.",
-      "href": "/passions/projets-personnels"
+      "href": "/realisations/projets-personnels"
     }
   ],
-  "projectSlugs": []
+  "projectSlugs": [],
+  "resourceThemes": []
 }

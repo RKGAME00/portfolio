@@ -1,13 +1,13 @@
 {
   "filesScanned": 39655,
   "archiveMembers": 15895,
-  "uniqueResources": 3443,
+  "uniqueResources": 3457,
   "duplicatesCollapsed": 5800,
   "types": {
-    "document": 241,
+    "document": 242,
     "archive": 141,
     "source": 2655,
-    "image": 361,
+    "image": 374,
     "video": 45
   },
   "classifications": {
@@ -20,5 +20,9 @@
     "video": 45,
     "generation-ou-configuration": 152
   },
-  "errors": 0
+  "errors": 0,
+  "curatedAdditions": {
+    "subatech-2026-10-28": 14
+  },
+  "scanNote": "filesScanned, archiveMembers et classifications décrivent le scan initial. Le complément SUBATECH est une sélection manuelle de 14 ressources, sans réindexation des dépendances."
 }

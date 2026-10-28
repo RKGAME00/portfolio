@@ -8,15 +8,33 @@ export type Project = {
   period: string;
   image: string;
   alt: string;
+  imageFit?: 'contain';
+  imageCaption?: string;
   summary: string;
   tags: string[];
   featured?: boolean;
-  sections: { title: string; text: string }[];
+  draft?: boolean;
+  sections: {
+    title: string;
+    text: string;
+    layout?: string;
+    links?: { label: string; href: string }[];
+    figures?: {
+      src: string;
+      alt: string;
+      caption: string;
+      width: number;
+      height: number;
+      source?: string;
+    }[];
+  }[];
   relatedPath: string;
   relatedLabel: string;
 };
 
 export type EditorialPage = {
+  resourceBlock?: string;
+  resourceThemes?: string[];
   path: string;
   eyebrow: string;
   title: string;

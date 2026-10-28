@@ -1,0 +1,44 @@
+{
+  "slug": "projets-personnels",
+  "title": "Mes expérimentations personnelles.",
+  "category": "Personnel",
+  "context": "Robotique · Domotique · Maintenance",
+  "period": "En cours",
+  "image": "/images/personnel.webp",
+  "alt": "Montage de capteurs et de cartes issu des expérimentations personnelles",
+  "summary": "Un espace commun pour le robot de cartographie en cours, mes essais de domotique et la maintenance électronique.",
+  "tags": [
+    "Robotique",
+    "Expérimentation"
+  ],
+  "sections": [
+    {
+      "title": "Robot de cartographie · En cours",
+      "text": "Je travaille sur un projet personnel de robot autonome destiné à cartographier une zone. Le projet est en cours : je conserve ici une place pour documenter les étapes, les essais et les choix à mesure de son avancement."
+    },
+    {
+      "title": "Des usages quotidiens",
+      "text": "Mes expérimentations en domotique portent notamment sur l’éclairage autonome ou commandé par un assistant vocal. Je m’intéresse à la manière de relier un besoin quotidien à des modules électroniques."
+    },
+    {
+      "title": "Des technologies à explorer",
+      "text": "J’utilise ou explore des modules Tuya, le Bluetooth et le LoRa. Ces technologies appartiennent à mes différents essais ; elles ne sont pas présentées comme les composants d’une architecture unique déjà finalisée."
+    },
+    {
+      "title": "Une pratique personnelle",
+      "text": "Lorsque je le peux, j’utilise mes compétences pour entretenir et réparer des appareils électroniques. Chercher l’origine d’un défaut me permet de continuer à apprendre à partir de situations concrètes."
+    },
+    {
+      "title": "Une démarche",
+      "text": "Observer le montage, comprendre son fonctionnement et évaluer ce qui peut être réparé : cette pratique prolonge mon intérêt pour le diagnostic. Les photographies regroupées ici montrent mes expérimentations personnelles, sans constituer un inventaire d’interventions commerciales."
+    },
+    {
+      "title": "À propos des images",
+      "text": "Cette galerie regroupe mes expérimentations personnelles. Les images restent présentées ensemble tant que leur attribution à un montage précis n’est pas établie."
+    }
+  ],
+  "relatedPath": "/passions",
+  "relatedLabel": "Mes passions",
+  "resourceBlock": "projets-personnels",
+  "featured": false
+}

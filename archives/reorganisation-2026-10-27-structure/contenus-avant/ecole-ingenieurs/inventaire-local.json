@@ -1,0 +1,737 @@
+[
+  {
+    "id": "cfcab4ebd10c695df2b9833d",
+    "nom": "Cahier des charges V1.docx",
+    "type": "document",
+    "lien": "ressources/documents/cfcab4eb--Cahier des charges V1.docx",
+    "original": "ressources-locales/debut ecole ingenieur/Cahier des charges V1.docx"
+  },
+  {
+    "id": "00fbffafbfddbb0ff9f4fae6",
+    "nom": "CdC Konkours Robot Nettoyeur de Port Ecole Ingénieur_v01_du_01082025.pdf",
+    "type": "document",
+    "lien": "ressources/documents/00fbffaf--CdC Konkours Robot Nettoyeur de Port Ecole Ingénieur_v01_du_01082025.pdf",
+    "original": "ressources-locales/debut ecole ingenieur/CdC Konkours Robot Nettoyeur de Port Ecole Ingénieur_v01_du_01082025.pdf"
+  },
+  {
+    "id": "1c9e234021fc3a5a1405dcd5",
+    "nom": "Chapitre 1 - Electrostatique et magnetostatique.pdf",
+    "type": "document",
+    "lien": "ressources/documents/1c9e2340--Chapitre 1 - Electrostatique et magnetostatique.pdf",
+    "original": "ressources-locales/debut ecole ingenieur/Chapitre 1 - Electrostatique et magnetostatique.pdf"
+  },
+  {
+    "id": "20b537008a911e35216bc404",
+    "nom": "Chapitre 1 - Introduction aux Semi-Conducteur .pdf",
+    "type": "document",
+    "lien": "ressources/documents/20b53700--Chapitre 1 - Introduction aux Semi-Conducteur .pdf",
+    "original": "ressources-locales/debut ecole ingenieur/Chapitre 1 - Introduction aux Semi-Conducteur .pdf"
+  },
+  {
+    "id": "d4f6bb8b61a6e3f1c43e5a39",
+    "nom": "Chapitre 2 - Les diodes à jonction PN .pdf",
+    "type": "document",
+    "lien": "ressources/documents/d4f6bb8b--Chapitre 2 - Les diodes à jonction PN .pdf",
+    "original": "ressources-locales/debut ecole ingenieur/Chapitre 2 - Les diodes à jonction PN .pdf"
+  },
+  {
+    "id": "03a4bec6b1cd3039277426cd",
+    "nom": "Compte rendu TP microcontrôleur DA ROCHA Xavier KOLOUSSA Céleste .pdf",
+    "type": "document",
+    "lien": "ressources/documents/03a4bec6--Compte rendu TP microcontrôleur DA ROCHA Xavier KOLOUSSA Céleste .pdf",
+    "original": "ressources-locales/debut ecole ingenieur/Compte rendu TP microcontrôleur DA ROCHA Xavier KOLOUSSA Céleste .pdf"
+  },
+  {
+    "id": "47379fb6d2adddfc0d1039a7",
+    "nom": "Électronique Numérique.pdf",
+    "type": "document",
+    "lien": "ressources/documents/47379fb6--Électronique Numérique.pdf",
+    "original": "ressources-locales/debut ecole ingenieur/Électronique Numérique.pdf"
+  },
+  {
+    "id": "41de3d0c26cbe422a2fc8f4c",
+    "nom": "Initiation JS - EPF.pdf",
+    "type": "document",
+    "lien": "ressources/documents/41de3d0c--Initiation JS - EPF.pdf",
+    "original": "ressources-locales/debut ecole ingenieur/Initiation JS - EPF.pdf"
+  },
+  {
+    "id": "a25b0c79baf54f25aaa7056c",
+    "nom": "IntroPhysSemicond24-25.ppt [Mode de compatibilité].pdf",
+    "type": "document",
+    "lien": "ressources/documents/a25b0c79--IntroPhysSemicond24-25.ppt [Mode de compatibilité].pdf",
+    "original": "ressources-locales/debut ecole ingenieur/IntroPhysSemicond24-25.ppt [Mode de compatibilité].pdf"
+  },
+  {
+    "id": "18087fd2000813047d6192cc",
+    "nom": "UART_DMA.pdf",
+    "type": "document",
+    "lien": "ressources/documents/18087fd2--UART_DMA.pdf",
+    "original": "ressources-locales/debut ecole ingenieur/UART_DMA.pdf"
+  },
+  {
+    "id": "166f3318d15761e724897a74",
+    "nom": "exercices_concours.pdf",
+    "type": "document",
+    "lien": "ressources/documents/166f3318--exercices_concours.pdf",
+    "original": "ressources-locales/debut ecole ingenieur/exercices_concours.pdf"
+  },
+  {
+    "id": "4d282dd5f3e73026af6607c2",
+    "nom": "main.h",
+    "type": "source",
+    "lien": "ressources/sources/4d282dd5--main.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Inc/main.h"
+  },
+  {
+    "id": "6ca24e42c01cafe56070f83f",
+    "nom": "stm32l0xx_hal_conf.h",
+    "type": "source",
+    "lien": "ressources/sources/6ca24e42--stm32l0xx_hal_conf.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Inc/stm32l0xx_hal_conf.h"
+  },
+  {
+    "id": "b7e608f72fcb770b7e38287b",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/b7e608f7--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "32bf94d6f8bd09afe897d419",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/32bf94d6--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Src/main.c"
+  },
+  {
+    "id": "5d95f7edbba52222a4c1ef19",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/5d95f7ed--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "2408f62259831d33ae88f17b",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/2408f622--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "1589f3d61a3625fb2e4604c6",
+    "nom": "syscalls.c",
+    "type": "source",
+    "lien": "ressources/sources/1589f3d6--syscalls.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Src/syscalls.c"
+  },
+  {
+    "id": "ae7da85ddcf68727218002ca",
+    "nom": "sysmem.c",
+    "type": "source",
+    "lien": "ressources/sources/ae7da85d--sysmem.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Src/sysmem.c"
+  },
+  {
+    "id": "23875505e774343df1ec9bc5",
+    "nom": "system_stm32l0xx.c",
+    "type": "source",
+    "lien": "ressources/sources/23875505--system_stm32l0xx.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Src/system_stm32l0xx.c"
+  },
+  {
+    "id": "eed346835866351999ae5ac3",
+    "nom": "startup_stm32l031k6tx.s",
+    "type": "source",
+    "lien": "ressources/sources/eed34683--startup_stm32l031k6tx.s",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/Core/Startup/startup_stm32l031k6tx.s"
+  },
+  {
+    "id": "90173d2037dd8ea9ae4f4071",
+    "nom": "I2C Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/90173d20--I2C Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/I2C Debug.launch"
+  },
+  {
+    "id": "fe8c27b8c39e68e379d7ebd1",
+    "nom": "I2C.ioc",
+    "type": "source",
+    "lien": "ressources/sources/fe8c27b8--I2C.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/I2C.ioc"
+  },
+  {
+    "id": "d3f992c3e4750f549dc8716d",
+    "nom": "STM32L031K6TX_FLASH.ld",
+    "type": "source",
+    "lien": "ressources/sources/d3f992c3--STM32L031K6TX_FLASH.ld",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/STM32L031K6TX_FLASH.ld"
+  },
+  {
+    "id": "3758d592d4da0ebc91767742",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/3758d592--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "377d871161071fa59c5f86ad",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/377d8711--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C/usr_code/interrupt_callbacks.h"
+  },
+  {
+    "id": "51e9a185a146063b1ab3617b",
+    "nom": "main.h",
+    "type": "source",
+    "lien": "ressources/sources/51e9a185--main.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/Core/Inc/main.h"
+  },
+  {
+    "id": "ebb33c990a3283bec9c3e6de",
+    "nom": "stm32l0xx_hal_conf.h",
+    "type": "source",
+    "lien": "ressources/sources/ebb33c99--stm32l0xx_hal_conf.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/Core/Inc/stm32l0xx_hal_conf.h"
+  },
+  {
+    "id": "ac45e52e3c40244aa92acf1e",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/ac45e52e--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "155adc03f2b32a9891c01628",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/155adc03--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/Core/Src/main.c"
+  },
+  {
+    "id": "9f53a2816f96fdcc0edf76fc",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/9f53a281--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "08e91167c27ac016068781be",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/08e91167--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "a9f1528f7b09f6b913ce6c04",
+    "nom": "I2C Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/a9f1528f--I2C Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/I2C Debug.launch"
+  },
+  {
+    "id": "50ea16b8ce7a0dd7588301d5",
+    "nom": "I2C.ioc",
+    "type": "source",
+    "lien": "ressources/sources/50ea16b8--I2C.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/I2C.ioc"
+  },
+  {
+    "id": "0d32851ac442d395b32731cb",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/0d32851a--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "321e1c5a6410223ae53a7b07",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/321e1c5a--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/I2C2/usr_code/interrupt_callbacks.h"
+  },
+  {
+    "id": "ab651f23acb5674d1899ba79",
+    "nom": "main.h",
+    "type": "source",
+    "lien": "ressources/sources/ab651f23--main.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/Core/Inc/main.h"
+  },
+  {
+    "id": "48889b1faa0f639037d499a3",
+    "nom": "stm32l0xx_hal_conf.h",
+    "type": "source",
+    "lien": "ressources/sources/48889b1f--stm32l0xx_hal_conf.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/Core/Inc/stm32l0xx_hal_conf.h"
+  },
+  {
+    "id": "929eabc8994797ddd97a22a1",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/929eabc8--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "24cea7329815c79748afb09f",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/24cea732--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/Core/Src/main.c"
+  },
+  {
+    "id": "701296522aa3a43fb24764ae",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/70129652--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "a26b5219818c712331f5acc0",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/a26b5219--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "48688fe3b580528809a012e0",
+    "nom": "UART_DMA Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/48688fe3--UART_DMA Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/UART_DMA Debug.launch"
+  },
+  {
+    "id": "8a704e880a440981ce8e69fc",
+    "nom": "UART_DMA.ioc",
+    "type": "source",
+    "lien": "ressources/sources/8a704e88--UART_DMA.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/UART_DMA.ioc"
+  },
+  {
+    "id": "c0e53f85a2a7507219672e5c",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/c0e53f85--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "d5f44bd2ac1a1533163fc097",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/d5f44bd2--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_DMA/usr_code/interrupt_callbacks.h"
+  },
+  {
+    "id": "5c35d14e9018a67cf6e60672",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/5c35d14e--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_RX_CIRCULAR_IDLE/Core/Src/main.c"
+  },
+  {
+    "id": "8b6db52da9b20e18b855e055",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/8b6db52d--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_RX_CIRCULAR_IDLE/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "fa67ed9f266d718411af6298",
+    "nom": "UART_RX_CIRCULAR_IDLE Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/fa67ed9f--UART_RX_CIRCULAR_IDLE Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_RX_CIRCULAR_IDLE/UART_RX_CIRCULAR_IDLE Debug.launch"
+  },
+  {
+    "id": "9ff74750f1c160adf58828f5",
+    "nom": "UART_RX_CIRCULAR_IDLE.ioc",
+    "type": "source",
+    "lien": "ressources/sources/9ff74750--UART_RX_CIRCULAR_IDLE.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_RX_CIRCULAR_IDLE/UART_RX_CIRCULAR_IDLE.ioc"
+  },
+  {
+    "id": "82618831769bd429b338cbe0",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/82618831--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_RX_CIRCULAR_IDLE/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "8de512f02ac981c0af703060",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/8de512f0--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_RX_CIRCULAR_IDLE/usr_code/interrupt_callbacks.h"
+  },
+  {
+    "id": "0bd066cc70e4e07b5bfc1677",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/0bd066cc--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "5d6a55b968c7dd8e23410e35",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/5d6a55b9--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/Core/Src/main.c"
+  },
+  {
+    "id": "da1fa77b3ed874f770a70c20",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/da1fa77b--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "cc7274a382a7acf67f4d8a81",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/cc7274a3--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "92b5a5be5b5465221d7ec208",
+    "nom": "UART_blocking.ioc",
+    "type": "source",
+    "lien": "ressources/sources/92b5a5be--UART_blocking.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/UART_blocking.ioc"
+  },
+  {
+    "id": "4e4baa5761a2213b343f8062",
+    "nom": "UART_blocking.launch",
+    "type": "source",
+    "lien": "ressources/sources/4e4baa57--UART_blocking.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/UART_blocking.launch"
+  },
+  {
+    "id": "18f856b0c9be5d9f0af08b5d",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/18f856b0--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "03cf486046630c621940e55b",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/03cf4860--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_blocking/usr_code/interrupt_callbacks.h"
+  },
+  {
+    "id": "7dc78199e501e78d2d499243",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/7dc78199--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "56da5364a45dceb7723d4051",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/56da5364--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/Core/Src/main.c"
+  },
+  {
+    "id": "659780cae23143588fd6e25f",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/659780ca--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "c0e54f52d3edf709f7c39db7",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/c0e54f52--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "7f52c707a6d2bcba023365a6",
+    "nom": "UART_it Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/7f52c707--UART_it Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/UART_it Debug.launch"
+  },
+  {
+    "id": "b52cd8903d1d56f60a0fc69d",
+    "nom": "UART_it.ioc",
+    "type": "source",
+    "lien": "ressources/sources/b52cd890--UART_it.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/UART_it.ioc"
+  },
+  {
+    "id": "1d67a6e9c18211d1da10caa2",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/1d67a6e9--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/UART_it/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "a2aea04745d46a8576792a31",
+    "nom": "stm32l0xx_hal_conf.h",
+    "type": "source",
+    "lien": "ressources/sources/a2aea047--stm32l0xx_hal_conf.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template1/Core/Inc/stm32l0xx_hal_conf.h"
+  },
+  {
+    "id": "8677610699b785aed1ee23f1",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/86776106--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template1/Core/Src/main.c"
+  },
+  {
+    "id": "2ede7304e5c27b14e6de7ad4",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/2ede7304--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template1/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "ec47a340031b48bec4034efe",
+    "nom": "template1.ioc",
+    "type": "source",
+    "lien": "ressources/sources/ec47a340--template1.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template1/template1.ioc"
+  },
+  {
+    "id": "567ce34a519a692136edd828",
+    "nom": "template1.launch",
+    "type": "source",
+    "lien": "ressources/sources/567ce34a--template1.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template1/template1.launch"
+  },
+  {
+    "id": "4f717ad78374ac14683309af",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/4f717ad7--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template2/Core/Src/main.c"
+  },
+  {
+    "id": "298a07777014fbda1d798d9d",
+    "nom": "template2 Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/298a0777--template2 Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template2/template2 Debug.launch"
+  },
+  {
+    "id": "92718224d7f7bd222ee3e76e",
+    "nom": "template2.ioc",
+    "type": "source",
+    "lien": "ressources/sources/92718224--template2.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template2/template2.ioc"
+  },
+  {
+    "id": "020ab4c010be1d938d9d48fe",
+    "nom": "main.h",
+    "type": "source",
+    "lien": "ressources/sources/020ab4c0--main.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template3/Core/Inc/main.h"
+  },
+  {
+    "id": "b7db2bfe30fb3b1d58a20cb5",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/b7db2bfe--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template3/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "712b6dc95425e106f5d8fe6e",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/712b6dc9--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template3/Core/Src/main.c"
+  },
+  {
+    "id": "17d6217439bc6401c371e575",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/17d62174--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template3/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "cae75b5a6676cebfac118b05",
+    "nom": "template3 Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/cae75b5a--template3 Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template3/template3 Debug.launch"
+  },
+  {
+    "id": "09b9449dfac4024429a16545",
+    "nom": "template3.ioc",
+    "type": "source",
+    "lien": "ressources/sources/09b9449d--template3.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template3/template3.ioc"
+  },
+  {
+    "id": "ef35f209361b19555437ad9e",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/ef35f209--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template_3/Core/Src/main.c"
+  },
+  {
+    "id": "ecdeb8ce55dc80bdc67c5edd",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/ecdeb8ce--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template_3/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "bf51ba8757dc1a7ad4136de4",
+    "nom": "template_3.ioc",
+    "type": "source",
+    "lien": "ressources/sources/bf51ba87--template_3.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/template_3/template_3.ioc"
+  },
+  {
+    "id": "a2c72b8e810f20b03729fa17",
+    "nom": "stm32l0xx_hal_conf.h",
+    "type": "source",
+    "lien": "ressources/sources/a2c72b8e--stm32l0xx_hal_conf.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/Core/Inc/stm32l0xx_hal_conf.h"
+  },
+  {
+    "id": "e90ec661ff7ee1dadd42db30",
+    "nom": "stm32l0xx_it.h",
+    "type": "source",
+    "lien": "ressources/sources/e90ec661--stm32l0xx_it.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/Core/Inc/stm32l0xx_it.h"
+  },
+  {
+    "id": "a8553abaa51696c594013689",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/a8553aba--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/Core/Src/main.c"
+  },
+  {
+    "id": "7086648cb8e7e8a4450cb836",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/7086648c--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "c39fd4a034fb5c6d2f6ba1d8",
+    "nom": "stm32l0xx_it.c",
+    "type": "source",
+    "lien": "ressources/sources/c39fd4a0--stm32l0xx_it.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/Core/Src/stm32l0xx_it.c"
+  },
+  {
+    "id": "7e286f206b5de1bb7c6975a2",
+    "nom": "timer_it_loc Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/7e286f20--timer_it_loc Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/timer_it_loc Debug.launch"
+  },
+  {
+    "id": "1fd8ebe13e117272e8e73875",
+    "nom": "timer_it_loc.ioc",
+    "type": "source",
+    "lien": "ressources/sources/1fd8ebe1--timer_it_loc.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/timer_it_loc.ioc"
+  },
+  {
+    "id": "d07d997593fd11c5b019fbe2",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/d07d9975--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "5b5ff9fe77c9ba1973ee99d8",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/5b5ff9fe--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_it_loc/usr_code/interrupt_callbacks.h"
+  },
+  {
+    "id": "02bd43d79be9fd7d65d3a731",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/02bd43d7--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_ms/Core/Src/main.c"
+  },
+  {
+    "id": "71d0b71a57c4ddeb31aaddea",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/71d0b71a--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_ms/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "92884ae14e7ed2cb589f963b",
+    "nom": "timer_ms Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/92884ae1--timer_ms Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_ms/timer_ms Debug.launch"
+  },
+  {
+    "id": "b9b4b39a00014817242c5a7c",
+    "nom": "timer_ms.ioc",
+    "type": "source",
+    "lien": "ressources/sources/b9b4b39a--timer_ms.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_ms/timer_ms.ioc"
+  },
+  {
+    "id": "21d126adcca1926a3cba0139",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/21d126ad--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_ms/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "d53c298ecfbefd506a6e23c6",
+    "nom": "main.h",
+    "type": "source",
+    "lien": "ressources/sources/d53c298e--main.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/Core/Inc/main.h"
+  },
+  {
+    "id": "cc2763bac926b8f319250a90",
+    "nom": "main.c",
+    "type": "source",
+    "lien": "ressources/sources/cc2763ba--main.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/Core/Src/main.c"
+  },
+  {
+    "id": "718302ff063465d3f4b4ef7e",
+    "nom": "stm32l0xx_hal_msp.c",
+    "type": "source",
+    "lien": "ressources/sources/718302ff--stm32l0xx_hal_msp.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/Core/Src/stm32l0xx_hal_msp.c"
+  },
+  {
+    "id": "34504addf3894baaa7c7a249",
+    "nom": "timer_pwm Debug.launch",
+    "type": "source",
+    "lien": "ressources/sources/34504add--timer_pwm Debug.launch",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/timer_pwm Debug.launch"
+  },
+  {
+    "id": "02f6fc3c7b5f546f188989ad",
+    "nom": "timer_pwm.ioc",
+    "type": "source",
+    "lien": "ressources/sources/02f6fc3c--timer_pwm.ioc",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/timer_pwm.ioc"
+  },
+  {
+    "id": "aca4b90958843ba0172e4530",
+    "nom": "interrupt_callbacks.c",
+    "type": "source",
+    "lien": "ressources/sources/aca4b909--interrupt_callbacks.c",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/usr_code/interrupt_callbacks.c"
+  },
+  {
+    "id": "ad588c1e49c3e4408e545d48",
+    "nom": "interrupt_callbacks.h",
+    "type": "source",
+    "lien": "ressources/sources/ad588c1e--interrupt_callbacks.h",
+    "original": "ressources-locales/debut ecole ingenieur/stm/timer_pwm/usr_code/interrupt_callbacks.h"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "nom": "schema-trois-photons",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_143255.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_143255.png",
+    "usage": "Principe de localisation présenté dans les documents XEMIS2 : une ligne de réponse et un cône Compton. Illustration scientifique de contexte, issue des ressources du stage."
+  },
+  {
+    "nom": "schema-detecteur",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_142859.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_142859.png",
+    "usage": "Vue de principe du détecteur XEMIS2 et de ses capteurs. Illustration de contexte issue des ressources du stage."
+  },
+  {
+    "nom": "schema-imagerie",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_155713.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_155713.png",
+    "usage": "Schéma de l’imagerie à trois photons, repris dans le rapport de stage."
+  },
+  {
+    "nom": "courbe-x2-monitor",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_164717.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_164717.png",
+    "usage": "X2 Monitor : affichage d’une série de mesures avec ses repères temporels."
+  },
+  {
+    "nom": "interface-x2-monitor",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_141755.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/Images/Screenshot_20240304_141755.png",
+    "usage": "X2 Monitor : organisation des fichiers et zone de visualisation avant affichage d’une courbe."
+  },
+  {
+    "nom": "maquette-interface",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/formation CNRS/Téléchargements/rapport.odt :: Pictures/10000201000007800000043884237C981142FBDA.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/maquette-interface.png",
+    "usage": "Maquette de l’interface X2 Monitor : organiser les commandes et réserver un espace au graphique."
+  },
+  {
+    "nom": "premier-widget-qt",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/formation CNRS/Téléchargements/rapport.odt :: Pictures/10000201000002CC0000016D673E12F0FEE00380.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/premier-widget-qt.png",
+    "usage": "Premier exercice Qt : un afficheur et deux boutons pour apprendre les interactions entre composants."
+  },
+  {
+    "nom": "apprentissage-ecriture",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/formation CNRS/Téléchargements/rapport.odt :: Pictures/100002010000025A0000014CDDFEA409B612CB23.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/apprentissage-ecriture.png",
+    "usage": "Exercice préparatoire : saisir du texte et l’écrire dans un fichier."
+  },
+  {
+    "nom": "apprentissage-serie",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/formation CNRS/Téléchargements/rapport.odt :: Pictures/100002010000025600000146CCB2994D3ADAF941.png",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/apprentissage-serie.png",
+    "usage": "Exercice préparatoire de communication série, distinct du logiciel de supervision X2 Monitor."
+  },
+  {
+    "nom": "gestion-enregistrement",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/rapport_annote_par_olivier_20340312.pdf :: page-16-00.jpg",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/gestion-enregistrement.jpg",
+    "usage": "Widget de gestion de l’enregistrement présenté dans le rapport."
+  },
+  {
+    "nom": "selection-fichiers",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/rapport_annote_par_olivier_20340312.pdf :: page-15-00.jpg",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/selection-fichiers.jpg",
+    "usage": "Sélection des fichiers à relire : intégration d’un widget fourni par Olivier Lemaire."
+  },
+  {
+    "nom": "liste-fichiers",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/rapport_annote_par_olivier_20340312.pdf :: page-15-01.jpg",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/liste-fichiers.jpg",
+    "usage": "Liste des fichiers sélectionnés pour la visualisation."
+  },
+  {
+    "nom": "logo-subatech",
+    "original": "ressources-locales/stage laboratoire subatec/stage_subatech-20261027T160009Z-1-001/stage_subatech/formation CNRS/Téléchargements/rapport.odt :: Pictures/100000000000012C0000007EA640674B6AD4D757.jpg",
+    "fichier": "ressources-locales/stage laboratoire subatec/extraits-rapport-portfolio/logo-subatech.jpg",
+    "usage": "Logo du laboratoire SUBATECH, issu du rapport de stage."
+  }
+]

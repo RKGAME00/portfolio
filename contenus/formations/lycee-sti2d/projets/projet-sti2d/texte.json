@@ -1,0 +1,30 @@
+{
+  "slug": "projet-sti2d",
+  "title": "Les travaux de mon parcours STI2D.",
+  "category": "Formation",
+  "context": "Lycée · Projet STI2D",
+  "period": "Pendant le lycée",
+  "image": "/ressources-apercus/7195ee6d6dbf1a4d6d4c780f.webp",
+  "alt": "Photographie provenant du dossier du projet STI2D",
+  "summary": "Photographies et vidéo de travail issues du dossier de projet réalisé au lycée.",
+  "tags": [
+    "STI2D",
+    "Prototype",
+    "Expérimentation"
+  ],
+  "sections": [
+    {
+      "title": "Conserver les étapes du projet",
+      "text": "Ce dossier réunit les photographies et la vidéo du projet identifié dans mes archives comme « projet covid STI2D ». Les documents donnent à voir les montages et les essais."
+    },
+    {
+      "title": "Des sources partagées, sans doublons",
+      "text": "Certaines vidéos figurent aussi dans le dossier du robot foot. Elles sont conservées une seule fois dans la bibliothèque et reliées aux deux ensembles."
+    }
+  ],
+  "relatedPath": "/parcours/lycee-sti2d",
+  "relatedLabel": "Les projets du lycée",
+  "resourceBlock": "projet-sti2d",
+  "draft": true,
+  "featured": false
+}

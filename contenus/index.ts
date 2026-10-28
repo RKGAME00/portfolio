@@ -1,43 +1,85 @@
+import musicResources from './passions/musique/ressources.json';
 import type { Project, EditorialPage } from '@/content/types';
-import project0 from './labaa/texte.json';
-import project1 from './subatech/texte.json';
-import project2 from './robot-ultrasons/texte.json';
-import project3 from './passage-a-niveau/texte.json';
-import project4 from './projets-personnels/texte.json';
-import project5 from './robot-balises/texte.json';
-import project6 from './conversion-solaire/texte.json';
-import project7 from './tour-hanoi/texte.json';
-import project8 from './modelisation-3d/texte.json';
-import project9 from './robotique-lycee/texte.json';
-import project10 from './projet-sti2d/texte.json';
-import project11 from './ecole-ingenieurs/texte.json';
-import project12 from './supercondensateurs/texte.json';
-import project13 from './projets-personnels/texte.json';
-import page0 from './but-geii/page.json';
-import page1 from './lycee-sti2d/page.json';
-import page2 from './ecole-ingenieurs/page.json';
-import page3 from './association-robotique/page.json';
-import page4 from './experiences/page.json';
-import page5 from './passions/page.json';
-import page6 from './musique/page.json';
-import page7 from './mentions-legales/page.json';
-import page8 from './confidentialite/page.json';
-import resources0 from './but-geii/ressources.json';
-import resources1 from './robot-ultrasons/ressources.json';
-import resources2 from './association-robotique/ressources.json';
-import resources3 from './robotique-lycee/ressources.json';
-import resources4 from './subatech/ressources.json';
-import resources5 from './modelisation-3d/ressources.json';
-import resources6 from './conversion-solaire/ressources.json';
-import resources7 from './passage-a-niveau/ressources.json';
-import resources8 from './tour-hanoi/ressources.json';
-import resources9 from './robot-balises/ressources.json';
-import resources10 from './ecole-ingenieurs/ressources.json';
-import resources11 from './archives-portfolio/ressources.json';
-import resources12 from './labaa/ressources.json';
-import resources13 from './projet-sti2d/ressources.json';
-import resources14 from './projets-personnels/ressources.json';
-import resources15 from './supercondensateurs/ressources.json';
-export const projects = [project0,project1,project2,project3,project4,project5,project6,project7,project8,project9,project10,project11,project12,project13] as Project[];
-export const pages = [page0,page1,page2,page3,page4,page5,page6,page7,page8] as EditorialPage[];
-export const blockResources: Record<string, string[]> = {"but-geii": resources0.ids,"robot-ultrasons": resources1.ids,"association-robotique": resources2.ids,"robotique-lycee": resources3.ids,"subatech": resources4.ids,"modelisation-3d": resources5.ids,"conversion-solaire": resources6.ids,"passage-a-niveau": resources7.ids,"tour-hanoi": resources8.ids,"robot-balises": resources9.ids,"ecole-ingenieurs": resources10.ids,"archives-portfolio": resources11.ids,"labaa": resources12.ids,"projet-sti2d": resources13.ids,"projets-personnels": resources14.ids,"supercondensateurs": resources15.ids};
+import labaaProject from './stages/labaa/texte.json';
+import subatechProject from './stages/subatech/texte.json';
+import robotUltrasonsProject from './formations/but-geii/projets/robot-ultrasons/texte.json';
+import passageNiveauProject from './formations/but-geii/projets/passage-a-niveau/texte.json';
+import personnelsProject from './projets/personnels/texte.json';
+import robotBalisesProject from './formations/but-geii/projets/robot-balises/texte.json';
+import solaireProject from './formations/but-geii/projets/conversion-solaire/texte.json';
+import hanoiProject from './formations/but-geii/projets/tour-hanoi/texte.json';
+import modelisationProject from './projets/modelisation-3d/texte.json';
+import robotiqueLyceeProject from './formations/lycee-sti2d/projets/robotique-lycee/texte.json';
+import sti2dProject from './formations/lycee-sti2d/projets/projet-sti2d/texte.json';
+import ingenieursProject from './formations/ecole-ingenieurs/texte.json';
+import supercondensateursProject from './formations/but-geii/projets/supercondensateurs/texte.json';
+import butPage from './formations/but-geii/page.json';
+import lyceePage from './formations/lycee-sti2d/page.json';
+import ingenieursPage from './formations/ecole-ingenieurs/page.json';
+import associationPage from './engagements/association-robotique/page.json';
+import experiencesPage from './pages/experiences/page.json';
+import passionsPage from './passions/page.json';
+import musiquePage from './passions/musique/page.json';
+import mentionsPage from './pages/mentions-legales/page.json';
+import confidentialitePage from './pages/confidentialite/page.json';
+import butResources from './formations/but-geii/ressources.json';
+import robotUltrasonsResources from './formations/but-geii/projets/robot-ultrasons/ressources.json';
+import associationResources from './engagements/association-robotique/ressources.json';
+import robotiqueLyceeResources from './formations/lycee-sti2d/projets/robotique-lycee/ressources.json';
+import subatechResources from './stages/subatech/ressources.json';
+import modelisationResources from './projets/modelisation-3d/ressources.json';
+import solaireResources from './formations/but-geii/projets/conversion-solaire/ressources.json';
+import passageNiveauResources from './formations/but-geii/projets/passage-a-niveau/ressources.json';
+import hanoiResources from './formations/but-geii/projets/tour-hanoi/ressources.json';
+import robotBalisesResources from './formations/but-geii/projets/robot-balises/ressources.json';
+import ingenieursResources from './formations/ecole-ingenieurs/ressources.json';
+import archivesResources from './a-trier/archives-portfolio/ressources.json';
+import labaaResources from './stages/labaa/ressources.json';
+import sti2dResources from './formations/lycee-sti2d/projets/projet-sti2d/ressources.json';
+import personnelsResources from './projets/personnels/ressources.json';
+import supercondensateursResources from './formations/but-geii/projets/supercondensateurs/ressources.json';
+export const projects = [
+  labaaProject,
+  subatechProject,
+  robotUltrasonsProject,
+  passageNiveauProject,
+  personnelsProject,
+  robotBalisesProject,
+  solaireProject,
+  hanoiProject,
+  modelisationProject,
+  robotiqueLyceeProject,
+  sti2dProject,
+  ingenieursProject,
+  supercondensateursProject,
+] as Project[];
+export const pages = [
+  butPage,
+  lyceePage,
+  ingenieursPage,
+  associationPage,
+  experiencesPage,
+  passionsPage,
+  musiquePage,
+  mentionsPage,
+  confidentialitePage,
+] as EditorialPage[];
+export const blockResources: Record<string, string[]> = {
+  musique: musicResources.ids,
+  'but-geii': butResources.ids,
+  'robot-ultrasons': robotUltrasonsResources.ids,
+  'association-robotique': associationResources.ids,
+  'robotique-lycee': robotiqueLyceeResources.ids,
+  subatech: subatechResources.ids,
+  'modelisation-3d': modelisationResources.ids,
+  'conversion-solaire': solaireResources.ids,
+  'passage-a-niveau': passageNiveauResources.ids,
+  'tour-hanoi': hanoiResources.ids,
+  'robot-balises': robotBalisesResources.ids,
+  'ecole-ingenieurs': ingenieursResources.ids,
+  'archives-portfolio': archivesResources.ids,
+  labaa: labaaResources.ids,
+  'projet-sti2d': sti2dResources.ids,
+  'projets-personnels': personnelsResources.ids,
+  supercondensateurs: supercondensateursResources.ids,
+};

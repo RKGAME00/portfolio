@@ -1,0 +1,31 @@
+{
+  "path": "parcours/lycee-sti2d",
+  "projectSlugs": [
+    "robotique-lycee",
+    "projet-sti2d"
+  ],
+  "eyebrow": "Lycée La Colinière · Nantes · 2020 — 2022",
+  "title": "L’envie de comprendre commence ici.",
+  "intro": "Le baccalauréat STI2D m’a ouvert à l’électronique et aux systèmes techniques. La robotique a donné une dimension concrète à cette découverte.",
+  "sections": [
+    {
+      "title": "Un robot et un travail d’équipe",
+      "text": "Avec l’équipe du lycée, j’ai participé à la réalisation d’un robot destiné à identifier des palettes de couleur et à les déplacer, dans le cadre de la Coupe de France de robotique Junior."
+    },
+    {
+      "title": "Une direction pour la suite",
+      "text": "Cette expérience a contribué à mon envie de poursuivre en électronique. J’ai ensuite intégré le BUT Génie électrique et informatique industrielle de l’IUT de Nantes."
+    }
+  ],
+  "links": [
+    {
+      "title": "La suite : le BUT GEII",
+      "text": "Approfondir l’électronique et les systèmes embarqués.",
+      "href": "/parcours/but-geii"
+    }
+  ],
+  "resourceThemes": [
+    "Robotique au lycée",
+    "Projet STI2D"
+  ]
+}

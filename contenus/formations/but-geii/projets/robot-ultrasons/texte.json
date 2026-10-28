@@ -1,0 +1,33 @@
+{
+  "slug": "robot-ultrasons",
+  "title": "Compléter la perception d’un robot autonome.",
+  "category": "Formation",
+  "context": "BUT GEII · Robotique",
+  "period": "Projet universitaire",
+  "image": "/images/robot.webp",
+  "alt": "Prototype de carte d’interfaçage à base d’ESP32 réalisé pour le projet de robot universitaire",
+  "summary": "Associer ultrasons, électronique et ROS pour compléter la détection d’obstacles du LiDAR.",
+  "tags": [
+    "ROS",
+    "ESP32",
+    "C++"
+  ],
+  "featured": true,
+  "sections": [
+    {
+      "title": "L’observation",
+      "text": "Sur notre plateforme universitaire, certains obstacles étaient mal détectés par le LiDAR. J’ai travaillé sur une détection complémentaire avec des capteurs ultrasonores."
+    },
+    {
+      "title": "Du circuit au logiciel",
+      "text": "J’ai réalisé une carte d’interfaçage à base d’ESP32, avec une liaison série/USB vers le système embarqué. La plateforme utilisait une Jetson Nano, ROS1, un RPLIDAR A2 et un VESC."
+    },
+    {
+      "title": "Un arrêt dans les deux modes de conduite",
+      "text": "La fonction de détection pouvait arrêter le robot à l’approche d’un obstacle, en conduite manuelle comme autonome. Ce travail m’a permis de relier électronique, C++ et visualisation avec RViz."
+    }
+  ],
+  "relatedPath": "/parcours/but-geii",
+  "relatedLabel": "Les projets du BUT GEII",
+  "resourceBlock": "robot-ultrasons"
+}

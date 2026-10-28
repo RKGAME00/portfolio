@@ -1,0 +1,44 @@
+{
+  "path": "parcours/but-geii",
+  "eyebrow": "IUT de Nantes · 2022 — 2025",
+  "title": "BUT GEII · Électronique et systèmes embarqués",
+  "intro": "Diplômé du BUT Génie électrique et informatique industrielle de l’IUT de Nantes (2022–2025), j’ai choisi le parcours Électronique et systèmes embarqués à partir de la deuxième année.",
+  "sections": [
+    {
+      "title": "Une formation qui relie matériel et logiciel",
+      "text": "Le BUT GEII associe génie électrique et informatique industrielle. Dans mon parcours, les cours, travaux pratiques et projets ont relié électronique, programmation, automatismes et systèmes embarqués."
+    },
+    {
+      "title": "Mon parcours : Électronique et systèmes embarqués",
+      "text": "À partir de la deuxième année, j’ai approfondi l’électronique et la programmation de systèmes embarqués. Mon travail associait les cartes, les capteurs et le logiciel qui les commande : comprendre un besoin, réaliser un montage, programmer puis vérifier son fonctionnement."
+    },
+    {
+      "title": "Ce que j’ai appris à mettre en pratique",
+      "text": "Réaliser un schéma, choisir les composants, router un circuit imprimé, braser puis effectuer des essais. J’ai également pratiqué la programmation de microcontrôleurs, découvert les réseaux et documenté les projets avec des rapports, notamment en LaTeX."
+    },
+    {
+      "title": "Des projets et des expériences de terrain",
+      "text": "Les projets ci-dessous présentent des applications distinctes de ces apprentissages. Mes stages chez SUBATECH et LABAA ainsi que mon engagement dans l’association robotique complètent cette formation."
+    }
+  ],
+  "links": [
+    {
+      "title": "Les stages",
+      "text": "SUBATECH et LABAA : mettre les apprentissages à l’épreuve du terrain.",
+      "href": "/experiences"
+    },
+    {
+      "title": "L’association robotique",
+      "text": "Une aventure collective, des compétitions et des échanges au FabLab.",
+      "href": "/parcours/association-robotique"
+    }
+  ],
+  "projectSlugs": [
+    "passage-a-niveau",
+    "robot-balises",
+    "robot-ultrasons",
+    "supercondensateurs",
+    "tour-hanoi"
+  ],
+  "resourceThemes": []
+}

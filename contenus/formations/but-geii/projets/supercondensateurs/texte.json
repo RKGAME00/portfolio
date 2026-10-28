@@ -1,0 +1,32 @@
+{
+  "slug": "supercondensateurs",
+  "title": "Étudier la charge des supercondensateurs.",
+  "category": "Formation",
+  "context": "BUT GEII · Électronique de puissance",
+  "period": "Projet universitaire",
+  "image": "/images/balises.webp",
+  "alt": "Ensemble robotique comprenant des supercondensateurs",
+  "summary": "Explorer les conversions abaisseuse et élévatrice et le rôle de la régulation dans la charge.",
+  "tags": [
+    "Buck",
+    "Boost",
+    "Régulation"
+  ],
+  "relatedPath": "/parcours/but-geii",
+  "relatedLabel": "Le BUT GEII",
+  "sections": [
+    {
+      "title": "Conversion et régulation",
+      "text": "J’ai travaillé autour de la charge et de la décharge de supercondensateurs, avec des solutions de conversion buck, boost et une solution combinant les deux comportements. Le travail abordait une boucle de rétro-régulation pour accompagner la charge."
+    },
+    {
+      "title": "Comprendre l’énergie disponible",
+      "text": "Le sujet relie le comportement des cellules, les variations de tension et la conversion d’énergie. Mon récit détaille surtout la charge ; il ne fournit pas de rendement mesuré ni de valeur de courant à annoncer."
+    },
+    {
+      "title": "Distinguer les contributions",
+      "text": "Ce travail est présenté séparément de mon rôle sur l’algorithme du robot à balises. Dans ce projet de robot à trois étudiants, la fonction énergie était confiée à un autre membre de l’équipe. Les médias de cet ensemble donnent le contexte matériel."
+    }
+  ],
+  "resourceBlock": "supercondensateurs"
+}

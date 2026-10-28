@@ -1,0 +1,96 @@
+/* Illustrations du rapport : conserver leur cadrage et la lisibilité des schémas. */
+.detail-image--contain {
+  background: #eeeae2;
+  height: 540px;
+}
+.detail-image--contain img {
+  object-fit: contain;
+}
+.image-caption,
+.report-figures figcaption {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+}
+.report-figures {
+  display: grid;
+  gap: 24px;
+  margin-block: 24px;
+}
+.report-figures figure {
+  margin: 0;
+  min-width: 0;
+}
+.report-figures img {
+  width: 100%;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
+  background: #f4f3ef;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.report-figures figcaption {
+  margin-top: 10px;
+}
+/* L’atelier se parcourt en mosaïque ; chaque photo conserve son agrandissement. */
+.report-figures--mosaic {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+.report-figures--mosaic img {
+  height: 200px;
+  object-fit: cover;
+}
+@media (max-width: 480px) {
+  .report-figures--mosaic {
+    grid-template-columns: 1fr;
+  }
+}
+.folder-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-block: 24px;
+}
+.folder-gallery-grid article {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 14px;
+  min-width: 0;
+}
+.folder-gallery-grid img,
+.folder-gallery-grid video {
+  width: 100%;
+  height: 210px;
+  object-fit: contain;
+  background: #f4f3ef;
+}
+.folder-gallery-grid audio {
+  width: 100%;
+}
+.folder-gallery-grid a {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 13px;
+}
+.folder-gallery-grid span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 8px;
+}
+@media (max-width: 800px) {
+  .folder-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .folder-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+  .detail-image--contain {
+    height: 380px;
+  }
+}

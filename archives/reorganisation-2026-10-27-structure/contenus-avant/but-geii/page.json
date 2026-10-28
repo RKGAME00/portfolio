@@ -1,0 +1,51 @@
+{
+  "path": "parcours/but-geii",
+  "eyebrow": "IUT de Nantes · 2022 — 2025",
+  "title": "Le BUT GEII. Apprendre par le projet.",
+  "intro": "Trois années pour relier électronique, informatique industrielle et systèmes embarqués. Une formation nourrie par les projets, les stages et l’engagement associatif.",
+  "sections": [
+    {
+      "title": "Du schéma aux essais",
+      "text": "Réaliser le schéma, choisir les composants, router la carte, commander les circuits imprimés, assembler puis tester : le BUT m’a permis de pratiquer les différentes étapes de la fabrication électronique."
+    },
+    {
+      "title": "Des projets complémentaires",
+      "text": "Robot à balises infrarouges, conversion et régulation pour des supercondensateurs, détection de passage d’un train et robot autonome : des projets pour apprendre à articuler énergie, capteurs, programmation et commande."
+    }
+  ],
+  "links": [
+    {
+      "title": "Les stages",
+      "text": "SUBATECH et LABAA : mettre les apprentissages à l’épreuve du terrain.",
+      "href": "/experiences"
+    },
+    {
+      "title": "L’association robotique",
+      "text": "Une aventure collective, des compétitions et des échanges au FabLab.",
+      "href": "/parcours/association-robotique"
+    }
+  ],
+  "projectSlugs": [
+    "labaa-electronique",
+    "subatech-xemis2",
+    "robot-ultrasons",
+    "passage-a-niveau",
+    "robot-balises",
+    "conversion-solaire",
+    "tour-hanoi",
+    "modelisation-3d",
+    "supercondensateurs"
+  ],
+  "resourceThemes": [
+    "Voiture autonome · F1Tenth",
+    "Robot à balises et supercondensateurs",
+    "Détection de passage à niveau",
+    "Conversion d’énergie · solaire",
+    "Tour de Hanoï",
+    "Modélisation 3D",
+    "BUT · ROS et robotique",
+    "BUT · programmation et réseaux",
+    "BUT · maintenance industrielle",
+    "BUT · cours, TP et projets"
+  ]
+}

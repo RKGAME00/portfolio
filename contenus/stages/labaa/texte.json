@@ -1,0 +1,249 @@
+{
+  "slug": "labaa-electronique",
+  "title": "LABAA · Fiabiliser l’électronique et préparer la production.",
+  "category": "Stage",
+  "context": "LABAA · Fauteuils thérapeutiques OTO",
+  "period": "Mars — juillet 2025",
+  "image": "/images/labaa-fauteuil.webp",
+  "alt": "Le fauteuil OTO avec Alexia Audrain, fondatrice de LABAA. Photographie : Coralie Monnet.",
+  "summary": "Un stage autour des fauteuils OTO : électronique, SAV, carte de télécommande, outils de production et firmware.",
+  "tags": [
+    "Électronique",
+    "C++ / RP2040",
+    "Python",
+    "PlatformIO"
+  ],
+  "featured": true,
+  "sections": [
+    {
+      "title": "1. Introduction · Le contexte de mon stage",
+      "text": "J’ai effectué mon stage de fin de BUT GEII chez LABAA, de mars à juillet 2025, au sein du pôle technique. L’entreprise préparait la montée en production du fauteuil OTO. Mon rôle de stagiaire en électronique et informatique industrielle reliait l’analyse des pannes, le SAV, l’assemblage et le développement des outils et du logiciel embarqué."
+    },
+    {
+      "title": "Une reconnaissance d’équipe · Innovation Team Best Practices 2025",
+      "text": "Pendant mon stage chez LABAA, j’ai fait partie de l’équipe OTO distinguée aux trophées Innovation Team Best Practices 2025. Mon certificat nominatif « Innovation Team Member », daté du 5 juin 2025, reconnaît cette appartenance à l’équipe primée. Ces trophées récompensent des équipes ayant mené des projets d’innovation au service des personnes et de la société, en valorisant la coopération et la complémentarité des compétences. Cette reconnaissance collective donne tout son sens à mon expérience : contribuer, à mon niveau, à la fiabilisation et à la production du fauteuil OTO.",
+      "figures": [
+        {
+          "src": "/images/labaa-innovation-team.webp",
+          "alt": "Mon certificat Innovation Team Member — équipe OTO, 5 juin 2025.",
+          "caption": "Mon certificat Innovation Team Member — équipe OTO, 5 juin 2025.",
+          "width": 1080,
+          "height": 1505,
+          "source": "Screenshot_20250617_153909_M365 Copilot.jpg"
+        }
+      ],
+      "links": [
+        {
+          "label": "Comprendre les trophées — site de l’organisateur",
+          "href": "https://www.directeur-innovation.com/evenement/candidatez-aux-trophees-innovation-team-best-practices-2025/"
+        }
+      ]
+    },
+    {
+      "title": "2. LABAA et mon environnement de travail",
+      "text": "Fondée par Alexia Audrain, LABAA associe design, fabrication et électronique autour du fauteuil OTO. J’ai travaillé avec l’équipe technique dans les ateliers partagés d’ICI Nantes, au contact de la production et du SAV. Mon poste réunissait oscilloscope, générateur de signaux, alimentation de laboratoire et matériel de brasage. Côté logiciel, j’utilisais KiCad pour les circuits imprimés, VS Code et PlatformIO pour le firmware, ainsi que GitHub et les outils de documentation de l’équipe.",
+      "figures": [
+        {
+          "src": "/images/labaa-atelier.webp",
+          "alt": "L’espace de travail dédié au SAV et au développement mécanique.",
+          "caption": "L’espace de travail dédié au SAV et au développement mécanique.",
+          "width": 1500,
+          "height": 1125,
+          "source": "espace_établie_SAV_stockage_developement_mecanique.jpeg"
+        },
+        {
+          "src": "/images/labaa-soudure.webp",
+          "alt": "Mon espace de brasure et de reprise des cartes.",
+          "caption": "Mon espace de brasure et de reprise des cartes.",
+          "width": 1600,
+          "height": 1200,
+          "source": "espace_soudure.jpeg"
+        },
+        {
+          "src": "/images/labaa-tableau-blanc.webp",
+          "alt": "Le tableau blanc pour organiser et partager le travail.",
+          "caption": "Le tableau blanc pour organiser et partager le travail.",
+          "width": 1600,
+          "height": 1200,
+          "source": "tableau_blanc.jpeg"
+        },
+        {
+          "src": "/images/labaa-etabli-servante.webp",
+          "alt": "L’établi et la servante à outils.",
+          "caption": "L’établi et la servante à outils.",
+          "width": 1600,
+          "height": 1200,
+          "source": "etabli-et-servante.jpeg"
+        },
+        {
+          "src": "/images/labaa-gros-stockage.webp",
+          "alt": "L’espace de stockage du matériel volumineux.",
+          "caption": "L’espace de stockage du matériel volumineux.",
+          "width": 1600,
+          "height": 1200,
+          "source": "espace_gros_stockage.jpeg"
+        },
+        {
+          "src": "/images/labaa-rangement-mural.webp",
+          "alt": "Le rangement mural de l’atelier.",
+          "caption": "Le rangement mural de l’atelier.",
+          "width": 1200,
+          "height": 1600,
+          "source": "espace_rengement_murale.jpeg"
+        },
+        {
+          "src": "/images/labaa-test-repose-pieds.webp",
+          "alt": "L’espace de test et de stockage des repose-pieds.",
+          "caption": "L’espace de test et de stockage des repose-pieds.",
+          "width": 1600,
+          "height": 1200,
+          "source": "espace de test et stockage repose pieds.jpeg"
+        },
+        {
+          "src": "/images/labaa-archives-cartes.webp",
+          "alt": "Les cartes archivées et le stock de composants électroniques.",
+          "caption": "Les cartes archivées et le stock de composants électroniques.",
+          "width": 1600,
+          "height": 1200,
+          "source": "espace_archive_des_carte_electronique_et_stockage_composants_élestronique.jpeg"
+        }
+      ],
+      "layout": "mosaic"
+    },
+    {
+      "title": "3. Comprendre le fauteuil OTO et son électronique",
+      "text": "OTO propose une étreinte réglable au moyen de cellules gonflables, avec deux zones commandées indépendamment. La télécommande permet d’ajuster la pression dans les limites configurées. J’ai étudié cette chaîne complète avant d’intervenir : alimentation, capteurs, pneumatique et logiciel. La carte MAIN gère l’alimentation et les actionneurs ; la carte FRONT porte l’interface utilisateur et le contrôle autour du RP2040.",
+      "figures": [
+        {
+          "src": "/images/labaa-architecture.webp",
+          "alt": "Architecture électronique du fauteuil OTO, présentée dans mon rapport.",
+          "caption": "Architecture électronique du fauteuil OTO, présentée dans mon rapport.",
+          "width": 1500,
+          "height": 1277,
+          "source": "Architecture_électronique.png"
+        },
+        {
+          "src": "/images/labaa-main.webp",
+          "alt": "La carte MAIN avec l’alimentation et les électrovannes.",
+          "caption": "La carte MAIN avec l’alimentation et les électrovannes.",
+          "width": 1500,
+          "height": 1125,
+          "source": "carte_main_avec_electrovann_et_alim.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "4. Fiabiliser le système électronique",
+      "text": "J’ai repris l’analyse de pannes d’alimentation difficiles à reproduire. J’ai examiné les cartes défectueuses, comparé les comportements et mesuré les contraintes des composants. Le rapport détaille les investigations autour de la diode BAT54 et du régulateur LM3671, le choix d’une diode PMEG2005CT, les protections PTC et le démarrage progressif par circuit RC.",
+      "figures": [
+        {
+          "src": "/images/labaa-bat54.webp",
+          "alt": "La diode BAT54 étudiée lors de l’investigation sur l’alimentation.",
+          "caption": "La diode BAT54 étudiée lors de l’investigation sur l’alimentation.",
+          "width": 403,
+          "height": 307,
+          "source": "bat54.png"
+        },
+        {
+          "src": "/images/labaa-regulateur.webp",
+          "alt": "Le circuit d’alimentation 3,3 V autour du régulateur LM3671.",
+          "caption": "Le circuit d’alimentation 3,3 V autour du régulateur LM3671.",
+          "width": 476,
+          "height": 430,
+          "source": "alim_3.3V.png"
+        }
+      ]
+    },
+    {
+      "title": "4.1 Tester les protections et identifier les limites",
+      "text": "J’ai testé les modifications et exploré une alimentation de substitution avec des modules externes. Les protections et le séquencement ont apporté des améliorations, mais le rapport précise que le défaut de fond persistait sur une partie des cartes. Ce travail a donc également préparé les investigations et choix d’architecture suivants.",
+      "figures": [
+        {
+          "src": "/images/labaa-ptc.webp",
+          "alt": "Mesure à l’oscilloscope lors de l’essai de la protection PTC.",
+          "caption": "Mesure à l’oscilloscope lors de l’essai de la protection PTC.",
+          "width": 1500,
+          "height": 1043,
+          "source": "test_fuze_ptc.png"
+        }
+      ]
+    },
+    {
+      "title": "5. Diagnostiquer les retours SAV et remettre en état",
+      "text": "En parallèle, j’ai diagnostiqué des retours de cartes, remplacé des composants ou proposé un remplacement complet selon leur état. J’ai documenté les défauts et réutilisé une carte réparée pour réaliser un testeur de télécommande. Les retours de terrain alimentaient les hypothèses de l’investigation électronique."
+    },
+    {
+      "title": "6. Améliorer l’assemblage de la télécommande",
+      "text": "J’ai développé le PCB arcade_top pour remplacer les connexions câblées et serties des boutons de télécommande par des connexions sur circuit imprimé. Le travail portait sur la fiabilité de l’assemblage, sa répétabilité et les manipulations nécessaires à l’atelier. Le rapport compare les méthodes et indique l’adoption de cette solution ; le coût et le temps de montage restent deux critères distincts.",
+      "figures": [
+        {
+          "src": "/images/labaa-cablage.webp",
+          "alt": "Avant : assemblage de la télécommande avec des connexions câblées.",
+          "caption": "Avant : assemblage de la télécommande avec des connexions câblées.",
+          "width": 1125,
+          "height": 1500,
+          "source": "solution_telecommande_avec_cablage.jpeg"
+        },
+        {
+          "src": "/images/labaa-pcb.webp",
+          "alt": "Après : assemblage avec le PCB arcade_top.",
+          "caption": "Après : assemblage avec le PCB arcade_top.",
+          "width": 1125,
+          "height": 1500,
+          "source": "solution_telecommande_avec_arcad_top.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "7. Développer les outils de programmation et de diagnostic",
+      "text": "J’ai développé un outil sur Raspberry Pi avec Python et PlatformIO : détection de la carte, lancement par bouton et retour d’état par LED multicolore. J’ai documenté les codes couleur. OtoTool propose aussi une interface terminal et une interface Qt pour récupérer les données série, nettoyer les logs en CSV, synchroniser l’heure et suivre les opérations.",
+      "figures": [
+        {
+          "src": "/images/labaa-cli.webp",
+          "alt": "OtoTool : interface en ligne de commande pour les opérations de diagnostic.",
+          "caption": "OtoTool : interface en ligne de commande pour les opérations de diagnostic.",
+          "width": 825,
+          "height": 410,
+          "source": "ototool_cli.png"
+        },
+        {
+          "src": "/images/labaa-gui.webp",
+          "alt": "OtoTool Qt : collecte série, nettoyage CSV, synchronisation de l’heure et suivi des opérations.",
+          "caption": "OtoTool Qt : collecte série, nettoyage CSV, synchronisation de l’heure et suivi des opérations.",
+          "width": 820,
+          "height": 644,
+          "source": "ototool_gui.png"
+        }
+      ]
+    },
+    {
+      "title": "8. Moderniser le firmware",
+      "text": "J’ai travaillé à la migration d’Arduino IDE vers PlatformIO et à la séparation du logiciel en modules : application, pneumatique, pression, télécommande, mémoire, affichage, interface tactile et électrovannes. Cette organisation rendait les fonctions plus faciles à comprendre, à maintenir et à valider."
+    },
+    {
+      "title": "8.1 Enregistrer, tester et déboguer",
+      "text": "Le rapport décrit le travail sur les logs horodatés en mémoire flash, les essais fonctionnels sur fauteuil et les corrections itératives. J’ai également développé des outils de diagnostic : un module IDC Bridge pour observer les échanges entre MAIN et FRONT et une Pico Probe utilisant CMSIS-DAP pour déboguer le RP2040. Ces essais fonctionnels ne sont pas assimilés à une couverture exhaustive de tests unitaires."
+    },
+    {
+      "title": "Mission complémentaire · Machine de découpe",
+      "text": "En complément du fil principal du rapport, mon récit dans Portfolio.md décrit une contribution à l’ajout d’une carte de commande sur une machine de mesure et de découpe de tubes. L’objectif était de simplifier un procédé manuel avec des commandes par boutons ; la mise en service finale n’est pas présentée comme acquise."
+    },
+    {
+      "title": "9. Les compétences mobilisées",
+      "text": "Ce stage a relié diagnostic matériel, mesures, choix de composants, conception PCB, brasage, C++ embarqué, Python et documentation. Il m’a aussi demandé de présenter mes choix, de travailler avec plusieurs métiers et de transmettre les informations utiles à l’équipe."
+    },
+    {
+      "title": "10. Bilan de cette expérience",
+      "text": "J’ai contribué à la fiabilisation d’un produit existant, à son assemblage et aux outils qui accompagnent sa production et son SAV. Mon bilan souligne l’intérêt de tester les modifications par petites étapes et de documenter les décisions au fil du travail. L’expérience s’inscrit dans une démarche collective, avec la distinction d’équipe présentée dans le rapport."
+    }
+  ],
+  "relatedPath": "/realisations",
+  "relatedLabel": "Toutes les réalisations",
+  "resourceBlock": "labaa",
+  "report": {
+    "id": "72262d78c5b7dfe22d2f5ee2",
+    "label": "Lire mon rapport de stage LABAA (PDF)"
+  },
+  "imageFit": "contain",
+  "imageCaption": "Le fauteuil OTO avec Alexia Audrain, fondatrice de LABAA. Photographie : Coralie Monnet."
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "modelisation-3d",
+  "title": "Donner une forme aux idées.",
+  "category": "Formation",
+  "context": "BUT GEII · Conception mécanique",
+  "period": "Travaux de conception",
+  "image": "/images/modelisation.webp",
+  "alt": "Vue en perspective d’une pièce conçue en modélisation 3D",
+  "summary": "Des vues de pièces modélisées, pour relier la conception numérique à la fabrication.",
+  "tags": [
+    "CAO",
+    "Modélisation 3D",
+    "Fabrication"
+  ],
+  "sections": [
+    {
+      "title": "Concevoir des pièces",
+      "text": "Ces captures présentent des travaux de modélisation 3D. Elles complètent ma pratique de la conception et de la fabrication, avec Autodesk Inventor, SolidWorks et l’impression 3D."
+    },
+    {
+      "title": "Plusieurs points de vue",
+      "text": "Les captures conservées permettent d’observer les formes et les détails des pièces sous plusieurs angles."
+    }
+  ],
+  "relatedPath": "/competences",
+  "relatedLabel": "Conception et fabrication",
+  "resourceBlock": "modelisation-3d",
+  "draft": true,
+  "featured": false
+}

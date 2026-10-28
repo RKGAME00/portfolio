@@ -1,22 +1,18 @@
 import type { Metadata } from 'next';
-import { ProjectExplorer } from '@/components/projects/ProjectExplorer';
-export const metadata: Metadata = { title: 'Réalisations' };
+import { ProjectSections } from '@/components/projects/ProjectSections';
+export const metadata: Metadata = { title: 'Stages et projets' };
 export default function ProjectsPage() {
   return (
-    <div className="container page-content">
-      <header className="page-heading">
-        <p className="eyebrow">Du besoin à la réalisation</p>
-        <h1>
-          Ce que j’ai construit.
-          <br />
-          <span>Et ce que j’en ai appris.</span>
-        </h1>
+    <>
+      <header className="container page-heading page-content">
+        <p className="eyebrow">Mon travail, par projet</p>
+        <h1>Stages et projets</h1>
         <p>
-          Stages, projets universitaires et expérimentations personnelles. Pour chaque
-          réalisation : le contexte, mon rôle et la démarche.
+          Retrouvez mes expériences professionnelles, mes projets de BUT et les espaces
+          consacrés à la robotique, au lycée et à la modélisation 3D.
         </p>
       </header>
-      <ProjectExplorer />
-    </div>
+      <ProjectSections />
+    </>
   );
 }
