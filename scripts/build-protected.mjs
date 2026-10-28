@@ -15,32 +15,39 @@ const probe = `
   }
 `;
 
-// Un nom fixe empêche deux compilations protégées de démarrer en parallèle.
-// Si systemd est indisponible, on échoue : aucun repli vers un build sans limite.
-const result = spawnSync(
-  'systemd-run',
-  [
-    '--user',
-    '--scope',
-    '--unit=portfolio-build',
-    '--slice=portfolio-work.slice',
-    '--property=MemoryHigh=3G',
-    '--property=MemoryMax=4G',
-    '--property=MemorySwapMax=512M',
-    '--',
-    process.execPath,
-    '--max-old-space-size=2560',
-    ...(checkOnly
-      ? ['-e', probe]
-      : [
-          'node_modules/next/dist/bin/next',
-          'build',
-          '--webpack',
-          ...process.argv.slice(2),
-        ]),
-  ],
-  { cwd: root, stdio: 'inherit' },
-);
+const nodeArgs = [
+  '--max-old-space-size=2560',
+  ...(checkOnly
+    ? ['-e', probe]
+    : [
+        'node_modules/next/dist/bin/next',
+        'build',
+        '--webpack',
+        ...process.argv.slice(2),
+      ]),
+];
+
+const systemdProbe = spawnSync('systemd-run', ['--version'], { stdio: 'ignore' });
+const hasSystemdRun = !systemdProbe.error && systemdProbe.status === 0;
+
+const result = hasSystemdRun
+  ? spawnSync(
+      'systemd-run',
+      [
+        '--user',
+        '--scope',
+        '--unit=portfolio-build',
+        '--slice=portfolio-work.slice',
+        '--property=MemoryHigh=3G',
+        '--property=MemoryMax=4G',
+        '--property=MemorySwapMax=512M',
+        '--',
+        process.execPath,
+        ...nodeArgs,
+      ],
+      { cwd: root, stdio: 'inherit' },
+    )
+  : spawnSync(process.execPath, nodeArgs, { cwd: root, stdio: 'inherit' });
 
 if (result.error || result.status !== 0) {
   console.error(
