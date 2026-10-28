@@ -171,3 +171,21 @@ Les blocs sont classés sous `stages/`, `formations/`, `engagements/`, `projets/
 `a-trier/` conserve les fichiers retirés de la sélection. Les inventaires historiques ne doivent jamais repeupler automatiquement les galeries. `scripts/sync-block-links.py` effectue désormais uniquement un contrôle. Les pages lycée et 3D sont en préparation (`draft: true` pour leurs fiches projets) ; leurs anciens récits restent archivés.
 
 L’ancien catalogue conserve ses URL directes pour compatibilité, mais les sources et archives ne sont plus proposées dans la liste des médias ni dans la navigation principale.
+
+## Médias publics et Vercel
+
+Les illustrations de `public/images` sont des fichiers ordinaires, jamais des liens
+symboliques. Vercel pouvait échouer après la compilation en recopiant un lien
+vers lui-même (`Cannot copy ... to a subdirectory of itself`).
+
+Modifier la source dans `contenus/.../images-web`, puis lancer `npm run build` :
+le script `prebuild` copie les sources recensées dans `scripts/public-assets.json`.
+Pour une nouvelle illustration, ajouter son association source/destination à ce
+manifeste. Versionner la source, sa copie publique et le manifeste ensemble.
+`node scripts/prepare-public-assets.mjs` permet aussi de synchroniser sans compiler.
+
+Attention : les galeries locales et les rapports servis via `/api/ressources`
+dépendent encore des fichiers ignorés par Git (`ressources-locales`, `.cache`,
+`contenus/**/ressources`). La correction des illustrations publiques ne déploie
+pas ces fichiers sur Vercel. Leur publication nécessite un stockage de production
+et une sélection explicite des documents à rendre publics.
